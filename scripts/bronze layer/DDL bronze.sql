@@ -58,9 +58,9 @@ CREATE TABLE project_bug_reports (
     resolved BOOLEAN
 );
 
--- ========================================
--- 3. TABLES EMPLOYEES / TEAMS / PERFORMANCE
--- ========================================
+-- ==========================================
+-- 3. TABLES EMPLOYEES / TEAMS / PERFORMANCE_________________________________________________________________________________________________________________________________________________
+-- ==========================================
 
 CREATE TABLE teams (
     team_id INT,
@@ -124,18 +124,4 @@ CREATE TABLE candidate_interviews (
     notes TEXT,
     stage VARCHAR(50),
     result VARCHAR(20)
-);
-
--- ========================================
--- 5. TABLE FINANCE (OPTIONNEL)
--- ========================================
-
-CREATE TABLE invoices (
-    invoice_id INT ,
-    customer_id INT ,
-    amount_due DECIMAL(10,2),
-    amount_paid DECIMAL(10,2),
-    invoice_date DATE,
-    due_date DATE,
-    status VARCHAR(20)
 );
