@@ -1,0 +1,301 @@
+cv_id,candidate_id,cv_text,parsed_keywords,language_detected,uploaded_date
+1,1,"Python, Django developer experience","Python, Django",EN,2025-02-18
+2,2,"Python, React developer experience","Python, React",FR,2025-02-22
+3,3,"Python, Data Science developer experience","Python, Data Science",EN,2025-03-06
+4,4,"React, Node.js developer experience","React, Node.js",FR,2025-04-12
+5,5,"React, Node.js developer experience","React, Node.js",EN,2025-03-06
+6,6,"Python, Data Science developer experience","Python, Data Science",FR,2025-02-28
+7,7,"Python, Django developer experience","Python, Django",FR,2025-01-14
+8,8,"Python, Data Science developer experience","Python, Data Science",EN,2025-04-22
+9,9,"React, Node.js developer experience","React, Node.js",FR,2025-01-10
+10,10,"Python, React developer experience","Python, React",EN,2025-05-07
+11,11,"JavaScript, React developer experience","JavaScript, React",EN,2025-01-09
+12,12,"Python, Data Science developer experience","Python, Data Science",EN,2025-04-03
+13,13,"JavaScript, React developer experience","JavaScript, React",FR,2025-04-01
+14,14,"Python, React developer experience","Python, React",EN,2025-01-24
+15,15,"JavaScript, React developer experience","JavaScript, React",EN,2025-02-19
+16,16,"Python, Data Science developer experience","Python, Data Science",EN,2025-05-10
+17,17,"JavaScript, React developer experience","JavaScript, React",FR,2025-01-30
+18,18,"Python, Django developer experience","Python, Django",EN,2025-03-04
+19,19,"Python, React developer experience","Python, React",FR,2025-01-30
+20,20,"Python, ML, SQL developer experience","Python, ML, SQL",EN,2025-04-16
+21,21,"Python, ML, SQL developer experience","Python, ML, SQL",FR,2025-01-24
+22,22,"Python, Data Science developer experience","Python, Data Science",FR,2025-03-22
+23,23,"Python, ML, SQL developer experience","Python, ML, SQL",EN,2025-02-21
+24,24,"Python, ML, SQL developer experience","Python, ML, SQL",FR,2025-03-05
+25,25,"Java, Spring Boot developer experience","Java, Spring Boot",FR,2025-05-07
+26,26,"React, Node.js developer experience","React, Node.js",EN,2025-05-07
+27,27,"JavaScript, React developer experience","JavaScript, React",FR,2025-02-26
+28,28,"Python, Django developer experience","Python, Django",FR,2025-05-19
+29,29,"Python, Data Science developer experience","Python, Data Science",FR,2025-01-31
+30,30,"Python, React developer experience","Python, React",FR,2025-04-08
+31,31,"JavaScript, React developer experience","JavaScript, React",EN,2025-03-09
+32,32,"React, Node.js developer experience","React, Node.js",FR,2025-02-17
+33,33,"React, Node.js developer experience","React, Node.js",FR,2025-04-13
+34,34,"Python, Data Science developer experience","Python, Data Science",FR,2025-01-26
+35,35,"Python, ML, SQL developer experience","Python, ML, SQL",FR,2025-02-08
+36,36,"Java, Hibernate developer experience","Java, Hibernate",FR,2025-05-13
+37,37,"JavaScript, React developer experience","JavaScript, React",EN,2025-04-12
+38,38,"JavaScript, React developer experience","JavaScript, React",EN,2025-01-25
+39,39,"React, Node.js developer experience","React, Node.js",FR,2025-03-30
+40,40,"Python, ML, SQL developer experience","Python, ML, SQL",FR,2025-03-14
+41,41,"Java, Spring Boot developer experience","Java, Spring Boot",FR,2025-03-15
+42,42,"Python, Django developer experience","Python, Django",FR,2025-01-19
+43,43,"React, Node.js developer experience","React, Node.js",EN,2025-03-16
+44,44,"Java, Hibernate developer experience","Java, Hibernate",FR,2025-05-14
+45,45,"Python, React developer experience","Python, React",FR,2025-03-02
+46,46,"Python, Django developer experience","Python, Django",EN,2025-01-25
+47,47,"Python, Django developer experience","Python, Django",EN,2025-01-27
+48,48,"Python, Django developer experience","Python, Django",EN,2025-02-28
+49,49,"Python, Data Science developer experience","Python, Data Science",EN,2025-01-08
+50,50,"Java, Hibernate developer experience","Java, Hibernate",FR,2025-04-24
+51,51,"Java, Hibernate developer experience","Java, Hibernate",FR,2025-05-15
+52,52,"Python, ML, SQL developer experience","Python, ML, SQL",FR,2025-04-24
+53,53,"Python, Data Science developer experience","Python, Data Science",EN,2025-01-03
+54,54,"JavaScript, React developer experience","JavaScript, React",FR,2025-05-17
+55,55,"Python, React developer experience","Python, React",EN,2025-03-16
+56,56,"React, Node.js developer experience","React, Node.js",EN,2025-04-16
+57,57,"Python, Data Science developer experience","Python, Data Science",FR,2025-04-07
+58,58,"Python, ML, SQL developer experience","Python, ML, SQL",FR,2025-03-14
+59,59,"Java, Spring Boot developer experience","Java, Spring Boot",FR,2025-02-04
+60,60,"Java, Hibernate developer experience","Java, Hibernate",EN,2025-05-06
+61,61,"Python, React developer experience","Python, React",FR,2025-02-17
+62,62,"Java, Hibernate developer experience","Java, Hibernate",EN,2025-03-01
+63,63,"Python, ML, SQL developer experience","Python, ML, SQL",EN,2025-04-18
+64,64,"Python, React developer experience","Python, React",EN,2025-01-21
+65,65,"Java, Spring Boot developer experience","Java, Spring Boot",FR,2025-02-16
+66,66,"Java, Spring Boot developer experience","Java, Spring Boot",FR,2025-04-09
+67,67,"Java, Hibernate developer experience","Java, Hibernate",FR,2025-05-14
+68,68,"React, Node.js developer experience","React, Node.js",EN,2025-01-11
+69,69,"Java, Hibernate developer experience","Java, Hibernate",FR,2025-02-20
+70,70,"Python, ML, SQL developer experience","Python, ML, SQL",FR,2025-03-25
+71,71,"Java, Spring Boot developer experience","Java, Spring Boot",FR,2025-03-04
+72,72,"Python, Data Science developer experience","Python, Data Science",FR,2025-01-23
+73,73,"React, Node.js developer experience","React, Node.js",EN,2025-01-16
+74,74,"Java, Hibernate developer experience","Java, Hibernate",EN,2025-03-23
+75,75,"Python, React developer experience","Python, React",EN,2025-04-02
+76,76,"Java, Hibernate developer experience","Java, Hibernate",EN,2025-05-19
+77,77,"React, Node.js developer experience","React, Node.js",FR,2025-04-30
+78,78,"Python, Data Science developer experience","Python, Data Science",FR,2025-03-17
+79,79,"Python, React developer experience","Python, React",FR,2025-02-17
+80,80,"Python, ML, SQL developer experience","Python, ML, SQL",EN,2025-01-17
+81,81,"Java, Hibernate developer experience","Java, Hibernate",FR,2025-03-14
+82,82,"Java, Spring Boot developer experience","Java, Spring Boot",FR,2025-01-12
+83,83,"Java, Spring Boot developer experience","Java, Spring Boot",EN,2025-02-19
+84,84,"JavaScript, React developer experience","JavaScript, React",FR,2025-04-04
+85,85,"Python, ML, SQL developer experience","Python, ML, SQL",EN,2025-01-21
+86,86,"Python, Django developer experience","Python, Django",EN,2025-01-15
+87,87,"JavaScript, React developer experience","JavaScript, React",EN,2025-02-25
+88,88,"Python, Django developer experience","Python, Django",FR,2025-02-19
+89,89,"Python, Django developer experience","Python, Django",FR,2025-04-02
+90,90,"Python, Data Science developer experience","Python, Data Science",EN,2025-05-10
+91,91,"React, Node.js developer experience","React, Node.js",FR,2025-04-06
+92,92,"Python, ML, SQL developer experience","Python, ML, SQL",FR,2025-04-07
+93,93,"Java, Hibernate developer experience","Java, Hibernate",FR,2025-01-01
+94,94,"Python, Data Science developer experience","Python, Data Science",FR,2025-01-02
+95,95,"Python, React developer experience","Python, React",FR,2025-05-11
+96,96,"Python, React developer experience","Python, React",EN,2025-04-02
+97,97,"Python, ML, SQL developer experience","Python, ML, SQL",FR,2025-03-07
+98,98,"Python, ML, SQL developer experience","Python, ML, SQL",EN,2025-03-25
+99,99,"Java, Spring Boot developer experience","Java, Spring Boot",FR,2025-01-10
+100,100,"React, Node.js developer experience","React, Node.js",EN,2025-04-22
+101,101,"Python, React developer experience","Python, React",EN,2025-01-14
+102,102,"Python, Data Science developer experience","Python, Data Science",EN,2025-05-09
+103,103,"Java, Hibernate developer experience","Java, Hibernate",FR,2025-02-26
+104,104,"Python, Data Science developer experience","Python, Data Science",FR,2025-01-22
+105,105,"Python, Django developer experience","Python, Django",EN,2025-01-22
+106,106,"Python, Data Science developer experience","Python, Data Science",FR,2025-02-20
+107,107,"Python, ML, SQL developer experience","Python, ML, SQL",EN,2025-01-19
+108,108,"Java, Spring Boot developer experience","Java, Spring Boot",EN,2025-04-16
+109,109,"React, Node.js developer experience","React, Node.js",FR,2025-01-07
+110,110,"Java, Hibernate developer experience","Java, Hibernate",FR,2025-04-23
+111,111,"Python, Data Science developer experience","Python, Data Science",FR,2025-01-29
+112,112,"Python, React developer experience","Python, React",FR,2025-01-29
+113,113,"React, Node.js developer experience","React, Node.js",EN,2025-05-18
+114,114,"Java, Hibernate developer experience","Java, Hibernate",FR,2025-01-05
+115,115,"Python, Data Science developer experience","Python, Data Science",FR,2025-03-14
+116,116,"Java, Hibernate developer experience","Java, Hibernate",EN,2025-01-18
+117,117,"Python, React developer experience","Python, React",EN,2025-04-09
+118,118,"Java, Hibernate developer experience","Java, Hibernate",EN,2025-02-17
+119,119,"Python, React developer experience","Python, React",EN,2025-03-05
+120,120,"Python, Django developer experience","Python, Django",EN,2025-01-05
+121,121,"Python, ML, SQL developer experience","Python, ML, SQL",FR,2025-01-16
+122,122,"JavaScript, React developer experience","JavaScript, React",FR,2025-02-08
+123,123,"Python, Django developer experience","Python, Django",FR,2025-04-17
+124,124,"JavaScript, React developer experience","JavaScript, React",FR,2025-04-25
+125,125,"Python, ML, SQL developer experience","Python, ML, SQL",FR,2025-03-21
+126,126,"Python, Data Science developer experience","Python, Data Science",EN,2025-01-18
+127,127,"React, Node.js developer experience","React, Node.js",FR,2025-01-08
+128,128,"Java, Hibernate developer experience","Java, Hibernate",EN,2025-02-08
+129,129,"Python, React developer experience","Python, React",EN,2025-03-01
+130,130,"React, Node.js developer experience","React, Node.js",EN,2025-05-03
+131,131,"Python, Data Science developer experience","Python, Data Science",FR,2025-05-06
+132,132,"Python, ML, SQL developer experience","Python, ML, SQL",FR,2025-04-15
+133,133,"Python, ML, SQL developer experience","Python, ML, SQL",FR,2025-01-17
+134,134,"Java, Hibernate developer experience","Java, Hibernate",FR,2025-04-20
+135,135,"Python, Django developer experience","Python, Django",FR,2025-05-14
+136,136,"Python, ML, SQL developer experience","Python, ML, SQL",EN,2025-01-11
+137,137,"JavaScript, React developer experience","JavaScript, React",EN,2025-04-12
+138,138,"Python, Django developer experience","Python, Django",EN,2025-01-14
+139,139,"Java, Spring Boot developer experience","Java, Spring Boot",EN,2025-02-16
+140,140,"Python, Django developer experience","Python, Django",EN,2025-04-26
+141,141,"Python, ML, SQL developer experience","Python, ML, SQL",EN,2025-01-24
+142,142,"Java, Spring Boot developer experience","Java, Spring Boot",EN,2025-04-26
+143,143,"Python, Data Science developer experience","Python, Data Science",FR,2025-04-08
+144,144,"Python, Data Science developer experience","Python, Data Science",FR,2025-02-07
+145,145,"JavaScript, React developer experience","JavaScript, React",EN,2025-03-15
+146,146,"Python, React developer experience","Python, React",EN,2025-01-04
+147,147,"Python, React developer experience","Python, React",EN,2025-03-02
+148,148,"Python, Django developer experience","Python, Django",EN,2025-01-21
+149,149,"JavaScript, React developer experience","JavaScript, React",FR,2025-01-13
+150,150,"Python, React developer experience","Python, React",FR,2025-01-09
+151,151,"Java, Spring Boot developer experience","Java, Spring Boot",FR,2025-01-28
+152,152,"Python, Data Science developer experience","Python, Data Science",FR,2025-04-03
+153,153,"React, Node.js developer experience","React, Node.js",EN,2025-01-18
+154,154,"Java, Hibernate developer experience","Java, Hibernate",FR,2025-02-01
+155,155,"Python, ML, SQL developer experience","Python, ML, SQL",FR,2025-01-15
+156,156,"JavaScript, React developer experience","JavaScript, React",EN,2025-03-23
+157,157,"Java, Hibernate developer experience","Java, Hibernate",FR,2025-05-07
+158,158,"Python, ML, SQL developer experience","Python, ML, SQL",EN,2025-01-31
+159,159,"Python, Django developer experience","Python, Django",EN,2025-01-12
+160,160,"Python, ML, SQL developer experience","Python, ML, SQL",EN,2025-03-07
+161,161,"React, Node.js developer experience","React, Node.js",EN,2025-01-30
+162,162,"Python, React developer experience","Python, React",EN,2025-02-19
+163,163,"Python, React developer experience","Python, React",EN,2025-05-04
+164,164,"Python, Django developer experience","Python, Django",FR,2025-05-14
+165,165,"Python, React developer experience","Python, React",EN,2025-03-26
+166,166,"Python, React developer experience","Python, React",EN,2025-04-07
+167,167,"Java, Spring Boot developer experience","Java, Spring Boot",EN,2025-03-22
+168,168,"Java, Hibernate developer experience","Java, Hibernate",EN,2025-04-06
+169,169,"JavaScript, React developer experience","JavaScript, React",FR,2025-01-29
+170,170,"Java, Hibernate developer experience","Java, Hibernate",EN,2025-05-04
+171,171,"Java, Hibernate developer experience","Java, Hibernate",EN,2025-03-25
+172,172,"Python, React developer experience","Python, React",EN,2025-04-10
+173,173,"Python, React developer experience","Python, React",FR,2025-03-27
+174,174,"JavaScript, React developer experience","JavaScript, React",FR,2025-03-21
+175,175,"JavaScript, React developer experience","JavaScript, React",EN,2025-05-17
+176,176,"Python, Data Science developer experience","Python, Data Science",EN,2025-03-12
+177,177,"React, Node.js developer experience","React, Node.js",EN,2025-03-11
+178,178,"Java, Spring Boot developer experience","Java, Spring Boot",EN,2025-03-28
+179,179,"Python, React developer experience","Python, React",EN,2025-01-13
+180,180,"Python, Django developer experience","Python, Django",FR,2025-02-15
+181,181,"React, Node.js developer experience","React, Node.js",EN,2025-03-27
+182,182,"Python, Data Science developer experience","Python, Data Science",FR,2025-04-30
+183,183,"Java, Hibernate developer experience","Java, Hibernate",EN,2025-02-27
+184,184,"Python, Django developer experience","Python, Django",EN,2025-03-26
+185,185,"Java, Spring Boot developer experience","Java, Spring Boot",FR,2025-01-29
+186,186,"JavaScript, React developer experience","JavaScript, React",EN,2025-02-02
+187,187,"React, Node.js developer experience","React, Node.js",EN,2025-03-19
+188,188,"Python, Django developer experience","Python, Django",EN,2025-03-04
+189,189,"Java, Spring Boot developer experience","Java, Spring Boot",EN,2025-02-23
+190,190,"React, Node.js developer experience","React, Node.js",EN,2025-02-14
+191,191,"Java, Hibernate developer experience","Java, Hibernate",EN,2025-01-25
+192,192,"Java, Spring Boot developer experience","Java, Spring Boot",FR,2025-04-08
+193,193,"Python, ML, SQL developer experience","Python, ML, SQL",EN,2025-01-01
+194,194,"JavaScript, React developer experience","JavaScript, React",EN,2025-04-25
+195,195,"JavaScript, React developer experience","JavaScript, React",EN,2025-03-30
+196,196,"Python, Django developer experience","Python, Django",FR,2025-03-17
+197,197,"React, Node.js developer experience","React, Node.js",FR,2025-03-14
+198,198,"Python, Django developer experience","Python, Django",FR,2025-04-08
+199,199,"Python, ML, SQL developer experience","Python, ML, SQL",EN,2025-05-02
+200,200,"Python, Django developer experience","Python, Django",EN,2025-03-15
+201,201,"Python, React developer experience","Python, React",EN,2025-05-05
+202,202,"Python, Django developer experience","Python, Django",EN,2025-04-19
+203,203,"Python, Django developer experience","Python, Django",EN,2025-04-09
+204,204,"Python, React developer experience","Python, React",EN,2025-03-02
+205,205,"React, Node.js developer experience","React, Node.js",EN,2025-01-10
+206,206,"Java, Hibernate developer experience","Java, Hibernate",FR,2025-02-06
+207,207,"Java, Spring Boot developer experience","Java, Spring Boot",EN,2025-03-04
+208,208,"Python, React developer experience","Python, React",EN,2025-05-17
+209,209,"Java, Hibernate developer experience","Java, Hibernate",EN,2025-04-18
+210,210,"Python, React developer experience","Python, React",EN,2025-03-08
+211,211,"Python, React developer experience","Python, React",FR,2025-01-07
+212,212,"Java, Spring Boot developer experience","Java, Spring Boot",FR,2025-03-06
+213,213,"JavaScript, React developer experience","JavaScript, React",EN,2025-01-29
+214,214,"React, Node.js developer experience","React, Node.js",FR,2025-03-08
+215,215,"Python, React developer experience","Python, React",EN,2025-01-22
+216,216,"Python, Django developer experience","Python, Django",EN,2025-03-02
+217,217,"React, Node.js developer experience","React, Node.js",FR,2025-03-09
+218,218,"Python, Django developer experience","Python, Django",FR,2025-03-19
+219,219,"Python, Django developer experience","Python, Django",FR,2025-03-09
+220,220,"JavaScript, React developer experience","JavaScript, React",EN,2025-04-08
+221,221,"React, Node.js developer experience","React, Node.js",EN,2025-03-11
+222,222,"JavaScript, React developer experience","JavaScript, React",FR,2025-04-29
+223,223,"React, Node.js developer experience","React, Node.js",EN,2025-03-22
+224,224,"Python, React developer experience","Python, React",FR,2025-01-26
+225,225,"Python, ML, SQL developer experience","Python, ML, SQL",EN,2025-03-06
+226,226,"Java, Spring Boot developer experience","Java, Spring Boot",FR,2025-02-25
+227,227,"Python, Data Science developer experience","Python, Data Science",EN,2025-02-17
+228,228,"Java, Hibernate developer experience","Java, Hibernate",EN,2025-04-27
+229,229,"Python, Data Science developer experience","Python, Data Science",FR,2025-03-12
+230,230,"Python, React developer experience","Python, React",FR,2025-03-09
+231,231,"Python, ML, SQL developer experience","Python, ML, SQL",FR,2025-02-15
+232,232,"Python, Django developer experience","Python, Django",EN,2025-01-28
+233,233,"Java, Spring Boot developer experience","Java, Spring Boot",EN,2025-03-06
+234,234,"Python, React developer experience","Python, React",FR,2025-04-10
+235,235,"Python, React developer experience","Python, React",FR,2025-05-03
+236,236,"Python, ML, SQL developer experience","Python, ML, SQL",EN,2025-04-09
+237,237,"JavaScript, React developer experience","JavaScript, React",FR,2025-01-15
+238,238,"Java, Hibernate developer experience","Java, Hibernate",FR,2025-02-21
+239,239,"Python, ML, SQL developer experience","Python, ML, SQL",FR,2025-04-10
+240,240,"Java, Hibernate developer experience","Java, Hibernate",FR,2025-02-05
+241,241,"Python, ML, SQL developer experience","Python, ML, SQL",FR,2025-04-10
+242,242,"Java, Hibernate developer experience","Java, Hibernate",EN,2025-01-10
+243,243,"Python, Django developer experience","Python, Django",FR,2025-02-24
+244,244,"Python, ML, SQL developer experience","Python, ML, SQL",FR,2025-01-10
+245,245,"Python, React developer experience","Python, React",FR,2025-02-03
+246,246,"Java, Spring Boot developer experience","Java, Spring Boot",EN,2025-02-13
+247,247,"Java, Hibernate developer experience","Java, Hibernate",EN,2025-01-17
+248,248,"React, Node.js developer experience","React, Node.js",FR,2025-05-20
+249,249,"Python, Data Science developer experience","Python, Data Science",FR,2025-01-17
+250,250,"Python, Data Science developer experience","Python, Data Science",EN,2025-02-12
+251,251,"Java, Spring Boot developer experience","Java, Spring Boot",EN,2025-02-10
+252,252,"Python, React developer experience","Python, React",FR,2025-01-23
+253,253,"Python, Data Science developer experience","Python, Data Science",EN,2025-02-06
+254,254,"Python, ML, SQL developer experience","Python, ML, SQL",FR,2025-01-10
+255,255,"Java, Spring Boot developer experience","Java, Spring Boot",FR,2025-03-31
+256,256,"Java, Spring Boot developer experience","Java, Spring Boot",EN,2025-04-03
+257,257,"Python, ML, SQL developer experience","Python, ML, SQL",EN,2025-01-14
+258,258,"Java, Hibernate developer experience","Java, Hibernate",EN,2025-02-10
+259,259,"Python, ML, SQL developer experience","Python, ML, SQL",FR,2025-03-06
+260,260,"Java, Spring Boot developer experience","Java, Spring Boot",FR,2025-05-18
+261,261,"Java, Spring Boot developer experience","Java, Spring Boot",EN,2025-03-02
+262,262,"Python, ML, SQL developer experience","Python, ML, SQL",EN,2025-02-28
+263,263,"Python, ML, SQL developer experience","Python, ML, SQL",EN,2025-02-21
+264,264,"Java, Hibernate developer experience","Java, Hibernate",FR,2025-04-22
+265,265,"Python, Django developer experience","Python, Django",EN,2025-02-04
+266,266,"Python, ML, SQL developer experience","Python, ML, SQL",FR,2025-02-02
+267,267,"Python, Data Science developer experience","Python, Data Science",EN,2025-04-30
+268,268,"Python, ML, SQL developer experience","Python, ML, SQL",FR,2025-02-10
+269,269,"Python, Django developer experience","Python, Django",EN,2025-02-25
+270,270,"Python, React developer experience","Python, React",EN,2025-03-05
+271,271,"Python, ML, SQL developer experience","Python, ML, SQL",FR,2025-01-02
+272,272,"Python, React developer experience","Python, React",FR,2025-05-16
+273,273,"Java, Hibernate developer experience","Java, Hibernate",FR,2025-01-22
+274,274,"Python, Data Science developer experience","Python, Data Science",FR,2025-03-17
+275,275,"JavaScript, React developer experience","JavaScript, React",FR,2025-04-28
+276,276,"Java, Hibernate developer experience","Java, Hibernate",FR,2025-04-14
+277,277,"Java, Spring Boot developer experience","Java, Spring Boot",FR,2025-03-27
+278,278,"JavaScript, React developer experience","JavaScript, React",FR,2025-01-21
+279,279,"React, Node.js developer experience","React, Node.js",FR,2025-01-29
+280,280,"Python, React developer experience","Python, React",FR,2025-04-04
+281,281,"Python, ML, SQL developer experience","Python, ML, SQL",EN,2025-03-27
+282,282,"Python, ML, SQL developer experience","Python, ML, SQL",FR,2025-03-24
+283,283,"Python, React developer experience","Python, React",EN,2025-04-06
+284,284,"Java, Spring Boot developer experience","Java, Spring Boot",EN,2025-05-17
+285,285,"React, Node.js developer experience","React, Node.js",FR,2025-02-18
+286,286,"Python, Data Science developer experience","Python, Data Science",FR,2025-01-20
+287,287,"Python, Data Science developer experience","Python, Data Science",FR,2025-02-08
+288,288,"Python, Django developer experience","Python, Django",EN,2025-05-02
+289,289,"JavaScript, React developer experience","JavaScript, React",EN,2025-01-17
+290,290,"React, Node.js developer experience","React, Node.js",EN,2025-05-05
+291,291,"JavaScript, React developer experience","JavaScript, React",EN,2025-03-20
+292,292,"React, Node.js developer experience","React, Node.js",EN,2025-01-13
+293,293,"Python, Data Science developer experience","Python, Data Science",EN,2025-05-18
+294,294,"Python, Data Science developer experience","Python, Data Science",FR,2025-01-30
+295,295,"JavaScript, React developer experience","JavaScript, React",EN,2025-02-17
+296,296,"React, Node.js developer experience","React, Node.js",EN,2025-04-06
+297,297,"JavaScript, React developer experience","JavaScript, React",FR,2025-01-07
+298,298,"React, Node.js developer experience","React, Node.js",FR,2025-01-02
+299,299,"Java, Hibernate developer experience","Java, Hibernate",EN,2025-02-07
+300,300,"Java, Hibernate developer experience","Java, Hibernate",FR,2025-02-05

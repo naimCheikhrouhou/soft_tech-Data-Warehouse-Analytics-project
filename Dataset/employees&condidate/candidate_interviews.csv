@@ -1,0 +1,301 @@
+interview_id,candidate_id,recruiter_id,interview_score,notes,stage,result
+1,1,40,66,Good skills,HR,Pending
+2,2,50,91,Excellent,Screening,Rejected
+3,3,43,91,Excellent,HR,Rejected
+4,4,35,81,Average performance,HR,Accepted
+5,5,49,62,Excellent,Screening,Rejected
+6,6,29,80,Excellent,Technical,Rejected
+7,7,3,62,Promising,HR,Pending
+8,8,50,79,Promising,Technical,Rejected
+9,9,9,79,Excellent,Technical,Accepted
+10,10,37,91,Average performance,HR,Pending
+11,11,37,90,Excellent,HR,Accepted
+12,12,33,63,Excellent,Technical,Rejected
+13,13,38,84,Average performance,HR,Rejected
+14,14,50,78,Needs training,Screening,Accepted
+15,15,38,62,Promising,Technical,Rejected
+16,16,48,61,Needs training,Technical,Accepted
+17,17,28,82,Needs training,Technical,Rejected
+18,18,4,75,Promising,Screening,Pending
+19,19,20,65,Good skills,Technical,Accepted
+20,20,22,70,Good skills,HR,Rejected
+21,21,3,89,Excellent,HR,Pending
+22,22,27,77,Good skills,HR,Rejected
+23,23,38,61,Needs training,Technical,Pending
+24,24,25,80,Average performance,Screening,Rejected
+25,25,7,73,Needs training,Technical,Pending
+26,26,49,81,Promising,HR,Rejected
+27,27,24,87,Promising,Technical,Pending
+28,28,5,94,Promising,Technical,Rejected
+29,29,4,79,Average performance,Technical,Accepted
+30,30,40,65,Average performance,Screening,Pending
+31,31,22,77,Good skills,HR,Pending
+32,32,31,87,Promising,Technical,Accepted
+33,33,42,79,Average performance,Technical,Rejected
+34,34,43,94,Needs training,Screening,Rejected
+35,35,26,76,Average performance,HR,Rejected
+36,36,43,95,Promising,Screening,Pending
+37,37,46,93,Promising,HR,Rejected
+38,38,14,89,Needs training,HR,Pending
+39,39,40,87,Average performance,HR,Pending
+40,40,4,93,Promising,Technical,Rejected
+41,41,10,75,Promising,HR,Pending
+42,42,49,79,Excellent,Technical,Rejected
+43,43,5,73,Excellent,Technical,Rejected
+44,44,42,70,Needs training,HR,Pending
+45,45,16,85,Promising,Screening,Accepted
+46,46,13,61,Promising,Technical,Rejected
+47,47,32,95,Excellent,Technical,Pending
+48,48,3,72,Promising,Technical,Accepted
+49,49,2,76,Needs training,HR,Pending
+50,50,12,62,Excellent,Screening,Accepted
+51,51,6,80,Average performance,Technical,Accepted
+52,52,27,83,Good skills,Technical,Pending
+53,53,9,75,Good skills,HR,Pending
+54,54,33,67,Average performance,HR,Pending
+55,55,50,93,Needs training,Technical,Accepted
+56,56,16,67,Needs training,Technical,Pending
+57,57,48,84,Promising,Technical,Accepted
+58,58,10,66,Promising,Screening,Rejected
+59,59,29,86,Needs training,HR,Accepted
+60,60,32,94,Needs training,HR,Accepted
+61,61,21,94,Excellent,Technical,Pending
+62,62,16,77,Promising,Technical,Rejected
+63,63,46,83,Needs training,Screening,Pending
+64,64,39,62,Good skills,HR,Pending
+65,65,16,76,Average performance,Technical,Rejected
+66,66,41,83,Good skills,HR,Accepted
+67,67,29,84,Good skills,Technical,Rejected
+68,68,20,65,Promising,Technical,Accepted
+69,69,11,88,Needs training,HR,Rejected
+70,70,3,77,Good skills,Technical,Rejected
+71,71,48,86,Needs training,HR,Rejected
+72,72,7,70,Needs training,HR,Accepted
+73,73,23,86,Average performance,HR,Pending
+74,74,48,80,Excellent,HR,Accepted
+75,75,49,63,Promising,HR,Rejected
+76,76,42,68,Good skills,Technical,Accepted
+77,77,41,79,Needs training,HR,Accepted
+78,78,8,70,Promising,HR,Pending
+79,79,50,68,Average performance,HR,Rejected
+80,80,21,88,Excellent,HR,Accepted
+81,81,17,71,Average performance,Technical,Rejected
+82,82,13,65,Excellent,Technical,Accepted
+83,83,26,84,Average performance,Screening,Accepted
+84,84,2,95,Average performance,HR,Accepted
+85,85,6,89,Promising,Technical,Pending
+86,86,11,63,Excellent,HR,Rejected
+87,87,39,76,Promising,Screening,Rejected
+88,88,11,67,Good skills,HR,Pending
+89,89,28,89,Excellent,Screening,Accepted
+90,90,46,73,Promising,Technical,Rejected
+91,91,48,91,Excellent,Screening,Rejected
+92,92,14,73,Needs training,HR,Pending
+93,93,13,86,Promising,Technical,Accepted
+94,94,2,78,Needs training,Screening,Pending
+95,95,29,75,Needs training,HR,Pending
+96,96,42,89,Good skills,Screening,Rejected
+97,97,9,80,Excellent,HR,Accepted
+98,98,46,84,Excellent,HR,Pending
+99,99,17,64,Good skills,HR,Accepted
+100,100,4,81,Promising,Technical,Rejected
+101,101,39,62,Good skills,Technical,Pending
+102,102,40,84,Needs training,Technical,Pending
+103,103,24,68,Average performance,Screening,Pending
+104,104,12,76,Promising,HR,Rejected
+105,105,22,89,Promising,Screening,Rejected
+106,106,46,93,Excellent,Screening,Rejected
+107,107,8,80,Good skills,Screening,Rejected
+108,108,18,83,Excellent,Technical,Rejected
+109,109,40,76,Average performance,Technical,Rejected
+110,110,11,80,Excellent,Screening,Pending
+111,111,43,88,Good skills,Screening,Accepted
+112,112,4,74,Promising,Screening,Rejected
+113,113,17,70,Excellent,Technical,Accepted
+114,114,32,62,Excellent,Technical,Pending
+115,115,36,91,Excellent,Technical,Accepted
+116,116,47,69,Good skills,Technical,Accepted
+117,117,14,78,Promising,Screening,Pending
+118,118,33,77,Average performance,HR,Pending
+119,119,14,60,Average performance,HR,Accepted
+120,120,27,64,Promising,Technical,Pending
+121,121,7,81,Good skills,Technical,Pending
+122,122,44,67,Excellent,Technical,Pending
+123,123,7,80,Promising,Screening,Accepted
+124,124,30,90,Excellent,HR,Rejected
+125,125,39,60,Needs training,Screening,Pending
+126,126,40,88,Needs training,HR,Pending
+127,127,37,68,Promising,Screening,Pending
+128,128,19,80,Good skills,HR,Accepted
+129,129,36,84,Good skills,Technical,Rejected
+130,130,12,75,Excellent,Screening,Accepted
+131,131,14,70,Excellent,Technical,Rejected
+132,132,42,69,Good skills,Technical,Rejected
+133,133,28,79,Average performance,Screening,Rejected
+134,134,43,66,Needs training,HR,Accepted
+135,135,32,88,Excellent,Technical,Rejected
+136,136,37,87,Good skills,Technical,Rejected
+137,137,40,71,Excellent,HR,Rejected
+138,138,6,62,Average performance,Technical,Rejected
+139,139,44,74,Promising,Technical,Pending
+140,140,41,93,Good skills,Technical,Rejected
+141,141,28,65,Excellent,Technical,Accepted
+142,142,9,79,Promising,HR,Rejected
+143,143,19,63,Average performance,Screening,Accepted
+144,144,33,66,Average performance,Technical,Rejected
+145,145,7,89,Average performance,Technical,Rejected
+146,146,17,65,Average performance,Screening,Accepted
+147,147,48,89,Promising,Screening,Rejected
+148,148,3,65,Excellent,HR,Rejected
+149,149,21,89,Excellent,HR,Rejected
+150,150,22,71,Promising,Screening,Accepted
+151,151,48,76,Good skills,Technical,Pending
+152,152,2,60,Excellent,Screening,Accepted
+153,153,11,90,Excellent,HR,Rejected
+154,154,43,91,Needs training,HR,Pending
+155,155,24,85,Needs training,Screening,Accepted
+156,156,9,60,Promising,Screening,Accepted
+157,157,45,72,Good skills,Screening,Rejected
+158,158,42,69,Promising,Technical,Pending
+159,159,35,72,Good skills,Technical,Rejected
+160,160,10,90,Excellent,Screening,Accepted
+161,161,11,69,Excellent,Technical,Rejected
+162,162,2,88,Average performance,Screening,Accepted
+163,163,19,85,Good skills,Technical,Accepted
+164,164,7,87,Excellent,Technical,Pending
+165,165,38,95,Needs training,Screening,Rejected
+166,166,26,91,Average performance,HR,Pending
+167,167,40,91,Promising,HR,Accepted
+168,168,34,61,Excellent,HR,Rejected
+169,169,36,64,Needs training,HR,Rejected
+170,170,31,67,Excellent,HR,Pending
+171,171,23,88,Excellent,Screening,Accepted
+172,172,19,72,Excellent,Technical,Rejected
+173,173,15,92,Promising,HR,Pending
+174,174,22,89,Promising,Technical,Pending
+175,175,46,84,Excellent,HR,Pending
+176,176,48,83,Excellent,Screening,Pending
+177,177,14,78,Good skills,HR,Rejected
+178,178,9,71,Promising,Screening,Pending
+179,179,32,66,Excellent,Technical,Rejected
+180,180,16,73,Average performance,Screening,Accepted
+181,181,23,76,Needs training,HR,Accepted
+182,182,12,92,Good skills,Screening,Rejected
+183,183,28,67,Average performance,Screening,Accepted
+184,184,36,74,Excellent,Technical,Rejected
+185,185,23,62,Average performance,Technical,Accepted
+186,186,45,92,Average performance,HR,Accepted
+187,187,46,63,Excellent,Technical,Accepted
+188,188,7,66,Average performance,Screening,Pending
+189,189,7,70,Good skills,Screening,Rejected
+190,190,11,78,Excellent,HR,Rejected
+191,191,47,66,Promising,HR,Rejected
+192,192,22,68,Good skills,Screening,Rejected
+193,193,27,60,Promising,Technical,Rejected
+194,194,19,92,Promising,Screening,Rejected
+195,195,24,86,Needs training,HR,Pending
+196,196,16,69,Average performance,Technical,Accepted
+197,197,9,87,Excellent,Technical,Rejected
+198,198,34,83,Good skills,Technical,Accepted
+199,199,50,60,Average performance,Screening,Accepted
+200,200,22,80,Excellent,Screening,Rejected
+201,201,4,85,Good skills,HR,Pending
+202,202,10,63,Average performance,Technical,Rejected
+203,203,26,95,Needs training,HR,Pending
+204,204,21,82,Good skills,Technical,Pending
+205,205,40,69,Excellent,Technical,Pending
+206,206,14,94,Average performance,HR,Pending
+207,207,29,82,Excellent,Screening,Rejected
+208,208,6,62,Average performance,Technical,Rejected
+209,209,47,68,Average performance,HR,Rejected
+210,210,14,65,Average performance,HR,Rejected
+211,211,34,81,Promising,Screening,Accepted
+212,212,35,76,Promising,Technical,Pending
+213,213,28,92,Good skills,HR,Accepted
+214,214,24,76,Average performance,Technical,Accepted
+215,215,4,67,Excellent,Technical,Pending
+216,216,48,60,Excellent,Technical,Accepted
+217,217,48,94,Average performance,Screening,Rejected
+218,218,20,78,Average performance,HR,Accepted
+219,219,46,84,Average performance,HR,Accepted
+220,220,7,80,Average performance,HR,Accepted
+221,221,50,83,Excellent,Screening,Accepted
+222,222,46,87,Excellent,Screening,Accepted
+223,223,4,87,Promising,Technical,Accepted
+224,224,29,64,Needs training,HR,Pending
+225,225,26,95,Average performance,Technical,Rejected
+226,226,38,91,Excellent,Technical,Pending
+227,227,32,86,Promising,Screening,Pending
+228,228,9,91,Excellent,Screening,Pending
+229,229,33,93,Good skills,HR,Accepted
+230,230,30,90,Good skills,HR,Accepted
+231,231,36,83,Good skills,HR,Rejected
+232,232,8,67,Needs training,HR,Rejected
+233,233,3,93,Promising,Screening,Rejected
+234,234,20,83,Needs training,Technical,Rejected
+235,235,2,69,Promising,HR,Rejected
+236,236,4,79,Needs training,Screening,Accepted
+237,237,48,91,Good skills,Screening,Pending
+238,238,23,64,Good skills,Technical,Rejected
+239,239,37,79,Average performance,Technical,Rejected
+240,240,25,90,Average performance,Screening,Accepted
+241,241,33,89,Excellent,HR,Rejected
+242,242,10,80,Good skills,HR,Pending
+243,243,40,86,Excellent,Screening,Rejected
+244,244,22,94,Good skills,HR,Rejected
+245,245,48,77,Good skills,Screening,Pending
+246,246,2,79,Average performance,HR,Accepted
+247,247,42,95,Good skills,Screening,Pending
+248,248,35,63,Average performance,HR,Accepted
+249,249,49,90,Average performance,Screening,Accepted
+250,250,43,94,Promising,Screening,Rejected
+251,251,14,75,Average performance,Technical,Accepted
+252,252,35,80,Excellent,HR,Accepted
+253,253,32,61,Needs training,Technical,Accepted
+254,254,27,61,Average performance,Technical,Rejected
+255,255,17,65,Good skills,Screening,Pending
+256,256,11,78,Promising,Screening,Rejected
+257,257,50,65,Promising,Technical,Rejected
+258,258,44,70,Good skills,HR,Rejected
+259,259,12,61,Good skills,Technical,Rejected
+260,260,7,80,Promising,Technical,Rejected
+261,261,17,84,Good skills,Screening,Accepted
+262,262,16,75,Excellent,HR,Pending
+263,263,25,67,Needs training,Screening,Rejected
+264,264,30,95,Excellent,Screening,Rejected
+265,265,2,86,Promising,Screening,Rejected
+266,266,36,66,Promising,HR,Pending
+267,267,9,79,Average performance,Technical,Rejected
+268,268,6,92,Promising,Screening,Rejected
+269,269,35,70,Promising,HR,Rejected
+270,270,36,88,Good skills,Screening,Rejected
+271,271,40,78,Promising,Screening,Accepted
+272,272,31,77,Average performance,Technical,Pending
+273,273,25,82,Promising,HR,Pending
+274,274,19,62,Promising,HR,Pending
+275,275,37,64,Needs training,Screening,Rejected
+276,276,45,67,Promising,HR,Pending
+277,277,18,87,Promising,HR,Pending
+278,278,21,81,Needs training,HR,Rejected
+279,279,18,75,Needs training,Technical,Accepted
+280,280,30,81,Good skills,HR,Accepted
+281,281,42,60,Average performance,Technical,Accepted
+282,282,1,71,Excellent,HR,Pending
+283,283,46,91,Excellent,HR,Accepted
+284,284,42,64,Average performance,Screening,Pending
+285,285,29,67,Needs training,Technical,Pending
+286,286,23,84,Promising,HR,Accepted
+287,287,8,89,Needs training,Screening,Rejected
+288,288,1,74,Good skills,Technical,Pending
+289,289,46,82,Promising,Screening,Pending
+290,290,41,79,Promising,Screening,Rejected
+291,291,24,62,Needs training,Technical,Pending
+292,292,46,73,Good skills,Screening,Pending
+293,293,26,67,Needs training,HR,Pending
+294,294,32,70,Average performance,Screening,Pending
+295,295,48,71,Good skills,HR,Accepted
+296,296,48,64,Promising,Technical,Pending
+297,297,15,93,Needs training,Screening,Pending
+298,298,2,94,Average performance,Technical,Pending
+299,299,36,89,Good skills,Technical,Pending
+300,300,44,63,Needs training,Technical,Rejected
