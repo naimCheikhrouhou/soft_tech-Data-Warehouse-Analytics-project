@@ -10,7 +10,11 @@ CREATE TABLE customers (
     phone VARCHAR(20),
     sector VARCHAR(50),
     country VARCHAR(50),
-    created_at DATE
+    created_at DATE,
+                                                                    --meta data
+    record_created_at DATETIME DEFAULT GETDATE(),
+    record_created_by VARCHAR(50) DEFAULT SYSTEM_USER,
+    source  VARCHAR(50) DEFAULT 'dataset/buisiness_data/customers.csv/bronze.customers'
 );
 
 CREATE TABLE products (
@@ -19,7 +23,12 @@ CREATE TABLE products (
     category VARCHAR(50),
     base_price DECIMAL(10,2),
     development_hours INT,
-    version VARCHAR(20)
+    version VARCHAR(20),
+
+                                                                   --meta data
+    record_created_at DATETIME DEFAULT GETDATE(),
+    record_created_by VARCHAR(50) DEFAULT SYSTEM_USER,
+    source  VARCHAR(50) DEFAULT 'dataset/buisiness_data/products.csv/bronze.products'
 );
 
 CREATE TABLE sales_orders (
@@ -29,7 +38,11 @@ CREATE TABLE sales_orders (
     quantity INT,
     total_price DECIMAL(10,2),
     payment_method VARCHAR(50),
-    sale_date DATE
+    sale_date DATE,
+                                                                   --meta data
+    record_created_at DATETIME DEFAULT GETDATE(),
+    record_created_by VARCHAR(50) DEFAULT SYSTEM_USER,
+    source  VARCHAR(50) DEFAULT 'dataset/buisiness_data/sales.csv/bronze.customers'
 );
 
 -- ========================================
@@ -46,7 +59,11 @@ CREATE TABLE projects (
     project_manager INT,
     estimated_cost DECIMAL(10,2),
     actual_cost DECIMAL(10,2),
-    status VARCHAR(20)
+    status VARCHAR(20),
+                                                                   --meta data
+    record_created_at DATETIME DEFAULT GETDATE(),
+    record_created_by VARCHAR(50) DEFAULT SYSTEM_USER,
+    source  VARCHAR(50) DEFAULT 'dataset/buisiness_data/projects.csv/bronze.customers'
 );
 
 CREATE TABLE project_bug_reports (
@@ -55,7 +72,11 @@ CREATE TABLE project_bug_reports (
     severity VARCHAR(20),
     description TEXT,
     reported_date DATE,
-    resolved BOOLEAN
+    resolved BOOLEAN,
+                                                                   --meta data
+    record_created_at DATETIME DEFAULT GETDATE(),
+    record_created_by VARCHAR(50) DEFAULT SYSTEM_USER,
+    source  VARCHAR(50) DEFAULT 'dataset/buisiness_data/project_bug_reports.csv/bronze.customers'
 );
 
 -- ========================================
@@ -66,7 +87,11 @@ CREATE TABLE teams (
     team_id INT PRIMARY KEY,
     team_name VARCHAR(50),
     department VARCHAR(50),
-    manager_id INT
+    manager_id INT,
+                                                                   --meta data
+    record_created_at DATETIME DEFAULT GETDATE(),
+    record_created_by VARCHAR(50) DEFAULT SYSTEM_USER,
+    source  VARCHAR(50) DEFAULT 'dataset/employees&condidate/teams.csv/bronze.customers'
 );
 
 CREATE TABLE employees (
@@ -77,7 +102,11 @@ CREATE TABLE employees (
     hire_date DATE,
     salary DECIMAL(10,2),
     seniority VARCHAR(20),
-    email VARCHAR(100)
+    email VARCHAR(100),
+                                                                  --meta data
+    record_created_at DATETIME DEFAULT GETDATE(),
+    record_created_by VARCHAR(50) DEFAULT SYSTEM_USER,
+    source  VARCHAR(50) DEFAULT 'dataset/employees&condidate/employees.csv/bronze.customers'
 );
 
 CREATE TABLE employee_performance (
@@ -88,7 +117,11 @@ CREATE TABLE employee_performance (
     tasks_completed INT,
     overtime_hours INT,
     performance_score INT,
-    project_success_rate DECIMAL(5,2)
+    project_success_rate DECIMAL(5,2) 
+                                                                  --meta data
+    record_created_at DATETIME DEFAULT GETDATE(),
+    record_created_by VARCHAR(50) DEFAULT SYSTEM_USER,
+    source  VARCHAR(50) DEFAULT 'dataset/employees&condidate/employee_performance.csv/bronze.customers'
 );
 
 -- ========================================
@@ -104,7 +137,11 @@ CREATE TABLE candidates (
     years_experience INT,
     tech_stack TEXT,
     certifications TEXT,
-    application_date DATE
+    application_date DATE,
+                                                                  --meta data
+    record_created_at DATETIME DEFAULT GETDATE(),
+    record_created_by VARCHAR(50) DEFAULT SYSTEM_USER,
+    source  VARCHAR(50) DEFAULT 'dataset/employees&condidate/candidates.csv/bronze.customers'
 );
 
 CREATE TABLE candidate_cv_raw (
@@ -113,7 +150,11 @@ CREATE TABLE candidate_cv_raw (
     cv_text TEXT,
     parsed_keywords TEXT,
     language_detected VARCHAR(20),
-    uploaded_date DATE
+    uploaded_date DATE,
+                                                                  --meta data
+    record_created_at DATETIME DEFAULT GETDATE(),
+    record_created_by VARCHAR(50) DEFAULT SYSTEM_USER,
+    source  VARCHAR(50) DEFAULT 'dataset/employees&condidate/candidate_cv_raw./bronze.customers'
 );
 
 CREATE TABLE candidate_interviews (
@@ -123,19 +164,11 @@ CREATE TABLE candidate_interviews (
     interview_score INT,
     notes TEXT,
     stage VARCHAR(50),
-    result VARCHAR(20)
+    result VARCHAR(20),
+                                                                  --meta data
+    record_created_at DATETIME DEFAULT GETDATE(),
+    record_created_by VARCHAR(50) DEFAULT SYSTEM_USER,
+    source  VARCHAR(50) DEFAULT 'dataset/employees&condidate/candidate_interviews.csv/bronze.customers'
 );
 
--- ========================================
--- 5. TABLE FINANCE (OPTIONNEL)
--- ========================================
 
-CREATE TABLE invoices (
-    invoice_id INT PRIMARY KEY,
-    customer_id INT REFERENCES customers(customer_id),
-    amount_due DECIMAL(10,2),
-    amount_paid DECIMAL(10,2),
-    invoice_date DATE,
-    due_date DATE,
-    status VARCHAR(20)
-);
