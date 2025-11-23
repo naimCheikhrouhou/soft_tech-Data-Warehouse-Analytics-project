@@ -55,7 +55,7 @@ CREATE TABLE bronze.project_bug_reports (
     severity VARCHAR(20),
     description TEXT,
     reported_date DATE,
-    resolved BOOLEAN
+    resolved BIT
 );
 
 -- ==========================================
