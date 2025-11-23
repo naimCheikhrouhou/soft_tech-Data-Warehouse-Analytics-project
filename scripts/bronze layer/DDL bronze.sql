@@ -8,9 +8,9 @@ CREATE TABLE bronze.customers (
     contact_name VARCHAR(100),
     email VARCHAR(100),
     phone VARCHAR(20),
-    sector VARCHAR(50),
-    country VARCHAR(50),
-    created_at DATE
+    created_at DATE,
+    country VARCHAR(50)
+    
 );
 
 CREATE TABLE bronze.products (
