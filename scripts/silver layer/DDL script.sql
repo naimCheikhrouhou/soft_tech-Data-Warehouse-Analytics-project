@@ -8,13 +8,13 @@ CREATE TABLE silver.customers (
     contact_name VARCHAR(100),
     email VARCHAR(100),
     phone VARCHAR(20),
-    sector VARCHAR(50),
+    
     country VARCHAR(50),
     created_at DATE,
                                                                     --meta data
     record_created_at DATETIME DEFAULT GETDATE(),
     record_created_by VARCHAR(50) DEFAULT SYSTEM_USER,
-    source  VARCHAR(50) DEFAULT 'dataset/buisiness_data/customers.csv/bronze.customers'
+    source  VARCHAR(50) DEFAULT ''
 );
 
 CREATE TABLE silver.products (
@@ -28,12 +28,12 @@ CREATE TABLE silver.products (
                                                                    --meta data
     record_created_at DATETIME DEFAULT GETDATE(),
     record_created_by VARCHAR(50) DEFAULT SYSTEM_USER,
-    source  VARCHAR(50) DEFAULT 'dataset/buisiness_data/products.csv/bronze.products'
+    source  VARCHAR(225) DEFAULT 'dataset/buisiness_data/products.csv/bronze.products'
 );
 
 CREATE TABLE silver.sales_orders (
     sale_id INT PRIMARY KEY,
-    customer_id INT REFERENCES silver.customers(customer_id),
+    customer_id INT REFERENCES silver.customers(customer_id) on delete cascade on update cascade,
     product_id INT REFERENCES silver.products(product_id),
     quantity INT,
     total_price DECIMAL(10,2),
@@ -42,7 +42,7 @@ CREATE TABLE silver.sales_orders (
                                                                    --meta data
     record_created_at DATETIME DEFAULT GETDATE(),
     record_created_by VARCHAR(50) DEFAULT SYSTEM_USER,
-    source  VARCHAR(50) DEFAULT 'dataset/buisiness_data/sales.csv/bronze.customers'
+    source  VARCHAR(225) DEFAULT 'dataset/buisiness_data/sales.csv/bronze.customers'
 );
 
 -- ========================================
@@ -56,14 +56,14 @@ CREATE TABLE silver.teams (
                                                                    --meta data
     record_created_at DATETIME DEFAULT GETDATE(),
     record_created_by VARCHAR(50) DEFAULT SYSTEM_USER,
-    source  VARCHAR(50) DEFAULT 'dataset/employees&condidate/teams.csv/bronze.customers'
+    source  VARCHAR(225) DEFAULT 'dataset/employees&condidate/teams.csv/bronze.customers'
 );
 
 CREATE TABLE silver.employees (
     employee_id INT PRIMARY KEY,
     full_name VARCHAR(100),
     role VARCHAR(50),
-    team_id INT REFERENCES silver.teams(team_id),
+    team_id INT REFERENCES silver.teams(team_id) on delete cascade on update cascade,
     hire_date DATE,
     salary DECIMAL(10,2),
     seniority VARCHAR(20),
@@ -71,28 +71,28 @@ CREATE TABLE silver.employees (
                                                                   --meta data
     record_created_at DATETIME DEFAULT GETDATE(),
     record_created_by VARCHAR(50) DEFAULT SYSTEM_USER,
-    source  VARCHAR(50) DEFAULT 'dataset/employees&condidate/employees.csv/bronze.customers'
+    source  VARCHAR(225) DEFAULT 'dataset/employees&condidate/employees.csv/bronze.customers'
 );
 CREATE TABLE silver.projects (
     project_id INT PRIMARY KEY,
-    customer_id INT REFERENCES silver.customers(customer_id),
+    customer_id INT REFERENCES silver.customers(customer_id) on delete cascade on update cascade,
     project_name VARCHAR(100),
     start_date DATE,
     end_date DATE,
     delivered_date DATE,
-    project_manager_id INT REFERENCES silver.employees(employee_id),
+    project_manager_id INT REFERENCES silver.employees(employee_id) on delete cascade on update cascade,
     estimated_cost DECIMAL(10,2),
     actual_cost DECIMAL(10,2),
     status VARCHAR(20),
                                                                    --meta data
     record_created_at DATETIME DEFAULT GETDATE(),
     record_created_by VARCHAR(50) DEFAULT SYSTEM_USER,
-    source  VARCHAR(50) DEFAULT 'dataset/buisiness_data/projects.csv/bronze.customers'
+    source  VARCHAR(225) DEFAULT 'dataset/buisiness_data/projects.csv/bronze.customers'
 );
 
 CREATE TABLE silver.project_bug_reports (
     bug_id INT PRIMARY KEY,
-    project_id INT REFERENCES silver.projects(project_id),
+    project_id INT REFERENCES silver.projects(project_id) on delete cascade on update cascade,
     severity VARCHAR(20),
     description TEXT,
     reported_date DATE,
@@ -100,7 +100,7 @@ CREATE TABLE silver.project_bug_reports (
                                                                    --meta data
     record_created_at DATETIME DEFAULT GETDATE(),
     record_created_by VARCHAR(50) DEFAULT SYSTEM_USER,
-    source  VARCHAR(50) DEFAULT 'dataset/buisiness_data/project_bug_reports.csv/bronze.customers'
+    source  VARCHAR(225) DEFAULT 'dataset/buisiness_data/project_bug_reports.csv/bronze.customers'
 );
 
 -- ========================================
@@ -112,7 +112,7 @@ CREATE TABLE silver.project_bug_reports (
 
 CREATE TABLE silver.employee_performance (
     perf_id INT PRIMARY KEY,
-    employee_id INT REFERENCES silver.employees(employee_id),
+    employee_id INT REFERENCES silver.employees(employee_id) on delete cascade on update cascade,
     start_date date,
     end_date date,
     tasks_completed INT,
@@ -122,7 +122,7 @@ CREATE TABLE silver.employee_performance (
                                                                   --meta data
     record_created_at DATETIME DEFAULT GETDATE(),
     record_created_by VARCHAR(50) DEFAULT SYSTEM_USER,
-    source  VARCHAR(50) DEFAULT 'dataset/employees&condidate/employee_performance.csv/bronze.customers'
+    source  VARCHAR(225) DEFAULT 'dataset/employees&condidate/employee_performance.csv/bronze.customers'
 );
 
 -- ========================================
@@ -142,12 +142,12 @@ CREATE TABLE silver.candidates (
                                                                   --meta data
     record_created_at DATETIME DEFAULT GETDATE(),
     record_created_by VARCHAR(50) DEFAULT SYSTEM_USER,
-    source  VARCHAR(50) DEFAULT 'dataset/employees&condidate/candidates.csv/bronze.customers'
+    source  VARCHAR(225) DEFAULT 'dataset/employees&condidate/candidates.csv/bronze.customers'
 );
 
 CREATE TABLE silver.candidate_cv_raw (
     cv_id INT PRIMARY KEY,
-    candidate_id INT REFERENCES silver.candidates(candidate_id),
+    candidate_id INT REFERENCES silver.candidates(candidate_id) on delete cascade on update cascade,
     cv_text TEXT,
     parsed_keywords TEXT,
     language_detected VARCHAR(20),
@@ -155,13 +155,13 @@ CREATE TABLE silver.candidate_cv_raw (
                                                                   --meta data
     record_created_at DATETIME DEFAULT GETDATE(),
     record_created_by VARCHAR(50) DEFAULT SYSTEM_USER,
-    source  VARCHAR(50) DEFAULT 'dataset/employees&condidate/candidate_cv_raw./bronze.customers'
+    source  VARCHAR(225) DEFAULT 'dataset/employees&condidate/candidate_cv_raw./bronze.customers'
 );
 
 CREATE TABLE silver.candidate_interviews (
     interview_id INT PRIMARY KEY,
-    candidate_id INT REFERENCES silver.candidates(candidate_id),
-    recruiter_id INT REFERENCES silver.employees(employee_id),
+    candidate_id INT REFERENCES silver.candidates(candidate_id) on delete cascade on update cascade,
+    recruiter_id INT REFERENCES silver.employees(employee_id) on delete cascade on update cascade,
     interview_score INT,
     notes TEXT,
     stage VARCHAR(50),
@@ -169,10 +169,6 @@ CREATE TABLE silver.candidate_interviews (
                                                                   --meta data
     record_created_at DATETIME DEFAULT GETDATE(),
     record_created_by VARCHAR(50) DEFAULT SYSTEM_USER,
-    source  VARCHAR(50) DEFAULT 'dataset/employees&condidate/candidate_interviews.csv/bronze.customers'
+    source  VARCHAR(225) DEFAULT 'dataset/employees&condidate/candidate_interviews.csv/bronze.customers'
 );
-ALTER TABLE silver.teams
-ADD CONSTRAINT fk_team_leader
-FOREIGN KEY (manager_id)
-REFERENCES silver.employees(employee_id);
 
