@@ -9,69 +9,108 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
 
 
     -- ================= CUSTOMERS & PRODUCTS & SALES =================
-    print 'customers :' ;
+    print 'loading  customers :' ;
      set @start_time = GETDATE();
-    TRUNCATE TABLE bronze.customers ;
-    BULK INSERT bronze.customers
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\business_data\customers.csv'
+    TRUNCATE TABLE bronze.customers_sfax ;
+    BULK INSERT bronze.customers_sfax
+    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\business_data\branche_sfax\customers.csv'
     WITH(
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
     tablock 
-    );set @end_time = GETDATE();
+    );
+    ----------------------------
+     TRUNCATE TABLE bronze.customers_tunis ;
+    BULK INSERT bronze.customers_tunis
+    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\business_data\branche_tunis\customers.csv'
+    WITH(
+    FIRSTROW =2 ,
+    FIELDTERMINATOR =',' ,
+    tablock 
+    );
+    set @end_time = GETDATE();
     print 'load duration ' + cast(DATEDIFF(second,@start_time,@end_time ) AS NVARCHAR) +'seconds' ; 
     print '------------------------------------------------------------------------------------------'
-
-    print 'products :' ;
+    print 'loading products :' ;
      set @start_time = GETDATE();
+
     TRUNCATE TABLE bronze.products ;
     BULK INSERT bronze.products
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\business_data\products.csv'
+    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\business_data\products.csv'
     WITH(
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
     tablock 
-    );set @end_time = GETDATE();
+    );
+    set @end_time = GETDATE();
     print 'load duration ' + cast(DATEDIFF(second,@start_time,@end_time ) AS NVARCHAR) +'seconds' ; 
     print '------------------------------------------------------------------------------------------'
-
     print 'sales_orders :' ;
      set @start_time = GETDATE();
-    TRUNCATE TABLE bronze.sales_orders ;
-    BULK INSERT bronze.sales_orders
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\business_data\sales.csv'
+   
+    TRUNCATE TABLE bronze.sales_orders_sfax ;
+    BULK INSERT bronze.sales_orders_sfax
+    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\business_data\branche_sfax\sales.csv'
     WITH(
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
     tablock 
-    );set @end_time = GETDATE();
+    );---------------------------------tunis source
+      TRUNCATE TABLE bronze.sales_orders_tunis ;
+    BULK INSERT bronze.sales_orders_tunis
+    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\business_data\branche_tunis\sales.csv'
+    WITH(
+    FIRSTROW =2 ,
+    FIELDTERMINATOR =',' ,
+    tablock 
+    );
+    set @end_time = GETDATE();
     print 'load duration ' + cast(DATEDIFF(second,@start_time,@end_time ) AS NVARCHAR) +'seconds' ; 
     print '------------------------------------------------------------------------------------------'
 
     -- ================= PROJECTS & BUG REPORTS =================
     print 'projects :' ;
      set @start_time = GETDATE();
-    TRUNCATE TABLE bronze.projects ;
-    BULK INSERT bronze.projects
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\business_data\projects.csv'
+     
+    TRUNCATE TABLE bronze.projects_sfax ;
+    BULK INSERT bronze.projects_sfax
+    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\business_data\branche_sfax\projects.csv'
     WITH(
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
     tablock 
-    );set @end_time = GETDATE();
+    );---------------------------------------tunis source
+    TRUNCATE TABLE bronze.projects_tunis ;
+    BULK INSERT bronze.projects_tunis
+    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\business_data\branche_tunis\projects.csv'
+    WITH(
+    FIRSTROW =2 ,
+    FIELDTERMINATOR =',' ,
+    tablock 
+    );
+    set @end_time = GETDATE();
     print 'load duration ' + cast(DATEDIFF(second,@start_time,@end_time ) AS NVARCHAR) +'seconds' ; 
     print '------------------------------------------------------------------------------------------'
-
     print 'project_bug_reports :' ;
      set @start_time = GETDATE();
-    TRUNCATE TABLE bronze.project_bug_reports ;
-    BULK INSERT bronze.project_bug_reports
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\business_data\project_bug_reports.csv'
+
+    TRUNCATE TABLE bronze.project_bug_reports_sfax ;
+    BULK INSERT bronze.project_bug_reports_sfax
+    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\business_data\branche_sfax\project_bug_reports.csv'
     WITH(
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
     tablock 
-    );set @end_time = GETDATE();
+    );------------------------------tunis source----------------
+       TRUNCATE TABLE bronze.project_bug_reports_tunis ;
+    BULK INSERT bronze.project_bug_reports_tunis
+    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\business_data\branche_tunis\project_bug_reports.csv'
+    WITH(
+    FIRSTROW =2 ,
+    FIELDTERMINATOR =',' ,
+    tablock 
+    );
+    set @end_time = GETDATE();
     print 'load duration ' + cast(DATEDIFF(second,@start_time,@end_time ) AS NVARCHAR) +'seconds' ; 
     print '------------------------------------------------------------------------------------------'
 
@@ -86,7 +125,7 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
         set @start_time = GETDATE();
     TRUNCATE TABLE bronze.employees ;  
     BULK INSERT bronze.employees
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\employees&condidate\employees.csv'
+    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\condidate&employees\employees.csv'
     WITH(
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
@@ -99,29 +138,33 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
 
     print 'teams :' ;
         set @start_time = GETDATE();
+
     TRUNCATE TABLE bronze.teams ;
     BULK INSERT bronze.teams
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\employees&condidate\teams.csv'
+    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\condidate&employees\teams.csv'
     WITH(
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
     tablock 
-    );print'';
+    );
+    print'';
     set @end_time = GETDATE();
     print 'load duration ' + cast(DATEDIFF(second,@start_time,@end_time ) AS NVARCHAR) +'seconds' ; 
     print '------------------------------------------------------------------------------------------';
 
     print 'employee_performance :' ; 
         set @start_time = GETDATE();
+
     TRUNCATE TABLE bronze.employee_performance ;
     BULK INSERT bronze.employee_performance
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\employees&condidate\employee_performance.csv'
+    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\condidate&employees\employee_performance.csv'
     WITH(
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
     tablock 
-    );set @end_time = GETDATE();
-    print '';
+    );
+    set @end_time = GETDATE();
+    print '----------------------------------------------------------------------------------------------';
     print 'load duration ' + cast(DATEDIFF(second,@start_time,@end_time ) AS NVARCHAR) +'seconds' ; 
     print '------------------------------------------------------------------------------------------'
 
@@ -130,38 +173,43 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
      set @start_time = GETDATE();
     TRUNCATE TABLE bronze.candidates ;
     BULK INSERT bronze.candidates
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\employees&condidate\candidates.csv'
+    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\condidate&employees\candidates.csv'
     WITH(
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
     tablock 
-    );print'';set @end_time = GETDATE();
+    );
+    set @end_time = GETDATE();
+    print'';
     print 'load duration ' + cast(DATEDIFF(second,@start_time,@end_time ) AS NVARCHAR) +'seconds' ; 
     print '------------------------------------------------------------------------------------------'
 
     print 'candidate_cv_raw :' ;
      set @start_time = GETDATE();
+
     TRUNCATE TABLE bronze.candidate_cv_raw ;
     BULK INSERT bronze.candidate_cv_raw
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\employees&condidate\candidate_cv_raw.csv'
+    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\condidate&employees\candidate_cv_raw.csv'
     WITH(
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
     tablock 
-    );set @end_time = GETDATE();
+    );
+    set @end_time = GETDATE();
     print 'load duration ' + cast(DATEDIFF(second,@start_time,@end_time ) AS NVARCHAR) +'seconds' ; 
     print '------------------------------------------------------------------------------------------'
-
     print 'candidate_interviews :' ;
      set @start_time = GETDATE();
+
     TRUNCATE TABLE bronze.candidate_interviews ;
     BULK INSERT bronze.candidate_interviews
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\employees&condidate\candidate_interviews.csv'
+    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\condidate&employees\candidate_interviews.csv'
     WITH(
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
     tablock 
-    );set @end_time = GETDATE();
+    );
+    set @end_time = GETDATE();
     print 'load duration ' + cast(DATEDIFF(second,@start_time,@end_time ) AS NVARCHAR) +'seconds' ; 
     print '------------------------------------------------------------------------------------------'
       set @end = GETDATE();
