@@ -1,0 +1,103 @@
+bug_id,project_id,severity,description,reported_date,resolved
+5,377,Critical,La mise en page change après la réouverture du document. (bug #5),7/30/2024,0
+10,240,Low,Crash lors de l'ouverture du fichier. (bug #10),3/26/2024,0
+11,475,Low,Données corrompues lors de la fusion de documents. (bug #11),9/25/2022,1
+19,50,Medium,La mise en page change après la réouverture du document. (bug #19),7/4/2022,0
+20,195,Critical,Crash lors de l'ouverture du fichier. (bug #20),9/28/2023,1
+21,56,Medium,Fonction de recherche ne retourne pas les bons résultats. (bug #21),9/27/2024,0
+24,117,Low,Fonction de mise en forme ne s?applique pas correctement. (bug #24),7/3/2023,0
+31,160,Low,Module d?impression ne répond plus. (bug #31),11/4/2022,1
+33,345,Critical,Module d?impression ne répond plus. (bug #33),11/17/2024,0
+38,138,Medium,Synchronisation cloud échoue dans certaines conditions. (bug #38),5/10/2023,0
+48,73,Low,Crash lors de l'ouverture du fichier. (bug #48),12/31/2022,0
+49,316,Medium,Incompatibilité avec certaines extensions. (bug #49),8/29/2023,1
+52,160,Medium,Données corrompues lors de la fusion de documents. (bug #52),3/4/2023,0
+59,313,High,Déclenchement incorrect d?un message d?avertissement. (bug #59),9/5/2022,0
+60,466,Low,Fonction de mise en forme ne s?applique pas correctement. (bug #60),9/16/2024,0
+63,486,Critical,Crash lié à la gestion de la mémoire. (bug #63),1/26/2023,1
+65,134,High,Crash lié à la gestion de la mémoire. (bug #65),12/25/2024,0
+67,16,High,Les macros ne s?exécutent pas correctement. (bug #67),8/26/2023,0
+76,33,Low,Déclenchement incorrect d?un message d?avertissement. (bug #76),3/16/2023,1
+79,209,Critical,Erreur de compilation dans le module principal. (bug #79),8/5/2024,1
+82,377,Low,Problème de performance lors du chargement de gros fichiers. (bug #82),4/16/2023,1
+86,490,Medium,La mise en page change après la réouverture du document. (bug #86),5/21/2023,0
+98,477,Medium,Export PDF ne génère pas le bon format. (bug #98),11/13/2022,1
+105,56,Low,Problème d?affichage dans l?interface utilisateur. (bug #105),4/6/2023,1
+108,68,High,Fonction de mise en forme ne s?applique pas correctement. (bug #108),9/10/2023,1
+109,491,Low,Export PDF ne génère pas le bon format. (bug #109),11/3/2024,0
+110,227,High,Synchronisation cloud échoue dans certaines conditions. (bug #110),4/22/2023,0
+113,83,Critical,Impossible de charger certains modèles. (bug #113),5/8/2023,0
+114,162,High,Déclenchement incorrect d?un message d?avertissement. (bug #114),2/23/2024,0
+116,460,Medium,Module d?impression ne répond plus. (bug #116),1/21/2024,1
+117,153,Critical,Problème avec les raccourcis clavier personnalisés. (bug #117),12/10/2023,0
+120,447,Medium,Impossible de charger certains modèles. (bug #120),12/18/2022,0
+124,334,High,Erreur de compilation dans le module principal. (bug #124),4/17/2024,1
+129,300,High,Impossible de charger certains modèles. (bug #129),2/1/2022,0
+130,427,Low,Fonction de recherche ne retourne pas les bons résultats. (bug #130),1/11/2023,0
+134,475,Medium,Erreur de compilation dans le module principal. (bug #134),7/13/2023,0
+137,104,Critical,Données corrompues lors de la fusion de documents. (bug #137),6/13/2023,0
+138,22,High,Synchronisation cloud échoue dans certaines conditions. (bug #138),8/2/2023,1
+143,14,High,Crash lors de l'ouverture du fichier. (bug #143),8/31/2022,1
+147,468,Medium,La mise en page change après la réouverture du document. (bug #147),9/9/2023,0
+149,318,High,Les macros ne s?exécutent pas correctement. (bug #149),7/5/2024,1
+151,416,Medium,Les macros ne s?exécutent pas correctement. (bug #151),8/24/2024,0
+154,449,High,Problème d?affichage dans l?interface utilisateur. (bug #154),6/22/2024,0
+157,33,Critical,Erreur de conversion d?encodage. (bug #157),8/29/2023,1
+158,415,Critical,Erreur de compilation dans le module principal. (bug #158),10/13/2022,0
+159,105,Critical,Crash lors de l'ouverture du fichier. (bug #159),6/21/2023,1
+161,280,Medium,Impossible de charger certains modèles. (bug #161),7/13/2023,0
+176,406,High,Blocage aléatoire lors de l?édition d?un document. (bug #176),5/15/2022,1
+177,69,Medium,Export PDF ne génère pas le bon format. (bug #177),7/4/2023,1
+181,179,High,Erreur de conversion d?encodage. (bug #181),6/20/2022,1
+182,105,Low,Module d?impression ne répond plus. (bug #182),4/10/2024,0
+188,108,Critical,Erreur de compilation dans le module principal. (bug #188),4/8/2023,1
+194,338,Medium,Les macros ne s?exécutent pas correctement. (bug #194),6/22/2024,0
+198,468,High,Incompatibilité avec certaines extensions. (bug #198),1/6/2023,1
+201,313,High,Problème avec les raccourcis clavier personnalisés. (bug #201),3/8/2024,1
+202,416,High,Erreur de compilation dans le module principal. (bug #202),3/19/2022,0
+206,158,Medium,Export PDF ne génère pas le bon format. (bug #206),1/7/2024,1
+215,90,High,Export PDF ne génère pas le bon format. (bug #215),8/27/2023,0
+221,313,Critical,Fonction de mise en forme ne s?applique pas correctement. (bug #221),11/19/2023,1
+229,16,High,Fonction de recherche ne retourne pas les bons résultats. (bug #229),8/11/2022,0
+230,29,Medium,La mise en page change après la réouverture du document. (bug #230),2/1/2024,0
+235,40,Critical,Problème avec les raccourcis clavier personnalisés. (bug #235),12/24/2024,0
+237,413,Critical,Fonction de recherche ne retourne pas les bons résultats. (bug #237),10/26/2022,1
+241,25,High,Export PDF ne génère pas le bon format. (bug #241),10/24/2023,1
+246,157,High,Les macros ne s?exécutent pas correctement. (bug #246),5/16/2022,1
+248,139,Critical,Problème d?affichage dans l?interface utilisateur. (bug #248),12/31/2022,1
+250,466,Low,Déclenchement incorrect d?un message d?avertissement. (bug #250),4/27/2024,1
+253,217,Medium,Erreur de sauvegarde dans le module de traitement. (bug #253),6/4/2022,1
+255,404,High,Fonction de recherche ne retourne pas les bons résultats. (bug #255),3/23/2023,1
+256,345,Low,Module d?impression ne répond plus. (bug #256),9/29/2023,1
+258,209,Low,Export PDF ne génère pas le bon format. (bug #258),1/28/2023,0
+260,252,Medium,Données corrompues lors de la fusion de documents. (bug #260),1/10/2024,1
+264,404,Critical,Erreur de compilation dans le module principal. (bug #264),10/23/2022,0
+277,105,Medium,Données corrompues lors de la fusion de documents. (bug #277),6/12/2024,0
+283,198,High,Problème de performance lors du chargement de gros fichiers. (bug #283),4/20/2023,0
+286,458,High,Incompatibilité avec certaines extensions. (bug #286),7/22/2023,1
+301,60,Medium,Synchronisation cloud échoue dans certaines conditions. (bug #301),1/28/2022,1
+304,319,Low,Synchronisation cloud échoue dans certaines conditions. (bug #304),5/30/2023,0
+310,360,Low,Crash lors de l'ouverture du fichier. (bug #310),2/10/2022,0
+312,313,High,Impossible de charger certains modèles. (bug #312),12/6/2023,1
+314,280,Critical,Erreur de sauvegarde dans le module de traitement. (bug #314),12/15/2022,0
+315,256,Critical,Incompatibilité avec certaines extensions. (bug #315),8/4/2023,0
+318,280,Low,Crash lors de l'ouverture du fichier. (bug #318),12/4/2024,1
+323,108,Medium,Impossible de charger certains modèles. (bug #323),3/11/2022,0
+328,162,High,Fonction de mise en forme ne s?applique pas correctement. (bug #328),10/13/2022,0
+329,25,High,Crash lors de l'ouverture du fichier. (bug #329),2/13/2024,1
+331,16,Critical,Incompatibilité avec certaines extensions. (bug #331),11/17/2023,0
+332,490,Critical,Erreur de sauvegarde dans le module de traitement. (bug #332),7/27/2023,0
+337,406,Critical,Problème de performance lors du chargement de gros fichiers. (bug #337),12/27/2023,1
+346,88,High,Incompatibilité avec certaines extensions. (bug #346),6/30/2023,1
+354,235,Low,Fonction de mise en forme ne s?applique pas correctement. (bug #354),2/2/2023,0
+356,286,Critical,Données corrompues lors de la fusion de documents. (bug #356),6/3/2024,1
+358,130,Critical,Export PDF ne génère pas le bon format. (bug #358),3/23/2023,1
+359,32,Medium,Déclenchement incorrect d?un message d?avertissement. (bug #359),7/14/2024,1
+361,172,Low,Synchronisation cloud échoue dans certaines conditions. (bug #361),11/10/2023,0
+364,99,Medium,Fonction de recherche ne retourne pas les bons résultats. (bug #364),9/15/2023,1
+372,73,Low,Incompatibilité avec certaines extensions. (bug #372),2/22/2022,1
+374,117,Medium,Erreur de conversion d?encodage. (bug #374),8/12/2024,0
+377,101,Medium,Fonction de recherche ne retourne pas les bons résultats. (bug #377),5/24/2022,0
+385,345,Low,Crash lié à la gestion de la mémoire. (bug #385),5/9/2022,0
+394,162,Medium,Erreur de compilation dans le module principal. (bug #394),11/28/2023,1
+399,60,Medium,Données corrompues lors de la fusion de documents. (bug #399),6/22/2022,1

@@ -1,0 +1,501 @@
+product_id,product_name,category,base_price,development_hours,version
+1,SmartOps Cloud,Marketing Automation,2140.85,384,v0.9
+2,PayPro Lite,Cybersecurity,3980.05,1498,v3.4
+3,SecureWall Pro,Analytics,1346.68,1410,beta
+4,VisionTrack Suite,Project Management,4316.53,722,v1.5
+5,CloudSync Cloud,Project Management,2451.03,266,beta
+6,VisionTrack Cloud,Analytics,1713.77,,
+7,TradeSoft Suite,DevOps,4929.32,1933,v1.0
+8,DataPilot Suite,HR Management,4598.15,961,v0.9
+9,SkyMaster ,ERP,4078.45,47,v3.4
+10,CodeForge Lite,Analytics,3981.12,394,
+11,TradeSoft Lite,AI Tools,1913.1,1812,release
+12,SecureWall ,Cloud Services,2041.32,1657,v3.4
+13,PayPro Cloud,Mobile App,1030.69,186,release
+14,ProManage Suite,Project Management,3766.44,393,release
+15,PulseAnalytics Cloud,Cybersecurity,4808.75,20,v2.1
+16,TaskSphere Pro,Accounting,3925.17,1807,v0.9
+17,ProManage Pro,HR Management,3580.35,225,beta
+18,TradeSoft ,Project Management,3997.74,47,release
+19,InsightX Pro,CRM,4599.74,1109,v3.4
+20,SellFlow ,Cybersecurity,3857.78,225,v3.4
+21,SkyMaster Suite,Marketing Automation,2661.99,246,v0.9
+22,SmartOps Suite,Mobile App,4074.65,741,beta
+23,DataPilot Suite,Marketing Automation,3514.23,1137,v1.0
+24,AutoMarket Suite,ERP,441.33,270,release
+25,TaskSphere Cloud,Accounting,3703.21,1370,
+26,InsightX ,DevOps,1070.93,1928,
+27,DevFlow Suite,Accounting,3659.87,517,v2.1
+28,CodeForge ,AI Tools,1597.75,829,v0.9
+29,AutoMarket Pro,DevOps,1061.65,689,v3.4
+30,AutoMarket Lite,HR Management,4564.66,559,release
+31,CloudSync ,Accounting,565.59,620,v2.1
+32,CodeForge Cloud,Analytics,4369.02,745,v0.9
+33,ProManage Lite,Mobile App,,1599,
+34,TradeSoft Cloud,Accounting,2476.71,1969,v2.1
+35,PayPro ,ERP,3125.8,1776,v1.5
+36,GuardNet ,E-Commerce,560.9,1422,
+37,CodeForge Pro,Analytics,2068.86,1933,v1.0
+38,SkyMaster Pro,Mobile App,3088.51,1983,v1.5
+39,SkyMaster Suite,DevOps,3818.36,121,v1.5
+40,PayPro Lite,Accounting,446.23,1046,
+41,TradeSoft Lite,Accounting,246.19,277,release
+42,SellFlow Pro,Marketing Automation,187.88,635,v1.0
+43,SmartOps Suite,Mobile App,1854.24,1330,release
+44,InsightX Lite,Mobile App,3127.19,250,v0.9
+45,VisionTrack Suite,Mobile App,3206.03,1010,v3.4
+46,PayPro ,Marketing Automation,2676.67,203,v3.4
+47,InsightX Lite,CRM,4237.88,401,v3.4
+48,CloudSync Pro,CRM,,1617,
+49,SellFlow Suite,DevOps,1068.06,1628,beta
+50,NovaSuite ,Project Management,4551.78,916,beta
+51,PulseAnalytics Pro,AI Tools,4324.17,729,beta
+52,ProManage Suite,Cybersecurity,3106.22,1609,v1.0
+53,TradeSoft Cloud,Cloud Services,1741.24,364,v0.9
+54,CodeForge Suite,E-Commerce,2955.88,1856,beta
+55,PayPro Pro,AI Tools,3758.04,1773,release
+56,GuardNet Cloud,HR Management,2838.83,1447,v2.1
+57,SellFlow ,E-Commerce,1093.57,1380,v0.9
+58,SellFlow Lite,Marketing Automation,3901.42,1979,v0.9
+59,AutoMarket ,E-Commerce,3329.38,432,beta
+60,AutoMarket ,ERP,2373.83,1268,release
+61,SellFlow Suite,Analytics,4538.67,1830,v2.1
+62,NovaSuite Suite,AI Tools,2513.36,419,v3.4
+63,PulseAnalytics ,E-Commerce,1551.68,1639,v3.4
+64,TradeSoft Lite,Analytics,1179.34,1559,v1.5
+65,InsightX Pro,HR Management,4408.01,1420,release
+66,LeadStream Suite,Analytics,347.1,1628,v2.1
+67,SkyMaster Suite,Analytics,213.66,464,
+68,ProManage Cloud,Mobile App,99.18,1136,v2.1
+69,TradeSoft Suite,Cloud Services,133.22,871,release
+70,CloudSync Suite,CRM,2797.13,1985,beta
+71,NovaSuite Lite,HR Management,3152.46,1429,v1.5
+72,NovaSuite Lite,Accounting,1745.42,1535,v2.1
+73,TaskSphere Cloud,DevOps,3324.74,1333,v3.4
+74,CodeForge ,AI Tools,3886.13,1022,v0.9
+75,SmartOps Pro,Mobile App,4470.37,1986,v1.5
+76,TradeSoft Lite,Accounting,828.42,1285,v0.9
+77,PayPro Suite,ERP,931.85,1540,v1.5
+78,ProManage Cloud,Cloud Services,1437.97,644,release
+79,GuardNet Cloud,Cybersecurity,,1438,v2.1
+80,SkyMaster Suite,Analytics,273.73,215,beta
+81,DataPilot Pro,DevOps,3064.01,1281,v0.9
+82,SmartOps Pro,DevOps,3188.15,1690,
+83,SkyMaster Suite,Cybersecurity,4041.4,784,
+84,TradeSoft Pro,Project Management,364.71,771,
+85,CodeForge Pro,Marketing Automation,358.27,846,v1.5
+86,InsightX ,E-Commerce,,1347,v1.0
+87,HRMaster Suite,Accounting,1125.97,360,v3.4
+88,NovaSuite Suite,Accounting,1786.63,66,beta
+89,HRMaster Pro,DevOps,3305.89,1850,v1.0
+90,TradeSoft Pro,AI Tools,2225.31,1550,release
+91,CodeForge ,Cybersecurity,3220.42,393,v2.1
+92,PulseAnalytics Lite,AI Tools,,421,v0.9
+93,GuardNet ,AI Tools,764,61,v0.9
+94,PulseAnalytics Suite,Cybersecurity,507.08,708,
+95,DevFlow ,Cloud Services,538.03,773,v0.9
+96,PayPro ,E-Commerce,3141.1,1656,
+97,NovaSuite Cloud,Cloud Services,2306.59,2000,v1.5
+98,AutoMarket Suite,Cloud Services,3174.78,1659,v2.1
+99,SellFlow Pro,Marketing Automation,649.85,544,v0.9
+100,TradeSoft ,AI Tools,1000.91,918,v3.4
+101,GuardNet Suite,Cybersecurity,790.52,1332,v1.5
+102,NovaSuite ,CRM,,1907,v0.9
+103,VisionTrack Lite,Cybersecurity,4664.68,675,beta
+104,CloudSync Lite,AI Tools,632.95,100,
+105,SmartOps Suite,E-Commerce,2401.6,641,v1.5
+106,NovaSuite ,HR Management,4585.34,66,
+107,CodeForge ,Mobile App,3630.42,1859,v0.9
+108,SmartOps Lite,Marketing Automation,3157.43,510,v1.5
+109,DataPilot Lite,HR Management,2106.44,1429,v3.4
+110,CloudSync Suite,Analytics,4807.27,1981,beta
+111,PulseAnalytics Cloud,CRM,2762.88,1883,v1.5
+112,GuardNet Lite,Cybersecurity,282.54,1287,v3.4
+113,TradeSoft Suite,E-Commerce,3298.64,1512,v1.0
+114,AutoMarket Cloud,Cloud Services,,274,v1.5
+115,DevFlow Pro,Marketing Automation,1497.8,,release
+116,DataPilot Suite,E-Commerce,4988.6,1818,v0.9
+117,SmartOps ,Project Management,2520.38,916,v2.1
+118,SkyMaster Suite,ERP,2150.18,522,release
+119,GuardNet Cloud,CRM,1235.1,1221,v1.5
+120,TaskSphere ,CRM,582.32,82,v0.9
+121,NovaSuite Lite,Cloud Services,3420.23,1044,v3.4
+122,VisionTrack Lite,Mobile App,2761.13,126,v1.0
+123,ProManage Suite,HR Management,4362.4,1829,v3.4
+124,PayPro Suite,CRM,375.19,715,
+125,TaskSphere Cloud,CRM,4163.35,278,v0.9
+126,TradeSoft Pro,Project Management,1242.21,1629,beta
+127,AutoMarket Suite,Cybersecurity,4377.51,,v0.9
+128,HRMaster Cloud,Mobile App,1949.12,1047,release
+129,SmartOps Lite,AI Tools,3679.67,851,v3.4
+130,TaskSphere Pro,Marketing Automation,1791.12,35,v0.9
+131,PulseAnalytics Cloud,Accounting,666.14,1685,beta
+132,TaskSphere ,Marketing Automation,4407.42,1858,release
+133,CodeForge Lite,E-Commerce,2823.84,1384,v0.9
+134,CloudSync Pro,Cybersecurity,1617.11,1356,v0.9
+135,LeadStream Lite,Project Management,774.69,1446,v2.1
+136,DevFlow Cloud,Mobile App,1995.75,1745,v0.9
+137,HRMaster Suite,AI Tools,540.61,1542,beta
+138,InsightX Suite,Accounting,1458.24,1686,v1.0
+139,SecureWall ,CRM,4087.04,648,v3.4
+140,HRMaster ,DevOps,3069.03,119,v3.4
+141,SmartOps ,DevOps,70.18,1267,beta
+142,SellFlow Lite,Accounting,1099.1,359,beta
+143,AutoMarket Suite,Marketing Automation,3485.51,1833,v1.5
+144,PulseAnalytics Suite,Cybersecurity,1814.96,1565,beta
+145,ProManage Lite,Accounting,4051.03,196,beta
+146,SmartOps Pro,HR Management,2744.02,1160,v2.1
+147,CodeForge Pro,Marketing Automation,2718.28,1994,v1.0
+148,SmartOps Lite,HR Management,2956.3,524,v3.4
+149,CloudSync Pro,Accounting,879.94,1471,v3.4
+150,CloudSync Suite,CRM,304.64,383,v1.0
+151,AutoMarket Suite,AI Tools,,1035,v1.5
+152,VisionTrack Cloud,Project Management,4262.8,1454,v1.0
+153,DevFlow ,E-Commerce,3481.58,302,
+154,CloudSync ,Cloud Services,4522.71,1613,beta
+155,NovaSuite Lite,Project Management,1031.36,1825,v2.1
+156,GuardNet Lite,AI Tools,1124.44,386,v0.9
+157,AutoMarket Pro,E-Commerce,2870.64,326,v1.0
+158,SecureWall Cloud,DevOps,1061.23,1970,release
+159,SecureWall Suite,CRM,3449.32,1153,v2.1
+160,CodeForge ,Analytics,1142.09,722,v2.1
+161,LeadStream Pro,Accounting,1585.3,1496,v3.4
+162,CloudSync Lite,Marketing Automation,4266.57,1078,release
+163,InsightX Cloud,ERP,3546.81,451,v0.9
+164,NovaSuite Pro,Accounting,510.56,,v3.4
+165,DevFlow Cloud,Cloud Services,3241.24,1051,release
+166,AutoMarket Pro,Mobile App,,1018,release
+167,GuardNet Cloud,Analytics,3752.73,575,v1.5
+168,CodeForge Pro,Cybersecurity,4084.1,105,v2.1
+169,TaskSphere Cloud,Mobile App,,1062,v0.9
+170,ProManage Lite,Mobile App,3825.67,850,v1.5
+171,NovaSuite Cloud,E-Commerce,2324.77,1093,v1.5
+172,TaskSphere ,Analytics,842.77,1310,v1.5
+173,VisionTrack ,CRM,2786.26,935,v1.0
+174,LeadStream Suite,Analytics,53.76,349,v3.4
+175,ProManage Lite,Analytics,4994.51,660,v0.9
+176,DevFlow Lite,AI Tools,844.19,1034,v1.5
+177,SkyMaster Suite,Project Management,1109.85,1921,v3.4
+178,SellFlow Lite,Marketing Automation,1669.26,142,v2.1
+179,PayPro Pro,HR Management,1273.94,1067,
+180,SkyMaster ,Mobile App,894.41,1972,v1.0
+181,DataPilot Pro,Mobile App,2688.63,746,v3.4
+182,NovaSuite Lite,Marketing Automation,1808.19,972,v0.9
+183,NovaSuite Lite,HR Management,2178.02,968,
+184,ProManage Cloud,Cybersecurity,3818.82,1305,release
+185,InsightX Lite,E-Commerce,3996.69,1571,beta
+186,DataPilot Pro,AI Tools,2825.27,1359,v1.5
+187,PayPro Lite,E-Commerce,4806.05,803,
+188,DevFlow Lite,Analytics,3096,1483,beta
+189,InsightX ,HR Management,329.42,719,
+190,TaskSphere Pro,AI Tools,,1082,v2.1
+191,DataPilot Pro,Mobile App,923.29,181,v3.4
+192,SkyMaster Cloud,Accounting,3218.29,1463,beta
+193,TradeSoft ,Cloud Services,2885.93,191,v2.1
+194,AutoMarket Pro,Cybersecurity,2712.72,293,v3.4
+195,SkyMaster Lite,Analytics,2744.79,1096,
+196,CodeForge Cloud,E-Commerce,3264.39,992,
+197,GuardNet ,Cloud Services,4975.5,472,v0.9
+198,ProManage Pro,Accounting,1717.87,1820,beta
+199,PayPro Lite,AI Tools,3057.43,1277,
+200,GuardNet Cloud,HR Management,1927.67,,beta
+201,SellFlow Pro,Cybersecurity,1181.09,92,v1.5
+202,HRMaster Pro,Cloud Services,2876.42,335,v1.5
+203,HRMaster Lite,Project Management,2308.39,1249,v3.4
+204,CodeForge Pro,Analytics,689.15,1073,v0.9
+205,LeadStream Cloud,Project Management,1786.53,474,v2.1
+206,PulseAnalytics ,Accounting,878.44,1453,v1.5
+207,PulseAnalytics Lite,Marketing Automation,470.53,965,v1.5
+208,SkyMaster Suite,HR Management,3653.9,613,v1.5
+209,TaskSphere Pro,Marketing Automation,3343.74,1050,v1.0
+210,PulseAnalytics Cloud,Marketing Automation,2422.91,1489,v0.9
+211,TradeSoft Cloud,HR Management,152.91,402,release
+212,DevFlow Cloud,DevOps,4950.29,821,release
+213,ProManage Lite,AI Tools,984.83,1253,v0.9
+214,NovaSuite Suite,Analytics,306.92,1766,release
+215,LeadStream Suite,Marketing Automation,2716.9,1943,v1.5
+216,SkyMaster Lite,AI Tools,321.83,524,
+217,GuardNet Pro,Marketing Automation,4983.04,1609,v1.5
+218,TradeSoft ,DevOps,3693.72,569,
+219,SmartOps Pro,AI Tools,2442.83,783,v3.4
+220,SmartOps Pro,E-Commerce,3640.51,219,v1.5
+221,VisionTrack Lite,Analytics,2750.88,1128,v1.5
+222,InsightX Pro,Analytics,335.4,1465,
+223,SecureWall Pro,Project Management,243.96,160,release
+224,SecureWall Cloud,Cloud Services,802.53,1752,release
+225,HRMaster ,DevOps,4104.11,1623,release
+226,NovaSuite Cloud,Accounting,2154.71,764,v2.1
+227,AutoMarket ,CRM,1764.64,182,v1.0
+228,AutoMarket Cloud,DevOps,3360.12,1395,beta
+229,SellFlow Suite,Cloud Services,4371.41,410,v0.9
+230,InsightX Cloud,HR Management,4063.38,110,v3.4
+231,DevFlow Pro,Analytics,2111.31,429,v1.0
+232,SkyMaster Pro,Cloud Services,2288.16,1777,v3.4
+233,ProManage Lite,Cloud Services,2242.92,1619,release
+234,NovaSuite Pro,Cloud Services,944.64,50,v3.4
+235,LeadStream Pro,Project Management,2371.09,,v1.5
+236,AutoMarket ,Analytics,4667.63,1762,v0.9
+237,VisionTrack ,Project Management,2757.3,368,release
+238,LeadStream ,Marketing Automation,2973.51,145,v2.1
+239,GuardNet Cloud,HR Management,4267.82,799,release
+240,SellFlow Pro,Cybersecurity,3672.51,930,v1.0
+241,LeadStream Cloud,Cloud Services,1834.41,639,v1.5
+242,SkyMaster Pro,Cloud Services,4437.48,,v2.1
+243,AutoMarket ,Accounting,1574.4,1974,release
+244,AutoMarket Cloud,DevOps,1277.9,136,v1.5
+245,PayPro ,HR Management,3688.01,606,v1.5
+246,LeadStream Pro,Marketing Automation,3572.4,120,beta
+247,DevFlow Cloud,Analytics,300.58,1356,release
+248,CloudSync Suite,E-Commerce,1246.07,711,release
+249,InsightX Cloud,HR Management,540.53,664,
+250,SecureWall Cloud,HR Management,,122,v1.5
+251,GuardNet Pro,ERP,171.87,268,v0.9
+252,DevFlow Suite,Marketing Automation,1548.31,1378,v1.0
+253,TaskSphere ,Marketing Automation,1182.18,91,v2.1
+254,DevFlow ,Analytics,1629.04,956,v2.1
+255,NovaSuite Pro,Analytics,,1460,release
+256,TradeSoft Lite,CRM,,51,v1.0
+257,CodeForge Lite,Marketing Automation,2671.31,340,v1.5
+258,GuardNet ,Project Management,3442.13,1582,release
+259,VisionTrack ,HR Management,,1811,v2.1
+260,DataPilot Lite,CRM,1420.29,600,v2.1
+261,TaskSphere Lite,Marketing Automation,4283.14,217,v2.1
+262,InsightX Pro,Mobile App,2868.47,1741,beta
+263,SecureWall Cloud,Accounting,2864.17,437,v2.1
+264,NovaSuite Cloud,Cloud Services,2711.27,1120,v1.5
+265,SmartOps Cloud,DevOps,4749.15,280,v1.5
+266,VisionTrack Suite,ERP,3757.3,1107,beta
+267,NovaSuite Suite,AI Tools,3169.43,1958,v1.5
+268,DataPilot ,CRM,3957.65,1356,v0.9
+269,TaskSphere ,Analytics,3641.22,1886,v0.9
+270,DevFlow Suite,E-Commerce,591.74,917,beta
+271,SecureWall ,Mobile App,402,1292,v0.9
+272,VisionTrack ,Analytics,3407.55,258,
+273,HRMaster Cloud,Analytics,2777.1,978,release
+274,VisionTrack Pro,AI Tools,1195.93,179,release
+275,HRMaster ,DevOps,314.07,126,
+276,LeadStream Pro,Accounting,2412.31,269,v1.0
+277,TaskSphere Suite,CRM,3547.38,281,v1.5
+278,AutoMarket Suite,CRM,274.48,1188,v2.1
+279,GuardNet ,AI Tools,4597.24,1650,beta
+280,HRMaster Suite,Cloud Services,4078.28,549,v2.1
+281,GuardNet Pro,HR Management,114.19,155,v1.0
+282,PulseAnalytics Pro,Mobile App,3865.86,,v1.0
+283,InsightX Suite,Cloud Services,1180.78,458,beta
+284,SecureWall Suite,Mobile App,2960.16,1102,beta
+285,SmartOps Suite,ERP,3632.16,301,
+286,SmartOps Suite,DevOps,2591.56,177,v0.9
+287,SellFlow Lite,Cybersecurity,2725.14,706,release
+288,LeadStream Pro,Marketing Automation,983.9,1435,v0.9
+289,SellFlow Pro,Cloud Services,3317.02,292,release
+290,SellFlow Cloud,AI Tools,2572.26,1895,v1.5
+291,VisionTrack Lite,HR Management,1803.69,1395,beta
+292,GuardNet Cloud,HR Management,1096.57,1582,release
+293,VisionTrack Cloud,HR Management,118.86,938,v2.1
+294,AutoMarket Lite,Accounting,2016.9,441,v2.1
+295,DevFlow ,ERP,3991.65,919,release
+296,VisionTrack Cloud,HR Management,196.22,439,v0.9
+297,SkyMaster Lite,Cloud Services,127.52,954,beta
+298,NovaSuite ,AI Tools,2430.49,1676,release
+299,PulseAnalytics ,Mobile App,3461.9,1577,v2.1
+300,InsightX Lite,DevOps,3754.52,1538,v3.4
+301,DataPilot Suite,HR Management,510.62,832,v1.5
+302,DataPilot Suite,E-Commerce,1928.79,1546,beta
+303,AutoMarket Suite,Cloud Services,,1135,v1.5
+304,InsightX Pro,Cloud Services,2230.74,379,v0.9
+305,VisionTrack Lite,Project Management,720.48,639,v1.0
+306,InsightX Lite,ERP,2832.38,202,v1.0
+307,HRMaster Cloud,HR Management,4480.95,1671,v3.4
+308,CloudSync ,Cloud Services,3798.94,66,release
+309,TradeSoft Pro,Cybersecurity,3661.85,350,release
+310,SmartOps Suite,Cybersecurity,2877.02,815,v2.1
+311,PayPro Cloud,E-Commerce,3949.93,1451,v1.5
+312,CloudSync ,DevOps,1668.26,1178,beta
+313,VisionTrack ,Cloud Services,949.01,1002,
+314,AutoMarket Lite,ERP,2790.85,1971,v3.4
+315,VisionTrack Lite,CRM,,1817,v1.0
+316,SmartOps ,Cloud Services,4141.2,1872,v0.9
+317,DataPilot Cloud,E-Commerce,3275.1,841,v2.1
+318,HRMaster Pro,DevOps,4512.53,,v0.9
+319,HRMaster Lite,E-Commerce,584.62,1189,v2.1
+320,SkyMaster Pro,Cloud Services,4619.32,1533,
+321,DataPilot Cloud,Analytics,,391,v0.9
+322,SellFlow Pro,ERP,809.19,404,v3.4
+323,CloudSync Lite,Analytics,4306.79,260,v0.9
+324,PulseAnalytics Cloud,E-Commerce,1737.09,637,v0.9
+325,PayPro Pro,Cybersecurity,3218.04,1733,v2.1
+326,TradeSoft Pro,Project Management,931.72,680,release
+327,TaskSphere Suite,Cloud Services,1165.48,592,release
+328,NovaSuite Pro,Project Management,759.98,1667,v1.0
+329,SellFlow Lite,ERP,4371.68,1361,release
+330,SmartOps Cloud,Accounting,1509.73,1670,release
+331,AutoMarket Lite,E-Commerce,4298.03,1071,v1.5
+332,HRMaster Cloud,HR Management,1016.61,1317,v3.4
+333,InsightX ,E-Commerce,4519.93,1399,v1.5
+334,AutoMarket Pro,Accounting,3923.43,845,v1.5
+335,TradeSoft ,HR Management,4547.55,506,v2.1
+336,CloudSync Cloud,AI Tools,466.95,974,
+337,AutoMarket Cloud,HR Management,1425.91,1085,beta
+338,SmartOps Cloud,Marketing Automation,2247.14,20,release
+339,DevFlow Suite,AI Tools,126.82,1258,beta
+340,PulseAnalytics Cloud,Cybersecurity,317.8,431,v3.4
+341,VisionTrack Suite,DevOps,2704.8,1321,v3.4
+342,DevFlow Cloud,Mobile App,4320.16,1444,
+343,PayPro ,Project Management,3695.41,90,v1.0
+344,CodeForge ,ERP,550.63,1714,
+345,TradeSoft Pro,Accounting,650.68,1917,beta
+346,CloudSync Lite,Cybersecurity,2705.41,1965,
+347,LeadStream Pro,AI Tools,,488,release
+348,HRMaster Pro,Mobile App,758.47,628,v1.5
+349,SecureWall ,Cybersecurity,2284.78,874,
+350,PulseAnalytics Pro,ERP,1690.96,1763,v2.1
+351,HRMaster ,CRM,4045.85,1199,release
+352,PulseAnalytics Suite,Mobile App,1601.11,1502,v1.5
+353,VisionTrack Cloud,HR Management,4996.8,257,v1.5
+354,HRMaster Cloud,E-Commerce,4543.16,1013,v1.0
+355,ProManage Lite,E-Commerce,1456.59,1759,v0.9
+356,AutoMarket Pro,ERP,,866,v3.4
+357,DevFlow Lite,Cloud Services,4736.26,1365,
+358,GuardNet Lite,Cybersecurity,964.25,1072,v1.0
+359,SecureWall Lite,Accounting,1330.02,452,v2.1
+360,AutoMarket Pro,DevOps,2514.16,494,v1.5
+361,LeadStream Lite,Cybersecurity,2915.09,229,v0.9
+362,VisionTrack ,E-Commerce,1371.59,1389,v1.5
+363,VisionTrack Suite,Analytics,2568.28,453,v1.5
+364,SellFlow Lite,Analytics,4066.08,1677,release
+365,InsightX Suite,Analytics,224,1461,v1.0
+366,HRMaster Suite,Project Management,2883.97,1072,
+367,VisionTrack ,Mobile App,3589.57,472,v3.4
+368,CodeForge Lite,DevOps,439.02,205,v1.5
+369,GuardNet Suite,Project Management,385.1,485,release
+370,HRMaster Lite,Cybersecurity,402.48,90,v2.1
+371,TaskSphere ,ERP,133.27,1345,release
+372,CodeForge Cloud,AI Tools,4134.82,1706,v3.4
+373,SecureWall ,Marketing Automation,3943.46,1415,beta
+374,NovaSuite Cloud,Cloud Services,2625.38,1258,beta
+375,CodeForge Lite,Marketing Automation,3363.36,1458,v3.4
+376,InsightX Lite,Cybersecurity,4711.27,1279,beta
+377,SellFlow Suite,HR Management,4923.13,724,beta
+378,SkyMaster Suite,AI Tools,488.83,1254,v1.0
+379,SmartOps Cloud,AI Tools,125.73,742,v0.9
+380,DataPilot ,Cybersecurity,172,1769,v2.1
+381,HRMaster ,Accounting,2809.24,,beta
+382,DevFlow Cloud,HR Management,1581.57,757,v1.5
+383,SkyMaster Lite,AI Tools,2327.16,1263,
+384,SkyMaster Pro,Project Management,1434.17,1534,v1.0
+385,PayPro Cloud,Marketing Automation,1901.58,950,release
+386,TaskSphere Cloud,Cloud Services,3814.03,1203,v3.4
+387,DataPilot ,Accounting,1195.33,1236,beta
+388,TradeSoft Lite,Cloud Services,2451,128,beta
+389,VisionTrack Pro,ERP,2734.55,,v1.5
+390,DataPilot Lite,Analytics,2490.81,1319,v3.4
+391,NovaSuite Suite,Accounting,4346.76,1710,v1.5
+392,VisionTrack ,Cloud Services,129.28,1564,v2.1
+393,DataPilot Lite,ERP,4571.07,605,v2.1
+394,TradeSoft Cloud,ERP,3065.51,,v1.0
+395,GuardNet Pro,Marketing Automation,4738.46,1206,beta
+396,DataPilot Pro,Project Management,3050.72,125,v1.5
+397,ProManage ,AI Tools,739.73,1364,v0.9
+398,SmartOps Suite,CRM,646.34,941,v2.1
+399,PulseAnalytics Cloud,Analytics,1593.97,1452,
+400,PulseAnalytics Suite,HR Management,754,436,v0.9
+401,ProManage Cloud,DevOps,2615.91,795,
+402,TaskSphere Suite,Analytics,2814.36,1765,v0.9
+403,CloudSync Cloud,Analytics,3908.4,1921,v2.1
+404,CodeForge Lite,Project Management,1765.6,891,v3.4
+405,DevFlow Pro,Mobile App,851.44,1178,v3.4
+406,PulseAnalytics Lite,HR Management,1793.07,392,v1.0
+407,DataPilot Cloud,HR Management,322.61,408,beta
+408,LeadStream Cloud,CRM,3604.79,1684,v0.9
+409,SellFlow Pro,Analytics,1181.9,,beta
+410,DevFlow Pro,HR Management,,53,
+411,ProManage Lite,Project Management,576.78,1390,release
+412,SmartOps Cloud,E-Commerce,602.35,1179,
+413,SellFlow Cloud,Mobile App,4703.07,1085,v1.5
+414,InsightX Lite,Cybersecurity,3301.77,1989,
+415,TaskSphere Cloud,HR Management,3712.83,1911,v3.4
+416,CloudSync Pro,HR Management,1244.82,1902,v3.4
+417,SmartOps Lite,ERP,1697.89,323,v0.9
+418,DevFlow Lite,Analytics,2269.06,1384,release
+419,HRMaster Suite,AI Tools,2036.14,1281,v0.9
+420,SmartOps Pro,E-Commerce,1756.62,1835,
+421,PayPro Suite,Project Management,4677.43,1513,release
+422,SecureWall Suite,Mobile App,3931.47,514,v2.1
+423,InsightX Lite,Project Management,2519.79,904,v2.1
+424,VisionTrack ,E-Commerce,3108.08,1982,v1.5
+425,PayPro Cloud,Accounting,720.26,1496,v1.0
+426,DataPilot ,E-Commerce,1907.32,1146,beta
+427,GuardNet ,E-Commerce,1736.71,1108,
+428,SecureWall Pro,Accounting,2681.11,1511,v0.9
+429,InsightX Cloud,Accounting,1736.91,1374,beta
+430,SmartOps Suite,Cybersecurity,1511.35,535,v3.4
+431,LeadStream Lite,Analytics,935.63,40,
+432,TaskSphere Lite,Analytics,217.62,1814,release
+433,TradeSoft Suite,AI Tools,1703.99,1453,v0.9
+434,VisionTrack ,CRM,1732.89,1920,beta
+435,InsightX Cloud,ERP,1221.41,1581,v2.1
+436,CloudSync Cloud,E-Commerce,2400.74,1950,v0.9
+437,CloudSync Cloud,Accounting,4830.94,1851,beta
+438,InsightX Pro,HR Management,3044.21,1704,release
+439,AutoMarket Cloud,Mobile App,3655.12,775,
+440,PayPro Lite,Accounting,,617,v2.1
+441,GuardNet Pro,AI Tools,2242.28,1085,v3.4
+442,SkyMaster ,Project Management,3740.55,855,release
+443,LeadStream Suite,Cybersecurity,4862.99,826,release
+444,DevFlow Pro,Cloud Services,1623.19,,release
+445,TaskSphere Lite,Project Management,2891.47,972,v3.4
+446,NovaSuite Lite,Mobile App,3501.62,1797,v2.1
+447,NovaSuite Suite,E-Commerce,4598.61,1223,beta
+448,GuardNet Cloud,HR Management,2690.74,775,v2.1
+449,AutoMarket Suite,ERP,2146.38,530,v1.5
+450,GuardNet Lite,DevOps,1862.95,303,v3.4
+451,InsightX Pro,E-Commerce,4964.49,1596,beta
+452,LeadStream Cloud,Mobile App,217.51,350,
+453,PayPro Cloud,ERP,3948.19,588,release
+454,SellFlow ,Cybersecurity,1564.03,1932,v0.9
+455,SecureWall Suite,HR Management,3415.54,1081,v2.1
+456,TradeSoft Suite,AI Tools,4989.86,1718,v1.5
+457,PulseAnalytics Suite,HR Management,2900.22,588,v0.9
+458,NovaSuite Lite,Mobile App,3434.85,1038,v0.9
+459,InsightX Cloud,DevOps,4122.26,38,beta
+460,TradeSoft ,Mobile App,4290.09,845,v0.9
+461,PulseAnalytics Lite,Analytics,3278.88,1795,v1.0
+462,VisionTrack Suite,E-Commerce,2222.92,1846,
+463,SecureWall Lite,Analytics,3931.28,657,
+464,HRMaster Lite,DevOps,1622.67,347,
+465,DataPilot Pro,CRM,4234.3,466,v1.0
+466,CodeForge Suite,AI Tools,,677,beta
+467,ProManage Lite,Accounting,2154.85,92,v3.4
+468,GuardNet Lite,Cloud Services,909.39,502,release
+469,TradeSoft ,Analytics,3462.21,1267,release
+470,NovaSuite Suite,Marketing Automation,2379.27,335,
+471,DevFlow Suite,Marketing Automation,1400.52,573,
+472,NovaSuite ,Analytics,1060.8,,v1.0
+473,SkyMaster Cloud,DevOps,2301.18,1741,beta
+474,AutoMarket Cloud,E-Commerce,4672.63,615,v1.5
+475,LeadStream Suite,Cybersecurity,175.26,1865,v2.1
+476,PayPro Suite,DevOps,2802.82,761,v2.1
+477,ProManage Pro,Cybersecurity,4810.23,898,v1.5
+478,TradeSoft Lite,Cloud Services,402.97,272,release
+479,SkyMaster ,E-Commerce,2131.67,1809,release
+480,DevFlow Lite,E-Commerce,296.33,1442,
+481,SkyMaster ,Marketing Automation,124.88,1301,v3.4
+482,AutoMarket Pro,E-Commerce,2862.45,,v2.1
+483,VisionTrack Pro,CRM,2704.36,1878,v3.4
+484,PayPro Pro,Mobile App,2720.63,735,v3.4
+485,SellFlow Pro,Mobile App,1798.22,727,release
+486,SkyMaster ,DevOps,4995.81,1910,release
+487,PulseAnalytics Pro,Mobile App,3305.14,377,v1.5
+488,CodeForge Suite,Analytics,4891.16,337,v1.0
+489,NovaSuite Suite,E-Commerce,1253.47,,v0.9
+490,TaskSphere Pro,Accounting,1396.17,558,v2.1
+491,CodeForge Lite,Marketing Automation,1155.5,945,v1.5
+492,PayPro Lite,Cloud Services,3902.42,1492,v2.1
+493,ProManage Lite,DevOps,3226.18,145,beta
+494,CodeForge Pro,Cybersecurity,409.96,353,v1.0
+495,DataPilot Pro,Mobile App,3130.34,269,release
+496,SecureWall Cloud,Accounting,3307.61,92,
+497,InsightX Lite,AI Tools,3249.67,364,v1.0
+498,AutoMarket Pro,CRM,,79,v3.4
+499,DevFlow Lite,AI Tools,3970.68,1119,beta
+500,LeadStream Pro,Marketing Automation,681.61,586,v0.9
