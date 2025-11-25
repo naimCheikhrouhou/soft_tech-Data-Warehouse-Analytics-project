@@ -1,0 +1,11 @@
+team_id,team_name,department,manager_id
+1,Backend Team,R&D,24
+2,QA Team,QA,83
+3,Frontend Team,R&D,39
+4,DevOps Team,IT Ops,38
+5,Mobile Team,R&D,46
+6,Project Leads,Management,38
+7,Support Team,Support,48
+8,Data Science Team,R&D,27
+9,Security Team,IT Ops,158
+10,UI/UX Team,R&D,128
