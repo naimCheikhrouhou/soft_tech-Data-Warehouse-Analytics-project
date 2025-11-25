@@ -1,0 +1,301 @@
+interview_id,candidate_id,recruiter_id,interview_score,notes,team_id,result
+1,1,44,66,Good skills,2,Pending
+2,2,7,91,Excellent,10,Accepted
+3,3,7,91,Excellent,6,Accepted
+4,4,26,81,Average performance,1,Accepted
+5,5,7,62,Excellent,3,Pending
+6,6,44,80,Excellent,10,Accepted
+7,7,18,62,Promising,9,Pending
+8,8,18,79,Promising,8,Pending
+9,9,7,79,Excellent,9,Pending
+10,10,18,91,Average performance,1,Accepted
+11,11,18,90,Excellent,9,Accepted
+12,12,26,63,Excellent,9,Pending
+13,13,7,84,Average performance,7,Accepted
+14,14,26,78,Needs training,7,Pending
+15,15,18,62,Promising,4,Pending
+16,16,18,61,Needs training,1,Pending
+17,17,18,82,Needs training,6,Accepted
+18,18,7,75,Promising,2,Pending
+19,19,18,65,Good skills,8,Pending
+20,20,26,70,Good skills,10,Pending
+21,21,7,89,Excellent,2,Accepted
+22,22,7,77,Good skills,10,Pending
+23,23,18,61,Needs training,5,Pending
+24,24,7,80,Average performance,3,Accepted
+25,25,43,73,Needs training,9,Pending
+26,26,7,81,Promising,7,Accepted
+27,27,43,87,Promising,3,Accepted
+28,28,43,94,Promising,1,Accepted
+29,29,26,79,Average performance,3,Pending
+30,30,26,65,Average performance,10,Pending
+31,31,26,77,Good skills,2,Pending
+32,32,7,87,Promising,4,Accepted
+33,33,7,79,Average performance,10,Pending
+34,34,44,94,Needs training,10,Accepted
+35,35,18,76,Average performance,5,Pending
+36,36,7,95,Promising,10,Accepted
+37,37,7,93,Promising,4,Accepted
+38,38,18,89,Needs training,4,Accepted
+39,39,7,87,Average performance,6,Accepted
+40,40,7,93,Promising,1,Accepted
+41,41,44,75,Promising,7,Pending
+42,42,44,79,Excellent,4,Pending
+43,43,7,73,Excellent,10,Pending
+44,44,44,70,Needs training,9,Pending
+45,45,44,85,Promising,2,Accepted
+46,46,18,61,Promising,10,Pending
+47,47,7,95,Excellent,10,Accepted
+48,48,7,72,Promising,2,Pending
+49,49,7,76,Needs training,5,Pending
+50,50,26,62,Excellent,1,Pending
+51,51,43,80,Average performance,7,Accepted
+52,52,18,83,Good skills,5,Accepted
+53,53,18,75,Good skills,9,Pending
+54,54,18,67,Average performance,6,Pending
+55,55,26,93,Needs training,1,Accepted
+56,56,44,67,Needs training,6,Pending
+57,57,43,84,Promising,7,Accepted
+58,58,7,66,Promising,6,Pending
+59,59,7,86,Needs training,2,Accepted
+60,60,43,94,Needs training,1,Accepted
+61,61,7,94,Excellent,2,Accepted
+62,62,18,77,Promising,2,Pending
+63,63,26,83,Needs training,2,Accepted
+64,64,26,62,Good skills,9,Pending
+65,65,26,76,Average performance,8,Pending
+66,66,26,83,Good skills,7,Accepted
+67,67,43,84,Good skills,10,Accepted
+68,68,7,65,Promising,2,Pending
+69,69,44,88,Needs training,10,Accepted
+70,70,26,77,Good skills,7,Pending
+71,71,7,86,Needs training,3,Accepted
+72,72,44,70,Needs training,1,Pending
+73,73,7,86,Average performance,1,Accepted
+74,74,7,80,Excellent,4,Accepted
+75,75,44,63,Promising,9,Pending
+76,76,7,68,Good skills,1,Pending
+77,77,44,79,Needs training,4,Pending
+78,78,7,70,Promising,2,Pending
+79,79,7,68,Average performance,2,Pending
+80,80,26,88,Excellent,5,Accepted
+81,81,7,71,Average performance,9,Pending
+82,82,26,65,Excellent,4,Pending
+83,83,7,84,Average performance,10,Accepted
+84,84,44,95,Average performance,9,Accepted
+85,85,7,89,Promising,7,Accepted
+86,86,44,63,Excellent,10,Pending
+87,87,18,76,Promising,1,Pending
+88,88,44,67,Good skills,7,Pending
+89,89,43,89,Excellent,6,Accepted
+90,90,18,73,Promising,8,Pending
+91,91,43,91,Excellent,7,Accepted
+92,92,26,73,Needs training,6,Pending
+93,93,18,86,Promising,9,Accepted
+94,94,7,78,Needs training,9,Pending
+95,95,18,75,Needs training,3,Pending
+96,96,44,89,Good skills,6,Accepted
+97,97,44,80,Excellent,2,Accepted
+98,98,44,84,Excellent,6,Accepted
+99,99,26,64,Good skills,9,Pending
+100,100,7,81,Promising,2,Accepted
+101,101,26,62,Good skills,3,Pending
+102,102,7,84,Needs training,8,Accepted
+103,103,18,68,Average performance,10,Pending
+104,104,43,76,Promising,5,Pending
+105,105,26,89,Promising,4,Accepted
+106,106,18,93,Excellent,10,Accepted
+107,107,44,80,Good skills,3,Accepted
+108,108,7,83,Excellent,5,Accepted
+109,109,26,76,Average performance,3,Pending
+110,110,43,80,Excellent,7,Accepted
+111,111,43,88,Good skills,4,Accepted
+112,112,18,74,Promising,5,Pending
+113,113,26,70,Excellent,8,Pending
+114,114,7,62,Excellent,10,Pending
+115,115,7,91,Excellent,2,Accepted
+116,116,7,69,Good skills,8,Pending
+117,117,44,78,Promising,1,Pending
+118,118,7,77,Average performance,1,Pending
+119,119,7,60,Average performance,6,Pending
+120,120,44,64,Promising,5,Pending
+121,121,7,81,Good skills,10,Accepted
+122,122,18,67,Excellent,5,Pending
+123,123,7,80,Promising,5,Accepted
+124,124,26,90,Excellent,3,Accepted
+125,125,18,60,Needs training,8,Pending
+126,126,26,88,Needs training,2,Accepted
+127,127,44,68,Promising,4,Pending
+128,128,43,80,Good skills,7,Accepted
+129,129,43,84,Good skills,7,Accepted
+130,130,7,75,Excellent,7,Pending
+131,131,44,70,Excellent,6,Pending
+132,132,18,69,Good skills,7,Pending
+133,133,26,79,Average performance,10,Pending
+134,134,18,66,Needs training,10,Pending
+135,135,18,88,Excellent,9,Accepted
+136,136,43,87,Good skills,10,Accepted
+137,137,44,71,Excellent,3,Pending
+138,138,7,62,Average performance,9,Pending
+139,139,26,74,Promising,5,Pending
+140,140,7,93,Good skills,10,Accepted
+141,141,43,65,Excellent,6,Pending
+142,142,7,79,Promising,4,Pending
+143,143,44,63,Average performance,9,Pending
+144,144,26,66,Average performance,7,Pending
+145,145,26,89,Average performance,8,Accepted
+146,146,18,65,Average performance,4,Pending
+147,147,43,89,Promising,5,Accepted
+148,148,18,65,Excellent,4,Pending
+149,149,26,89,Excellent,1,Accepted
+150,150,18,71,Promising,1,Pending
+151,151,26,76,Good skills,3,Pending
+152,152,7,60,Excellent,9,Pending
+153,153,26,90,Excellent,3,Accepted
+154,154,44,91,Needs training,3,Accepted
+155,155,44,85,Needs training,7,Accepted
+156,156,18,60,Promising,6,Pending
+157,157,7,72,Good skills,5,Pending
+158,158,7,69,Promising,1,Pending
+159,159,7,72,Good skills,3,Pending
+160,160,26,90,Excellent,3,Accepted
+161,161,7,69,Excellent,1,Pending
+162,162,43,88,Average performance,6,Accepted
+163,163,43,85,Good skills,7,Accepted
+164,164,43,87,Excellent,9,Accepted
+165,165,44,95,Needs training,1,Accepted
+166,166,26,91,Average performance,10,Accepted
+167,167,43,91,Promising,3,Accepted
+168,168,43,61,Excellent,5,Pending
+169,169,43,64,Needs training,6,Pending
+170,170,43,67,Excellent,3,Pending
+171,171,43,88,Excellent,10,Accepted
+172,172,7,72,Excellent,8,Pending
+173,173,26,92,Promising,10,Accepted
+174,174,43,89,Promising,4,Accepted
+175,175,43,84,Excellent,1,Accepted
+176,176,44,83,Excellent,6,Accepted
+177,177,7,78,Good skills,2,Pending
+178,178,7,71,Promising,5,Pending
+179,179,43,66,Excellent,2,Pending
+180,180,18,73,Average performance,8,Pending
+181,181,26,76,Needs training,7,Pending
+182,182,44,92,Good skills,5,Accepted
+183,183,26,67,Average performance,9,Pending
+184,184,26,74,Excellent,6,Pending
+185,185,18,62,Average performance,3,Pending
+186,186,43,92,Average performance,4,Accepted
+187,187,44,63,Excellent,4,Pending
+188,188,18,66,Average performance,1,Pending
+189,189,18,70,Good skills,8,Pending
+190,190,18,78,Excellent,4,Pending
+191,191,43,66,Promising,3,Pending
+192,192,7,68,Good skills,9,Pending
+193,193,18,60,Promising,10,Pending
+194,194,7,92,Promising,10,Accepted
+195,195,26,86,Needs training,4,Accepted
+196,196,26,69,Average performance,9,Pending
+197,197,44,87,Excellent,6,Accepted
+198,198,26,83,Good skills,2,Accepted
+199,199,7,60,Average performance,9,Pending
+200,200,7,80,Excellent,5,Accepted
+201,201,43,85,Good skills,5,Accepted
+202,202,44,63,Average performance,4,Pending
+203,203,18,95,Needs training,10,Accepted
+204,204,44,82,Good skills,7,Accepted
+205,205,18,69,Excellent,10,Pending
+206,206,26,94,Average performance,5,Accepted
+207,207,43,82,Excellent,4,Accepted
+208,208,7,62,Average performance,9,Pending
+209,209,18,68,Average performance,9,Pending
+210,210,44,65,Average performance,1,Pending
+211,211,26,81,Promising,4,Accepted
+212,212,44,76,Promising,10,Pending
+213,213,7,92,Good skills,8,Accepted
+214,214,44,76,Average performance,10,Pending
+215,215,26,67,Excellent,7,Pending
+216,216,43,60,Excellent,7,Pending
+217,217,44,94,Average performance,4,Accepted
+218,218,44,78,Average performance,6,Pending
+219,219,7,84,Average performance,10,Accepted
+220,220,43,80,Average performance,10,Accepted
+221,221,7,83,Excellent,5,Accepted
+222,222,18,87,Excellent,10,Accepted
+223,223,26,87,Promising,4,Accepted
+224,224,26,64,Needs training,1,Pending
+225,225,44,95,Average performance,4,Accepted
+226,226,18,91,Excellent,5,Accepted
+227,227,43,86,Promising,2,Accepted
+228,228,43,91,Excellent,8,Accepted
+229,229,26,93,Good skills,5,Accepted
+230,230,26,90,Good skills,8,Accepted
+231,231,44,83,Good skills,4,Accepted
+232,232,18,67,Needs training,4,Pending
+233,233,7,93,Promising,6,Accepted
+234,234,44,83,Needs training,2,Accepted
+235,235,7,69,Promising,9,Pending
+236,236,44,79,Needs training,2,Pending
+237,237,7,91,Good skills,6,Accepted
+238,238,7,64,Good skills,3,Pending
+239,239,26,79,Average performance,4,Pending
+240,240,18,90,Average performance,8,Accepted
+241,241,7,89,Excellent,8,Accepted
+242,242,18,80,Good skills,1,Accepted
+243,243,26,86,Excellent,2,Accepted
+244,244,7,94,Good skills,6,Accepted
+245,245,18,77,Good skills,2,Pending
+246,246,44,79,Average performance,1,Pending
+247,247,43,95,Good skills,9,Accepted
+248,248,43,63,Average performance,3,Pending
+249,249,26,90,Average performance,3,Accepted
+250,250,26,94,Promising,5,Accepted
+251,251,43,75,Average performance,6,Pending
+252,252,18,80,Excellent,8,Accepted
+253,253,43,61,Needs training,5,Pending
+254,254,44,61,Average performance,7,Pending
+255,255,26,65,Good skills,5,Pending
+256,256,43,78,Promising,9,Pending
+257,257,44,65,Promising,1,Pending
+258,258,43,70,Good skills,10,Pending
+259,259,43,61,Good skills,1,Pending
+260,260,44,80,Promising,4,Accepted
+261,261,18,84,Good skills,2,Accepted
+262,262,44,75,Excellent,6,Pending
+263,263,44,67,Needs training,6,Pending
+264,264,26,95,Excellent,4,Accepted
+265,265,26,86,Promising,3,Accepted
+266,266,43,66,Promising,10,Pending
+267,267,26,79,Average performance,10,Pending
+268,268,44,92,Promising,9,Accepted
+269,269,26,70,Promising,1,Pending
+270,270,26,88,Good skills,2,Accepted
+271,271,26,78,Promising,6,Pending
+272,272,43,77,Average performance,5,Pending
+273,273,7,82,Promising,1,Accepted
+274,274,43,62,Promising,9,Pending
+275,275,44,64,Needs training,2,Pending
+276,276,18,67,Promising,9,Pending
+277,277,44,87,Promising,6,Accepted
+278,278,43,81,Needs training,2,Accepted
+279,279,43,75,Needs training,4,Pending
+280,280,26,81,Good skills,8,Accepted
+281,281,7,60,Average performance,5,Pending
+282,282,18,71,Excellent,3,Pending
+283,283,43,91,Excellent,6,Accepted
+284,284,18,64,Average performance,8,Pending
+285,285,26,67,Needs training,9,Pending
+286,286,26,84,Promising,8,Accepted
+287,287,44,89,Needs training,6,Accepted
+288,288,18,74,Good skills,5,Pending
+289,289,18,82,Promising,7,Accepted
+290,290,43,79,Promising,2,Pending
+291,291,18,62,Needs training,2,Pending
+292,292,18,73,Good skills,7,Pending
+293,293,18,67,Needs training,8,Pending
+294,294,44,70,Average performance,8,Pending
+295,295,18,71,Good skills,10,Pending
+296,296,44,64,Promising,10,Pending
+297,297,26,93,Needs training,1,Accepted
+298,298,26,94,Average performance,7,Accepted
+299,299,43,89,Good skills,1,Accepted
+300,300,26,63,Needs training,4,Pending
