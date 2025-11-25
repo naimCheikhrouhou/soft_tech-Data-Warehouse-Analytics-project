@@ -1,6 +1,9 @@
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
 BEGIN 
-DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME ; 
+DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME ,
+ @path NVARCHAR(500) = '//data warehouse project path ';
+--hassen||    C:\Users\hassen grine\Desktop\soft_tech-Data-Warehouse-Analytics-project\sql-data-warehouse-project-main
+--naim||   C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project                                                                       
    set @start = GETDATE();
   BEGIN TRY 
     print '==========================================================================';
@@ -13,7 +16,7 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
      set @start_time = GETDATE();
     TRUNCATE TABLE bronze.customers_branche_tunis ;
     BULK INSERT bronze.customers_branche_tunis
-    FROM 'C:\Users\hassen grine\Desktop\soft_tech-Data-Warehouse-Analytics-project\sql-data-warehouse-project-main\datasets\source_principale\tunis.csv'
+    FROM                        @path +'\datasets\source_principale\tunis.csv'
     WITH(
     FIRSTROW =2 ,
   
@@ -26,7 +29,7 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
      set @start_time = GETDATE();
     TRUNCATE TABLE bronze.customers_branche_france ;
     BULK INSERT bronze.customers_branche_france
-    FROM 'C:\Users\hassen grine\Desktop\soft_tech-Data-Warehouse-Analytics-project\sql-data-warehouse-project-main\datasets\source_principale\france.csv'
+    FROM @path '\datasets\source_principale\france.csv'
     WITH(
     FIRSTROW =2 ,
   
@@ -40,7 +43,7 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
      set @start_time = GETDATE();
     TRUNCATE TABLE bronze.products ;
     BULK INSERT bronze.products
-    FROM 'C:\Users\hassen grine\Desktop\soft_tech-Data-Warehouse-Analytics-project\sql-data-warehouse-project-main\datasets\source_principale\products.csv'
+    FROM @path +'    \datasets\source_principale\products.csv'
     WITH(
     FIRSTROW =2 ,
      
@@ -54,7 +57,7 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
      set @start_time = GETDATE();
     TRUNCATE TABLE bronze.sales_orders ;
     BULK INSERT bronze.sales_orders
-    FROM 'C:\Users\hassen grine\Desktop\soft_tech-Data-Warehouse-Analytics-project\sql-data-warehouse-project-main\datasets\source_principale\sales.csv'
+    FROM  @path +'\datasets\source_principale\sales.csv'
     WITH(
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
@@ -68,7 +71,7 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
      set @start_time = GETDATE();
     TRUNCATE TABLE bronze.projects ;
     BULK INSERT bronze.projects
-    FROM 'C:\Users\hassen grine\Desktop\soft_tech-Data-Warehouse-Analytics-project\sql-data-warehouse-project-main\datasets\source_principale\projects.csv'
+    FROM                @path +'\datasets\source_principale\projects.csv'
     WITH(
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
@@ -81,7 +84,7 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
      set @start_time = GETDATE();
     TRUNCATE TABLE bronze.project_bug_reports ;
     BULK INSERT bronze.project_bug_reports
-    FROM 'C:\Users\hassen grine\Desktop\soft_tech-Data-Warehouse-Analytics-project\sql-data-warehouse-project-main\datasets\source_principale\project_bug_reports.csv'
+    FROM                @path + '\datasets\source_principale\project_bug_reports.csv'
     WITH(
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
@@ -101,7 +104,7 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
         set @start_time = GETDATE();
     TRUNCATE TABLE bronze.employees ;  
     BULK INSERT bronze.employees
-    FROM 'C:\Users\hassen grine\Desktop\soft_tech-Data-Warehouse-Analytics-project\sql-data-warehouse-project-main\datasets\source_principale\employees.csv'
+    FROM @path+'\datasets\source_principale\employees.csv'
     WITH(
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
@@ -116,7 +119,7 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
         set @start_time = GETDATE();
     TRUNCATE TABLE bronze.teams ;
     BULK INSERT bronze.teams
-    FROM 'C:\Users\hassen grine\Desktop\soft_tech-Data-Warehouse-Analytics-project\sql-data-warehouse-project-main\datasets\source_principale\teams.csv'
+    FROM @path + '\datasets\source_principale\teams.csv'
     WITH(
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
@@ -130,7 +133,7 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
         set @start_time = GETDATE();
     TRUNCATE TABLE bronze.employee_performance ;
     BULK INSERT bronze.employee_performance
-    FROM 'C:\Users\hassen grine\Desktop\soft_tech-Data-Warehouse-Analytics-project\sql-data-warehouse-project-main\datasets\source_principale\employee_performance.csv'
+    FROM @path +'\datasets\source_principale\employee_performance.csv'
     WITH(
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
@@ -145,7 +148,7 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
      set @start_time = GETDATE();
     TRUNCATE TABLE bronze.candidates ;
     BULK INSERT bronze.candidates
-    FROM 'C:\Users\hassen grine\Desktop\soft_tech-Data-Warehouse-Analytics-project\sql-data-warehouse-project-main\datasets\source_principale\candidates.csv'
+    FROM @path + '\datasets\source_principale\candidates.csv'
     WITH(
     FIRSTROW =2 ,
     
@@ -159,7 +162,7 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
      set @start_time = GETDATE();
     TRUNCATE TABLE bronze.candidate_cv_raw ;
     BULK INSERT bronze.candidate_cv_raw
-    FROM 'C:\Users\hassen grine\Desktop\soft_tech-Data-Warehouse-Analytics-project\sql-data-warehouse-project-main\datasets\source_principale\candidate_cv_raw.csv'
+    FROM @path + '\datasets\source_principale\candidate_cv_raw.csv'
     WITH(
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
@@ -172,7 +175,7 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
      set @start_time = GETDATE();
     TRUNCATE TABLE bronze.candidate_interviews ;
     BULK INSERT bronze.candidate_interviews
-    FROM 'C:\Users\hassen grine\Desktop\soft_tech-Data-Warehouse-Analytics-project\sql-data-warehouse-project-main\datasets\source_principale\candidate_interviews.csv'
+    FROM @path + '\datasets\source_principale\candidate_interviews.csv'
     WITH(
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
