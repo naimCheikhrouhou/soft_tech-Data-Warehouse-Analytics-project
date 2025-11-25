@@ -1,9 +1,9 @@
 -- ========================================
--- 1. TABLES CLIENTS / SALES
+-- 1. TABLES CLIENTS / SALES   ________________________________________________(tunis_source ) _______________________
 -- ========================================
 
-DROP TABLE IF EXISTS bronze.customers;
-CREATE TABLE bronze.customers (
+DROP TABLE IF EXISTS bronze.customers_tunis;
+CREATE TABLE bronze.customers_tunis (
     customer_id INT,
     company_name VARCHAR(100),
     contact_name VARCHAR(100),
@@ -13,8 +13,8 @@ CREATE TABLE bronze.customers (
     country VARCHAR(50)
 );
 
-DROP TABLE IF EXISTS bronze.products;
-CREATE TABLE bronze.products (
+DROP TABLE IF EXISTS bronze.products_tunis;
+CREATE TABLE bronze.products_tunis (
     product_id INT,
     product_name VARCHAR(100),
     category VARCHAR(50),
@@ -23,8 +23,8 @@ CREATE TABLE bronze.products (
     version VARCHAR(20)
 );
 
-DROP TABLE IF EXISTS bronze.sales_orders;
-CREATE TABLE bronze.sales_orders (
+DROP TABLE IF EXISTS bronze.sales_orders_tunis;
+CREATE TABLE bronze.sales_orders_tunis(
     sale_id INT,
     customer_id INT,
     product_id INT,
@@ -38,8 +38,8 @@ CREATE TABLE bronze.sales_orders (
 -- 2. TABLES PROJETS / BUGS
 -- ========================================
 
-DROP TABLE IF EXISTS bronze.projects;
-CREATE TABLE bronze.projects (
+DROP TABLE IF EXISTS bronze.projects_tunis;
+CREATE TABLE bronze.projects_tunis (
     project_id INT,
     customer_id INT,
     project_name VARCHAR(100),
@@ -52,8 +52,8 @@ CREATE TABLE bronze.projects (
     status VARCHAR(20)
 );
 
-DROP TABLE IF EXISTS bronze.project_bug_reports;
-CREATE TABLE bronze.project_bug_reports (
+DROP TABLE IF EXISTS bronze.project_bug_reports_tunis;
+CREATE TABLE bronze.project_bug_reports_tunis (
     bug_id INT,
     project_id INT,
     severity VARCHAR(20),
@@ -63,11 +63,11 @@ CREATE TABLE bronze.project_bug_reports (
 );
 
 -- ==========================================
--- 3. TABLES EMPLOYEES / TEAMS / PERFORMANCE
+-- 3. TABLES EMPLOYEES / TEAMS / PERFORMANCE_______________________________________________________________________________
 -- ==========================================
 
 DROP TABLE IF EXISTS bronze.teams;
-CREATE TABLE bronze.teams (
+CREATE TABLE bronze.teams_tunis (
     team_id INT,
     team_name VARCHAR(50),
     department VARCHAR(50),
@@ -75,7 +75,7 @@ CREATE TABLE bronze.teams (
 );
 
 DROP TABLE IF EXISTS bronze.employees;
-CREATE TABLE bronze.employees (
+CREATE TABLE bronze.employees_tunis (
     employee_id INT,
     full_name VARCHAR(100),
     role VARCHAR(50),
@@ -87,7 +87,7 @@ CREATE TABLE bronze.employees (
 );
 
 DROP TABLE IF EXISTS bronze.employee_performance;
-CREATE TABLE bronze.employee_performance (
+CREATE TABLE bronze.employee_performance_tunis(
     perf_id INT,
     employee_id INT,
     month INT,
@@ -99,7 +99,7 @@ CREATE TABLE bronze.employee_performance (
 );
 
 -- ========================================
--- 4. TABLES RECRUTEMENT / CANDIDATS
+-- 4. TABLES RECRUTEMENT / CANDIDATS  
 -- ========================================
 
 DROP TABLE IF EXISTS bronze.candidates;
@@ -135,3 +135,68 @@ CREATE TABLE bronze.candidate_interviews (
     stage VARCHAR(50),
     result VARCHAR(20)
 );
+-- ========================================
+-- 1. TABLES CLIENTS / SALES_________________________________________________________________________( SFAX SOURCE )
+-- ========================================
+
+DROP TABLE IF EXISTS bronze.customers_sfax;
+CREATE TABLE bronze.customers_sfax (
+    customer_id INT,
+    company_name VARCHAR(100),
+    contact_name VARCHAR(100),
+    email VARCHAR(100),
+    phone VARCHAR(20),
+    created_at DATE,
+    country VARCHAR(50)
+);
+
+DROP TABLE IF EXISTS bronze.products_sfax;
+CREATE TABLE bronze.products_sfax (
+    product_id INT,
+    product_name VARCHAR(100),
+    category VARCHAR(50),
+    base_price DECIMAL(10,2),
+    development_hours INT,
+    version VARCHAR(20)
+);
+
+DROP TABLE IF EXISTS bronze.sales_orders_sfax;
+CREATE TABLE bronze.sales_orders_sfax (
+    sale_id INT,
+    customer_id INT,
+    product_id INT,
+    quantity INT,
+    total_price DECIMAL(10,2),
+    payment_method VARCHAR(50),
+    sale_date DATE
+);
+
+-- ========================================
+-- 2. TABLES PROJETS / BUGS
+-- ========================================
+
+DROP TABLE IF EXISTS bronze.projects_sfax;
+CREATE TABLE bronze.projects_sfax (
+    project_id INT,
+    customer_id INT,
+    project_name VARCHAR(100),
+    start_date DATE,
+    end_date DATE,
+    delivered_date DATE,
+    project_manager INT,
+    estimated_cost DECIMAL(10,2),
+    actual_cost DECIMAL(10,2),
+    status VARCHAR(20)
+);
+
+DROP TABLE IF EXISTS bronze.project_bug_reports_sfax;
+CREATE TABLE bronze.project_bug_reports_sfax (
+    bug_id INT,
+    project_id INT,
+    severity VARCHAR(20),
+    description TEXT,
+    reported_date DATE,
+    resolved BIT
+);
+
+
