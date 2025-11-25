@@ -67,7 +67,7 @@ CREATE TABLE bronze.project_bug_reports_tunis (
 -- ==========================================
 
 DROP TABLE IF EXISTS bronze.teams;
-CREATE TABLE bronze.teams_tunis (
+CREATE TABLE bronze.teams (
     team_id INT,
     team_name VARCHAR(50),
     department VARCHAR(50),
@@ -75,7 +75,7 @@ CREATE TABLE bronze.teams_tunis (
 );
 
 DROP TABLE IF EXISTS bronze.employees;
-CREATE TABLE bronze.employees_tunis (
+CREATE TABLE bronze.employees (
     employee_id INT,
     full_name VARCHAR(100),
     role VARCHAR(50),
@@ -87,7 +87,7 @@ CREATE TABLE bronze.employees_tunis (
 );
 
 DROP TABLE IF EXISTS bronze.employee_performance;
-CREATE TABLE bronze.employee_performance_tunis(
+CREATE TABLE bronze.employee_performance(
     perf_id INT,
     employee_id INT,
     start_date INT,
