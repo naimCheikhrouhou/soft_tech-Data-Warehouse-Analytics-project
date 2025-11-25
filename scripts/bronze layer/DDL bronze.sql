@@ -90,8 +90,8 @@ DROP TABLE IF EXISTS bronze.employee_performance;
 CREATE TABLE bronze.employee_performance_tunis(
     perf_id INT,
     employee_id INT,
-    month INT,
-    year INT,
+    start_date INT,
+    end_date INT,
     tasks_completed INT,
     overtime_hours INT,
     performance_score INT,
