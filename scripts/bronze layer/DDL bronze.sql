@@ -13,8 +13,8 @@ CREATE TABLE bronze.customers_tunis (
     country VARCHAR(50)
 );
 
-DROP TABLE IF EXISTS bronze.products_tunis;
-CREATE TABLE bronze.products_tunis (
+DROP TABLE IF EXISTS bronze.products;
+CREATE TABLE bronze.products (
     product_id INT,
     product_name VARCHAR(100),
     category VARCHAR(50),
@@ -148,16 +148,6 @@ CREATE TABLE bronze.customers_sfax (
     phone VARCHAR(20),
     created_at DATE,
     country VARCHAR(50)
-);
-
-DROP TABLE IF EXISTS bronze.products_sfax;
-CREATE TABLE bronze.products_sfax (
-    product_id INT,
-    product_name VARCHAR(100),
-    category VARCHAR(50),
-    base_price DECIMAL(10,2),
-    development_hours INT,
-    version VARCHAR(20)
 );
 
 DROP TABLE IF EXISTS bronze.sales_orders_sfax;
