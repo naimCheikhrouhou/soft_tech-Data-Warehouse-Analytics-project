@@ -126,14 +126,14 @@ CREATE TABLE bronze.candidate_cv_raw (
     language_detected VARCHAR(50),
     uploaded_date DATE
 );
-
+drop table bronze.candidate_interviews;
 CREATE TABLE bronze.candidate_interviews (
     interview_id INT,
     candidate_id INT ,
     recruiter_id INT ,
     interview_score INT,
     notes TEXT,
-    stage VARCHAR(50),
+    team_id int,
     result VARCHAR(20)
 );
 CREATE TABLE silver.customers (
