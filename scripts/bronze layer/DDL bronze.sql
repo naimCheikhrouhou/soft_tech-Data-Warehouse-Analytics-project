@@ -117,8 +117,8 @@ CREATE TABLE bronze.candidates (
 
 DROP TABLE IF EXISTS bronze.candidate_cv_raw;
 CREATE TABLE bronze.candidate_cv_raw ( 
+    cv_id INT,
     candidate_id INT,
-    cv_id TEXT,
     cv_text TEXT,
     parsed_keywords TEXT,
     language_detected VARCHAR(20),
