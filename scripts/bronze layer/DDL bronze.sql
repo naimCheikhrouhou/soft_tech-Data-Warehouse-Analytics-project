@@ -98,9 +98,9 @@ CREATE TABLE bronze.employee_performance(
     project_success_rate DECIMAL(5,2)
 );
 
--- ========================================
--- 4. TABLES RECRUTEMENT / CANDIDATS  
--- ========================================
+--                                         ========================================
+--                                            4. TABLES RECRUTEMENT / CANDIDATS  
+--                                            ========================================
 
 DROP TABLE IF EXISTS bronze.candidates;
 CREATE TABLE bronze.candidates (
@@ -116,9 +116,9 @@ CREATE TABLE bronze.candidates (
 );
 
 DROP TABLE IF EXISTS bronze.candidate_cv_raw;
-CREATE TABLE bronze.candidate_cv_raw (
-    cv_id INT,
+CREATE TABLE bronze.candidate_cv_raw ( 
     candidate_id INT,
+    cv_id TEXT,
     cv_text TEXT,
     parsed_keywords TEXT,
     language_detected VARCHAR(20),
