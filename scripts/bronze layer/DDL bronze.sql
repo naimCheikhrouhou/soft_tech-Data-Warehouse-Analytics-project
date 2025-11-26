@@ -117,12 +117,12 @@ CREATE TABLE bronze.candidates (
 
 DROP TABLE IF EXISTS bronze.candidate_cv_raw;
 CREATE TABLE bronze.candidate_cv_raw ( 
-    cv_id INT,
+    cv_id TEXT,
     candidate_id INT,
     cv_text TEXT,
     parsed_keywords TEXT,
     language_detected VARCHAR(20),
-    uploaded_date DATE
+    uploaded_date TEXT
 );
 
 DROP TABLE IF EXISTS bronze.candidate_interviews;
