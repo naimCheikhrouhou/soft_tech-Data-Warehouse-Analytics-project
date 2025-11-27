@@ -22,7 +22,7 @@ BEGIN
             TRIM(full_name) as full_name,
             TRIM([role]) as [role],
             team_id as team_id,
-            CONVERT(VARCHAR(10), hire_date, 105) AS hire_date,
+            hire_date AS hire_date,
             ISNULL(salary,0) as salary ,
             TRIM(seniority)  as seniority,
             LOWER(TRIM(email)) as email
