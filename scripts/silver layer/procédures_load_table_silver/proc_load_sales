@@ -1,0 +1,37 @@
+CREATE OR ALTER PROCEDURE silver.load_sales AS
+BEGIN
+    DECLARE 
+        @start_time DATETIME, 
+        @end_time DATETIME; 
+
+                    -- Load sales_orders
+             SET @start_time = GETDATE();
+             PRINT '>> Truncating Table: silver.sales_orders';
+             TRUNCATE TABLE silver.sales_orders;
+             PRINT '>> Inserting Data Into: silver.sales_orders';
+             INSERT INTO silver.sales_orders (
+                 sale_id,
+                 customer_id,
+                 product_id,
+                 quantity,
+                 total_price,
+                 payment_method,
+                 sale_date,
+                 [source]
+             )
+             SELECT
+                 sale_id,
+                 customer_id,
+                 product_id,
+                 ISNULL(quantity, 0) AS quantity,
+                 ISNULL(total_price, quantity * ISNULL(total_price, 0)) AS total_price,
+                 TRIM(REPLACE(payment_method, '?', 'é')) AS payment_method,
+                 sale_date as  sale_date ,
+                 'bronze.sales_orders_sfax'
+             FROM bronze.sales_orders_sfax;
+
+
+        SET @end_time = GETDATE();
+        PRINT '>> Load Duration: ' + CAST(DATEDIFF(SECOND, @start_time, @end_time) AS NVARCHAR) + ' seconds';
+        PRINT '>> -------------';
+    END
