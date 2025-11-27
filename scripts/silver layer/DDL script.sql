@@ -4,7 +4,7 @@
 
 DROP TABLE IF EXISTS silver.customers;
 CREATE TABLE silver.customers (
-    customer_id INT PRIMARY KEY,
+    customer_id INT ,
     company_name VARCHAR(100) NOT NULL,
     contact_name VARCHAR(100),
     email VARCHAR(100),
@@ -21,7 +21,7 @@ CREATE TABLE silver.customers (
 
 DROP TABLE IF EXISTS silver.products;
 CREATE TABLE silver.products (
-    product_id INT PRIMARY KEY,
+    product_id INT ,
     product_name VARCHAR(100) NOT NULL,
     category VARCHAR(50),
     base_price DECIMAL(10,2),
@@ -37,7 +37,7 @@ CREATE TABLE silver.products (
 
 DROP TABLE IF EXISTS silver.sales_orders;
 CREATE TABLE silver.sales_orders (
-    sale_id INT PRIMARY KEY,
+    sale_id INT ,
     customer_id INT,
     product_id INT,
     quantity INT,
@@ -59,7 +59,7 @@ CREATE TABLE silver.sales_orders (
 
 DROP TABLE IF EXISTS silver.teams;
 CREATE TABLE silver.teams (
-    team_id INT PRIMARY KEY,
+    team_id INT ,
     team_name VARCHAR(50),
     department VARCHAR(50),
     manager_id INT,
@@ -73,7 +73,7 @@ CREATE TABLE silver.teams (
 
 DROP TABLE IF EXISTS silver.employees;
 CREATE TABLE silver.employees (
-    employee_id INT PRIMARY KEY,
+    employee_id INT ,
     full_name VARCHAR(100),
     role VARCHAR(50),
     team_id INT,
@@ -91,7 +91,7 @@ CREATE TABLE silver.employees (
 
 DROP TABLE IF EXISTS silver.projects;
 CREATE TABLE silver.projects (
-    project_id INT PRIMARY KEY,
+    project_id INT ,
     customer_id INT,
     project_name VARCHAR(100),
     start_date DATE,
@@ -111,7 +111,7 @@ CREATE TABLE silver.projects (
 
 DROP TABLE IF EXISTS silver.project_bug_reports;
 CREATE TABLE silver.project_bug_reports (
-    bug_id INT PRIMARY KEY,
+    bug_id INT ,
     project_id INT,
     severity VARCHAR(20),
     description TEXT,
@@ -132,7 +132,7 @@ CREATE TABLE silver.project_bug_reports (
 
 DROP TABLE IF EXISTS silver.employee_performance;
 CREATE TABLE silver.employee_performance (
-    perf_id INT PRIMARY KEY,
+    perf_id INT ,
     employee_id INT,
     start_date DATE,
     end_date DATE,
@@ -155,7 +155,7 @@ CREATE TABLE silver.employee_performance (
 
 DROP TABLE IF EXISTS silver.candidates;
 CREATE TABLE silver.candidates (
-    candidate_id INT PRIMARY KEY,
+    candidate_id INT ,
     full_name VARCHAR(100),
     email VARCHAR(100),
     phone VARCHAR(20),
@@ -174,7 +174,7 @@ CREATE TABLE silver.candidates (
 
 DROP TABLE IF EXISTS silver.candidate_cv_raw;
 CREATE TABLE silver.candidate_cv_raw (
-    cv_id INT PRIMARY KEY,
+    cv_id INT ,
     candidate_id INT,
     cv_text TEXT,
     parsed_keywords TEXT,
@@ -190,7 +190,7 @@ CREATE TABLE silver.candidate_cv_raw (
 
 DROP TABLE IF EXISTS silver.candidate_interviews;
 CREATE TABLE silver.candidate_interviews (
-    interview_id INT PRIMARY KEY,
+    interview_id INT ,
     candidate_id INT,
     recruiter_id INT,
     interview_score INT,
