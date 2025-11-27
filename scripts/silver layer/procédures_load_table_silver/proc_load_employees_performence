@@ -1,0 +1,36 @@
+CREATE OR ALTER PROCEDURE silver.load_employees_performance AS
+BEGIN
+    DECLARE 
+        @start_time DATETIME, 
+        @end_time DATETIME;  
+        
+        SET @start_time = GETDATE();
+
+         PRINT '>> Truncating Table: silver.employee_performance';
+        TRUNCATE TABLE silver.employee_performance;
+        PRINT '>> Inserting Data Into: silver.employee_performance';
+        INSERT INTO silver.employee_performance (
+            perf_id,
+            employee_id,
+            start_date,
+            end_date,
+            tasks_completed,
+            overtime_hours,
+            performance_score,
+            project_success_rate
+        )
+        SELECT
+            perf_id,
+            employee_id,
+            start_date,
+            end_date,
+            ISNULL(tasks_completed,0),
+            ISNULL(overtime_hours,0),
+            ISNULL(performance_score,0),
+            ISNULL(project_success_rate,0)
+        FROM bronze.employee_performance;
+        SET @end_time = GETDATE();
+        PRINT '>> Load Duration: ' + CAST(DATEDIFF(SECOND, @start_time, @end_time) AS NVARCHAR) + ' seconds';
+        PRINT '>> -------------';
+          
+    END
