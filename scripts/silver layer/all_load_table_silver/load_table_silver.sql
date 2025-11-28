@@ -259,26 +259,40 @@ BEGIN
          PRINT '>> Truncating Table: silver.employee_performance';
         TRUNCATE TABLE silver.employee_performance;
         PRINT '>> Inserting Data Into: silver.employee_performance';
-        INSERT INTO silver.employee_performance (
-            perf_id,
-            employee_id,
-            start_date,
-            end_date,
-            tasks_completed,
-            overtime_hours,
-            performance_score,
-            project_success_rate
-        )
-        SELECT
-            perf_id,
-            employee_id,
-            start_date,
-            end_date,
-            ISNULL(tasks_completed,0),
-            ISNULL(overtime_hours,0),
-            ISNULL(performance_score,0),
-            ISNULL(project_success_rate,0)
-        FROM bronze.employee_performance;
+       INSERT INTO silver.employee_performance (
+     perf_id,
+     employee_id,
+     start_date,
+     end_date,
+     tasks_completed,
+     overtime_hours,
+     performance_score,
+     project_success_rate
+)
+SELECT
+    perf_id,
+    employee_id,
+    CAST(start_date AS DATE) AS start_date,
+
+    -- Correct: use DATEADD instead of subtracting 1
+    CAST(
+        DATEADD(
+            DAY, 
+            -1, 
+            LEAD(CAST(start_date AS DATE)) OVER (
+                PARTITION BY employee_id 
+                ORDER BY CAST(start_date AS DATE)
+            )
+        ) 
+        AS DATE
+    ) AS end_date,
+
+    ISNULL(tasks_completed,0),
+    ISNULL(overtime_hours,0),
+    ISNULL(performance_score,0),
+    ISNULL(project_success_rate,0)
+FROM bronze.employee_performance;
+
         SET @end_time = GETDATE();
         PRINT '>> Load Duration: ' + CAST(DATEDIFF(SECOND, @start_time, @end_time) AS NVARCHAR) + ' seconds';
         PRINT '>> -------------';
@@ -511,4 +525,4 @@ BEGIN
           
     END;
     go
-   
+    
