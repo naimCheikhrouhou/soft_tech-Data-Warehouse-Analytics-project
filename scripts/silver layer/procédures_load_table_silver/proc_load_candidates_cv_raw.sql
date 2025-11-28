@@ -1,4 +1,4 @@
-CREATE OR ALTER PROCEDURE silver.load_candidates AS
+CREATE OR ALTER PROCEDURE silver.load_candidates_cv_raw AS
 BEGIN
     DECLARE 
         @start_time DATETIME, 
