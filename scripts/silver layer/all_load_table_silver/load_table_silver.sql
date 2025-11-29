@@ -1,4 +1,4 @@
-CREATE OR ALTER PROCEDURE silver.load_candidates AS
+CREATE OR ALTER PROCEDURE silver.load_candidates AS   -------------------------------------------------------------------------------------------------candidates
 BEGIN
     DECLARE 
         @start_time DATETIME, 
@@ -7,7 +7,7 @@ BEGIN
         SET @start_time = GETDATE();
         
         PRINT '>> Truncating Table: silver.candidates';
-        TRUNCATE TABLE silver.candidates;
+        TRUNCATE TABLE silver.candidates; 
         PRINT '>> Inserting Data Into: silver.candidates';
         INSERT INTO silver.candidates (
             candidate_id,
@@ -39,7 +39,7 @@ BEGIN
           
     END;
     go
-    CREATE OR ALTER PROCEDURE silver.load_candidates_cv_raw AS
+    CREATE OR ALTER PROCEDURE silver.load_candidates_cv_raw AS--------------------------------------------------------------------------candidates_cv_raw
 BEGIN
     DECLARE 
         @start_time DATETIME, 
@@ -79,7 +79,7 @@ CASE WHEN RIGHT(CAST(uploaded_date AS nvarchar(MAX)),1) ='"' THEN
      CAST(LEFT(CAST(uploaded_date AS VARCHAR(MAX)), LEN(CAST(uploaded_date AS VARCHAR(MAX))) - 1) AS DATE)
      
      ELSE CAST(CAST(uploaded_date AS nvarchar(max)) AS DATE)
-     END                 AS uploaded_date                                                                          --#######################################date 
+     END                             AS uploaded_date                                                --####################################### date 
 
         FROM bronze.candidate_cv_raw;
         
@@ -89,7 +89,7 @@ CASE WHEN RIGHT(CAST(uploaded_date AS nvarchar(MAX)),1) ='"' THEN
           
     END;
     go
-    CREATE OR ALTER PROCEDURE silver.load_candidates_interview AS
+    CREATE OR ALTER PROCEDURE silver.load_candidates_interview AS--------------------------------------------------------------------------candidates_interview
 BEGIN
     DECLARE 
         @start_time DATETIME, 
@@ -124,7 +124,7 @@ BEGIN
           
     END;
     go
-    CREATE OR ALTER PROCEDURE silver.load_customers AS
+    CREATE OR ALTER PROCEDURE silver.load_customers AS -------------------------------------------------------------------------------- Load silver.customers
 BEGIN
     DECLARE 
         @start_time DATETIME, 
@@ -132,7 +132,7 @@ BEGIN
 
         SET @start_time = GETDATE();
         PRINT '>> Truncating Table: silver.customers';
-        ---------------------------------------------------------------------------------------------------- Load silver.customers
+       
         TRUNCATE TABLE silver.customers;
         PRINT '>> Inserting Data Into: silver.customers'; --handling spaces/nulls/phone number format/emails format
                                                            --/making country before create date
@@ -218,7 +218,7 @@ BEGIN
    END ;
    go
    
-   CREATE OR ALTER PROCEDURE silver.load_employees AS
+   CREATE OR ALTER PROCEDURE silver.load_employees AS----------------------------------------------------------------------------load_employees 
 BEGIN
     DECLARE 
         @start_time DATETIME, 
@@ -254,7 +254,7 @@ BEGIN
           
     END;
     go
-    CREATE OR ALTER PROCEDURE silver.load_employees_performance AS
+    CREATE OR ALTER PROCEDURE silver.load_employees_performance AS--------------------------------------------------------------load_employyes_performance
 BEGIN
     DECLARE 
         @start_time DATETIME, 
@@ -268,7 +268,7 @@ BEGIN
        INSERT INTO silver.employee_performance (
      perf_id,
      employee_id,
-     start_date,
+     LEAD([start_date]) over( PARTITION BY employee_id ORDER BY [start_date] ) AS [start_date]               -- ####    corrected date 
      end_date,
      tasks_completed,
      overtime_hours,
@@ -305,7 +305,7 @@ FROM bronze.employee_performance;
           
     END;
     go
-    CREATE OR ALTER PROCEDURE silver.load_products AS
+    CREATE OR ALTER PROCEDURE silver.load_products AS------------------------------------------------------------------------------load products-----------------
 BEGIN
     DECLARE 
         @start_time DATETIME, 
@@ -340,7 +340,7 @@ BEGIN
         PRINT '>> -------------';
     END;
     go
-    CREATE OR ALTER PROCEDURE silver.load_projects AS
+    CREATE OR ALTER PROCEDURE silver.load_projects AS--------------------------------------------------------------------------------------------------
 BEGIN
     DECLARE 
         @start_time DATETIME, 
