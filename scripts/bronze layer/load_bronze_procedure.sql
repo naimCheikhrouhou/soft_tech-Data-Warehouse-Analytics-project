@@ -1,3 +1,6 @@
+
+
+
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
 BEGIN 
 DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME ; 
@@ -13,8 +16,9 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
      set @start_time = GETDATE();
     TRUNCATE TABLE bronze.customers_sfax ;
     BULK INSERT bronze.customers_sfax
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\business_data\branche_sfax\customers.csv'
+    FROM 'main/business_data/branche_sfax/customers.csv'
     WITH(
+    DATA_SOURCE = 'MyAzureBlob',
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
     tablock 
@@ -22,8 +26,9 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
     ----------------------------
      TRUNCATE TABLE bronze.customers_tunis ;
     BULK INSERT bronze.customers_tunis
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\business_data\branche_tunis\customers.csv'
+    FROM 'main/business_data/branche_tunis/customers.csv'
     WITH(
+    DATA_SOURCE = 'MyAzureBlob',
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
     tablock 
@@ -36,8 +41,9 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
 
     TRUNCATE TABLE bronze.products ;
     BULK INSERT bronze.products
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\business_data\products.csv'
+    FROM 'main/business_data\products.csv'
     WITH(
+    DATA_SOURCE = 'MyAzureBlob',
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
     tablock 
@@ -50,16 +56,18 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
    
     TRUNCATE TABLE bronze.sales_orders_sfax ;
     BULK INSERT bronze.sales_orders_sfax
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\business_data\branche_sfax\sales.csv'
+    FROM 'main/business_data/branche_sfax\sales.csv'
     WITH(
+    DATA_SOURCE = 'MyAzureBlob',
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
     tablock 
     );---------------------------------tunis source
       TRUNCATE TABLE bronze.sales_orders_tunis ;
     BULK INSERT bronze.sales_orders_tunis
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\business_data\branche_tunis\sales.csv'
+    FROM 'main/business_data/branche_tunis\sales.csv'
     WITH(
+    DATA_SOURCE = 'MyAzureBlob',
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
     tablock 
@@ -74,16 +82,18 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
      
     TRUNCATE TABLE bronze.projects_sfax ;
     BULK INSERT bronze.projects_sfax
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\business_data\branche_sfax\projects.csv'
+    FROM 'main/business_data/branche_sfax\projects.csv'
     WITH(
+    DATA_SOURCE = 'MyAzureBlob',
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
     tablock 
     );---------------------------------------tunis source
     TRUNCATE TABLE bronze.projects_tunis ;
     BULK INSERT bronze.projects_tunis
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\business_data\branche_tunis\projects.csv'
+    FROM 'main/business_data/branche_tunis\projects.csv'
     WITH(
+    DATA_SOURCE = 'MyAzureBlob',
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
     tablock 
@@ -96,16 +106,18 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
 
     TRUNCATE TABLE bronze.project_bug_reports_sfax ;
     BULK INSERT bronze.project_bug_reports_sfax
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\business_data\branche_sfax\project_bug_reports.csv'
+    FROM 'main/business_data/branche_sfax\project_bug_reports.csv'
     WITH(
+    DATA_SOURCE = 'MyAzureBlob',
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
     tablock 
     );------------------------------tunis source----------------
        TRUNCATE TABLE bronze.project_bug_reports_tunis ;
     BULK INSERT bronze.project_bug_reports_tunis
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\business_data\branche_tunis\project_bug_reports.csv'
+    FROM 'main/business_data/branche_tunis\project_bug_reports.csv'
     WITH(
+    DATA_SOURCE = 'MyAzureBlob',
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
     tablock 
@@ -125,8 +137,9 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
         set @start_time = GETDATE();
     TRUNCATE TABLE bronze.employees ;  
     BULK INSERT bronze.employees
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\condidate&employees\employees.csv'
+    FROM 'main/candidate&employees\employees.csv'
     WITH(
+    DATA_SOURCE = 'MyAzureBlob',
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
     tablock 
@@ -141,8 +154,9 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
 
     TRUNCATE TABLE bronze.teams ;
     BULK INSERT bronze.teams
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\condidate&employees\teams.csv'
+    FROM 'main/candidate&employees\teams.csv'
     WITH(
+    DATA_SOURCE = 'MyAzureBlob',
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
     tablock 
@@ -157,8 +171,9 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
 
     TRUNCATE TABLE bronze.employee_performance ;
     BULK INSERT bronze.employee_performance
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\condidate&employees\employee_performance.csv'
+    FROM 'main/candidate&employees\employee_performance.csv'
     WITH(
+    DATA_SOURCE = 'MyAzureBlob',
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
     tablock 
@@ -173,8 +188,9 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
      set @start_time = GETDATE();
     TRUNCATE TABLE bronze.candidates ;
     BULK INSERT bronze.candidates
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\condidate&employees\candidates.csv'
+    FROM 'main/candidate&employees\candidates.csv'
     WITH(
+    DATA_SOURCE = 'MyAzureBlob',
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
     tablock 
@@ -189,8 +205,9 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
 
     TRUNCATE TABLE bronze.candidate_cv_raw ;
     BULK INSERT bronze.candidate_cv_raw
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\condidate&employees\candidate_cv_raw.csv'
+    FROM 'main/candidate&employees\candidate_cv_raw.csv'
     WITH(
+    DATA_SOURCE = 'MyAzureBlob',
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
     tablock 
@@ -203,8 +220,9 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
 
     TRUNCATE TABLE bronze.candidate_interviews ;
     BULK INSERT bronze.candidate_interviews
-    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\condidate&employees\candidate_interviews.csv'
+    FROM 'main/candidate&employees\candidate_interviews.csv'
     WITH(
+    DATA_SOURCE = 'MyAzureBlob',
     FIRSTROW =2 ,
     FIELDTERMINATOR =',' ,
     tablock 
@@ -223,3 +241,4 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
   print '===================ERROR===============================================';
   END CATCH 
 END
+exec bronze.load_bronze;
