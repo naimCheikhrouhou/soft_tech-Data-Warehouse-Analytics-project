@@ -1,0 +1,301 @@
+﻿cv_id;candidate_id;cv_text;parsed_keywords;language_detected;uploaded_date;age;university
+1;1;"C++; Software engineer experience ";"Python; Django";EN;2/18/2025;49;enis
+2;2;"Nodejs; Node.js developer experience";"Python; React";FR;2/22/2025;37;iset
+3;3;"Python; Data Science developer experience";"Python; Data Science";EN;03/06/2025;45;faculty of science tunis 
+4;4;"React; Node.js developer experience";"React; Node.js";FR;04/12/2025;41;ensi
+5;5;"Nodejs; Node.js developer experience";"React; Node.js";EN;03/06/2025;23;issatsouse
+6;6;"Python; Data Science developer experience";"Python; Data Science";FR;2/28/2025;25;enis
+7;7;"C++; Software engineer experience ";"Python; Django";FR;1/14/2025;54;faculty of science tunis 
+8;8;"SQL; SQL server developer experience";"Python; Data Science";EN;4/22/2025;24;enis
+9;9;"React; Node.js developer experience";"React; Node.js";FR;01/10/2025;44;mse
+10;10;"Python; React developer experience";"Python; React";EN;05/07/2025;29;esprit
+11;11;"JavaScript; React developer experience";"JavaScript; React";EN;01/09/2025;53;iset
+12;12;"Python; Data Science developer experience";"Python; Data Science";EN;04/03/2025;26;faculty of science tunis 
+13;13;"JavaScript; React developer experience";"JavaScript; React";FR;04/01/2025;59;ensi
+14;14;"Python; React developer experience";"Python; React";EN;1/24/2025;24;supcom
+15;15;"JavaScript; React developer experience";"JavaScript; React";EN;2/19/2025;52;mse
+16;16;"Python; Data Science developer experience";"Python; Data Science";EN;05/10/2025;47;faculty of science tunis 
+17;17;"JavaScript; React developer experience";"JavaScript; React";FR;1/30/2025;44;issatsouse
+18;18;"Python; Django developer experience";"Python; Django";EN;03/04/2025;41;ensi
+19;19;"C++; Software engineer experience ";"Python; React";FR;1/30/2025;58;iset
+20;20;"Nodejs; Node.js developer experience";"Python; ML; SQL";EN;16/04/2025;36;issatsouse
+21;21;"Python; ML; SQL developer experience";"Python; ML; SQL";FR;1/24/2025;59;supcom
+22;22;"C++; Software engineer experience ";"Python; Data Science";FR;3/22/2025;22;iset
+23;23;"Nodejs; Node.js developer experience";"Python; ML; SQL";EN;2/21/2025;36;enis
+24;24;"Python; ML; SQL developer experience";"Python; ML; SQL";FR;03/05/2025;30;enis
+25;25;"Java; Spring Boot developer experience";"Java; Spring Boot";FR;05/07/2025;28;issatsouse
+26;26;"React; Node.js developer experience";"React; Node.js";EN;05/07/2025;54;faculty of science tunis 
+27;27;"JavaScript; React developer experience";"JavaScript; React";FR;2/26/2025;26;ensi
+28;28;"Python; Django developer experience";"Python; Django";FR;5/19/2025;24;faculty of science tunis 
+29;29;"C++; Software engineer experience ";"Python; Data Science";FR;1/31/2025;39;faculty of science tunis 
+30;30;"Python; React developer experience";"Python; React";FR;04/08/2025;57;issatsouse
+31;31;"JavaScript; React developer experience";"JavaScript; React";EN;03/09/2025;41;supcom
+32;32;"React; Node.js developer experience";"React; Node.js";FR;2/17/2025;44;supcom
+33;33;"React; Node.js developer experience";"React; Node.js";FR;"4/13/2025""";58;faculty of science tunis 
+34;34;"Python; Data Science developer experience";"Python; Data Science";FR;"1/26/2025""";46;esprit
+35;35;"Python; ML; SQL developer experience";"Python; ML; SQL";FR;"2/8/2025""";29;insat
+36;36;"Java; Hibernate developer experience";"Java; Hibernate";FR;"5/13/2025""";56;esprit
+37;37;"C++; Software engineer experience ";"JavaScript; React";EN;"4/12/2025""";30;esprit
+38;38;"JavaScript; React developer experience";"JavaScript; React";EN;"1/25/2025""";47;ensi
+39;39;"React; Node.js developer experience";"React; Node.js";FR;"3/30/2025""";38;supcom
+40;40;"Python; ML; SQL developer experience";"Python; ML; SQL";FR;"3/14/2025""";45;esprit
+41;41;"Java; Spring Boot developer experience";"Java; Spring Boot";FR;"3/15/2025""";25;issatsouse
+42;42;"Python; Django developer experience";"Python; Django";FR;"1/19/2025""";55;enis
+43;43;"React; Node.js developer experience";"React; Node.js";EN;"3/16/2025""";60;enis
+44;44;"Java; Hibernate developer experience";"Java; Hibernate";FR;"5/14/2025""";49;esprit
+45;45;"Python; React developer experience";"Python; React";FR;"3/2/2025""";48;issatsouse
+46;46;"Python; Django developer experience";"Python; Django";EN;"1/25/2025""";41;supcom
+47;47;"Nodejs; Node.js developer experience";"Python; Django";EN;"1/27/2025""";36;faculty of science tunis 
+48;48;"Python; Django developer experience";"Python; Django";EN;"2/28/2025""";37;esprit
+49;49;"Python; Data Science developer experience";"Python; Data Science";EN;"1/8/2025""";23;faculty of science tunis 
+50;50;"Java; Hibernate developer experience";"Java; Hibernate";FR;"4/24/2025""";55;mse
+51;51;"C++; Software engineer experience ";"Java; Hibernate";FR;"5/15/2025""";25;faculty of science tunis 
+52;52;"Python; ML; SQL developer experience";"Python; ML; SQL";FR;"4/24/2025""";44;ensi
+53;53;"Python; Data Science developer experience";"Python; Data Science";EN;"1/3/2025""";49;faculty of science tunis 
+54;54;"JavaScript; React developer experience";"JavaScript; React";FR;"5/17/2025""";49;insat
+55;55;"Python; React developer experience";"Python; React";EN;"3/16/2025""";26;esprit
+56;56;"React; Node.js developer experience";"React; Node.js";EN;"4/16/2025""";52;ensi
+57;57;"Python; Data Science developer experience";"Python; Data Science";FR;"4/7/2025""";36;ensi
+58;58;"Python; ML; SQL developer experience";"Python; ML; SQL";FR;"3/14/2025""";29;iset
+59;59;"Java; Spring Boot developer experience";"Java; Spring Boot";FR;"2/4/2025""";57;faculty of science sfax 
+60;60;"Java; Hibernate developer experience";"Java; Hibernate";EN;"5/6/2025""";45;faculty of science tunis 
+61;61;"Python; React developer experience";"Python; React";FR;"2/17/2025""";32;supcom
+62;62;"Java; Hibernate developer experience";"Java; Hibernate";EN;"3/1/2025""";30;iset
+63;63;"Python; ML; SQL developer experience";"Python; ML; SQL";EN;"4/18/2025""";29;faculty of science sfax 
+64;64;"Python; React developer experience";"Python; React";EN;"1/21/2025""";33;esprit
+65;65;"Java; Spring Boot developer experience";"Java; Spring Boot";FR;"2/16/2025""";55;faculty of science tunis 
+66;66;"Java; Spring Boot developer experience";"Java; Spring Boot";FR;"4/9/2025""";59;ensi
+67;67;"Java; Hibernate developer experience";"Java; Hibernate";FR;"5/14/2025""";58;enis
+68;68;"React; Node.js developer experience";"React; Node.js";EN;"1/11/2025""";28;iset
+69;69;"Java; Hibernate developer experience";"Java; Hibernate";FR;"2/20/2025""";40;supcom
+70;70;"Python; ML; SQL developer experience";"Python; ML; SQL";FR;"3/25/2025""";23;faculty of science sfax 
+71;71;"Java; Spring Boot developer experience";"Java; Spring Boot";FR;"3/4/2025""";30;iset
+72;72;"Python; Data Science developer experience";"Python; Data Science";FR;"1/23/2025""";36;faculty of science tunis 
+73;73;"React; Node.js developer experience";"React; Node.js";EN;"1/16/2025""";38;supcom
+74;74;"Java; Hibernate developer experience";"Java; Hibernate";EN;"3/23/2025""";47;insat
+75;75;"Python; React developer experience";"Python; React";EN;"4/2/2025""";51;enis
+76;76;"Java; Hibernate developer experience";"Java; Hibernate";EN;"5/19/2025""";40;issatsouse
+77;77;"React; Node.js developer experience";"React; Node.js";FR;"4/30/2025""";23;faculty of science tunis 
+78;78;"Python; Data Science developer experience";"Python; Data Science";FR;"3/17/2025""";34;faculty of science sfax 
+79;79;"Python; React developer experience";"Python; React";FR;"2/17/2025""";33;mse
+80;80;"Python; ML; SQL developer experience";"Python; ML; SQL";EN;"1/17/2025""";46;ensi
+81;81;"Java; Hibernate developer experience";"Java; Hibernate";FR;"3/14/2025""";47;ensi
+82;82;"Java; Spring Boot developer experience";"Java; Spring Boot";FR;"1/12/2025""";53;faculty of science sfax 
+83;83;"Java; Spring Boot developer experience";"Java; Spring Boot";EN;"2/19/2025""";44;mse
+84;84;"JavaScript; React developer experience";"JavaScript; React";FR;"4/4/2025""";44;issatsouse
+85;85;"Python; ML; SQL developer experience";"Python; ML; SQL";EN;"1/21/2025""";39;faculty of science tunis 
+86;86;"Python; Django developer experience";"Python; Django";EN;"1/15/2025""";28;insat
+87;87;"JavaScript; React developer experience";"JavaScript; React";EN;"2/25/2025""";56;issatsouse
+88;88;"Python; Django developer experience";"Python; Django";FR;"2/19/2025""";58;faculty of science tunis 
+89;89;"Nodejs; Node.js developer experience";"Python; Django";FR;"4/2/2025""";21;enis
+90;90;"Python; Data Science developer experience";"Python; Data Science";EN;"5/10/2025""";55;mse
+91;91;"React; Node.js developer experience";"React; Node.js";FR;"4/6/2025""";46;faculty of science tunis 
+92;92;"Python; ML; SQL developer experience";"Python; ML; SQL";FR;"4/7/2025""";58;mse
+93;93;"Java; Hibernate developer experience";"Java; Hibernate";FR;"1/1/2025""";36;supcom
+94;94;"Python; Data Science developer experience";"Python; Data Science";FR;"1/2/2025""";45;ensi
+95;95;"Python; React developer experience";"Python; React";FR;"5/11/2025""";34;insat
+96;96;"Python; React developer experience";"Python; React";EN;"4/2/2025""";56;esprit
+97;97;"Nodejs; Node.js developer experience";"Python; ML; SQL";FR;"3/7/2025""";40;faculty of science sfax 
+98;98;"Python; ML; SQL developer experience";"Python; ML; SQL";EN;"3/25/2025""";51;esprit
+99;99;"Java; Spring Boot developer experience";"Java; Spring Boot";FR;"1/10/2025""";35;issatsouse
+100;100;"React; Node.js developer experience";"React; Node.js";EN;"4/22/2025""";44;enis
+101;101;"Python; React developer experience";"Python; React";EN;"1/14/2025""";49;issatsouse
+102;102;"Python; Data Science developer experience";"Python; Data Science";EN;"5/9/2025""";57;faculty of science sfax 
+103;103;"Java; Hibernate developer experience";"Java; Hibernate";FR;"2/26/2025""";30;mse
+104;104;"Python; Data Science developer experience";"Python; Data Science";FR;"1/22/2025""";29;enis
+105;105;"Nodejs; Node.js developer experience";"Python; Django";EN;"1/22/2025""";38;faculty of science tunis 
+106;106;"Python; Data Science developer experience";"Python; Data Science";FR;"2/20/2025""";37;enis
+107;107;"Python; ML; SQL developer experience";"Python; ML; SQL";EN;"1/19/2025""";38;supcom
+108;108;"Java; Spring Boot developer experience";"Java; Spring Boot";EN;"4/16/2025""";36;enis
+109;109;"React; Node.js developer experience";"React; Node.js";FR;"1/7/2025""";58;faculty of science tunis 
+110;110;"Java; Hibernate developer experience";"Java; Hibernate";FR;"4/23/2025""";49;issatsouse
+111;111;"Python; Data Science developer experience";"Python; Data Science";FR;"1/29/2025""";24;ensi
+112;112;"Python; React developer experience";"Python; React";FR;"1/29/2025""";26;faculty of science tunis 
+113;113;"React; Node.js developer experience";"React; Node.js";EN;"5/18/2025""";58;faculty of science sfax 
+114;114;"Java; Hibernate developer experience";"Java; Hibernate";FR;"1/5/2025""";42;esprit
+115;115;"Python; Data Science developer experience";"Python; Data Science";FR;"3/14/2025""";22;insat
+116;116;"Java; Hibernate developer experience";"Java; Hibernate";EN;"1/18/2025""";23;faculty of science tunis 
+117;117;"Python; React developer experience";"Python; React";EN;"4/9/2025""";45;issatsouse
+118;118;"Java; Hibernate developer experience";"Java; Hibernate";EN;"2/17/2025""";36;supcom
+119;119;"Nodejs; Node.js developer experience";"Python; React";EN;"3/5/2025""";33;insat
+120;120;"Python; Django developer experience";"Python; Django";EN;"1/5/2025""";35;mse
+121;121;"Python; ML; SQL developer experience";"Python; ML; SQL";FR;"1/16/2025""";21;enis
+122;122;"JavaScript; React developer experience";"JavaScript; React";FR;"2/8/2025""";59;faculty of science tunis 
+123;123;"Python; Django developer experience";"Python; Django";FR;"4/17/2025""";49;enis
+124;124;"JavaScript; React developer experience";"JavaScript; React";FR;"4/25/2025""";31;esprit
+125;125;"Python; ML; SQL developer experience";"Python; ML; SQL";FR;"3/21/2025""";58;iset
+126;126;"C++; Software engineer experience ";"Python; Data Science";EN;"1/18/2025""";59;faculty of science tunis 
+127;127;"React; Node.js developer experience";"React; Node.js";FR;"1/8/2025""";51;esprit
+128;128;"Java; Hibernate developer experience";"Java; Hibernate";EN;"2/8/2025""";30;esprit
+129;129;"Python; React developer experience";"Python; React";EN;"3/1/2025""";28;mse
+130;130;"React; Node.js developer experience";"React; Node.js";EN;"5/3/2025""";32;iset
+131;131;"Python; Data Science developer experience";"Python; Data Science";FR;"5/6/2025""";58;supcom
+132;132;"Python; ML; SQL developer experience";"Python; ML; SQL";FR;"4/15/2025""";45;iset
+133;133;"Python; ML; SQL developer experience";"Python; ML; SQL";FR;"1/17/2025""";37;ensi
+134;134;"Java; Hibernate developer experience";"Java; Hibernate";FR;"4/20/2025""";40;esprit
+135;135;"Python; Django developer experience";"Python; Django";FR;"5/14/2025""";55;issatsouse
+136;136;"Python; ML; SQL developer experience";"Python; ML; SQL";EN;"1/11/2025""";55;faculty of science sfax 
+137;137;"JavaScript; React developer experience";"JavaScript; React";EN;"4/12/2025""";39;faculty of science sfax 
+138;138;"Python; Django developer experience";"Python; Django";EN;"1/14/2025""";53;supcom
+139;139;"Java; Spring Boot developer experience";"Java; Spring Boot";EN;"2/16/2025""";35;insat
+140;140;"Python; Django developer experience";"Python; Django";EN;"4/26/2025""";30;issatsouse
+141;141;"Python; ML; SQL developer experience";"Python; ML; SQL";EN;"1/24/2025""";53;issatsouse
+142;142;"Java; Spring Boot developer experience";"Java; Spring Boot";EN;"4/26/2025""";59;ensi
+143;143;"Python; Data Science developer experience";"Python; Data Science";FR;"4/8/2025""";32;enis
+144;144;"Python; Data Science developer experience";"Python; Data Science";FR;"2/7/2025""";28;iset
+145;145;"JavaScript; React developer experience";"JavaScript; React";EN;"3/15/2025""";28;iset
+146;146;"Python; React developer experience";"Python; React";EN;"1/4/2025""";33;enis
+147;147;"Python; React developer experience";"Python; React";EN;"3/2/2025""";32;mse
+148;148;"Python; Django developer experience";"Python; Django";EN;"1/21/2025""";28;faculty of science tunis 
+149;149;"JavaScript; React developer experience";"JavaScript; React";FR;"1/13/2025""";57;mse
+150;150;"Python; React developer experience";"Python; React";FR;"1/9/2025""";51;faculty of science tunis 
+151;151;"Java; Spring Boot developer experience";"Java; Spring Boot";FR;"1/28/2025""";32;supcom
+152;152;"Python; Data Science developer experience";"Python; Data Science";FR;"4/3/2025""";23;mse
+153;153;"React; Node.js developer experience";"React; Node.js";EN;"1/18/2025""";25;issatsouse
+154;154;"Java; Hibernate developer experience";"Java; Hibernate";FR;"2/1/2025""";24;enis
+155;155;"Python; ML; SQL developer experience";"Python; ML; SQL";FR;"1/15/2025""";38;esprit
+156;156;"JavaScript; React developer experience";"JavaScript; React";EN;"3/23/2025""";24;mse
+157;157;"Java; Hibernate developer experience";"Java; Hibernate";FR;"5/7/2025""";23;issatsouse
+158;158;"Python; ML; SQL developer experience";"Python; ML; SQL";EN;"1/31/2025""";58;mse
+159;159;"Python; Django developer experience";"Python; Django";EN;"1/12/2025""";43;faculty of science tunis 
+160;160;"Python; ML; SQL developer experience";"Python; ML; SQL";EN;"3/7/2025""";52;esprit
+161;161;"React; Node.js developer experience";"React; Node.js";EN;"1/30/2025""";29;esprit
+162;162;"SQL; SQL server developer experience";"Python; React";EN;"2/19/2025""";52;supcom
+163;163;"Python; React developer experience";"Python; React";EN;"5/4/2025""";40;faculty of science tunis 
+164;164;"Python; Django developer experience";"Python; Django";FR;"5/14/2025""";60;supcom
+165;165;"SQL; SQL server developer experience";"Python; React";EN;"3/26/2025""";35;mse
+166;166;"Python; React developer experience";"Python; React";EN;"4/7/2025""";28;esprit
+167;167;"Java; Spring Boot developer experience";"Java; Spring Boot";EN;"3/22/2025""";22;iset
+168;168;"Java; Hibernate developer experience";"Java; Hibernate";EN;"4/6/2025""";36;issatsouse
+169;169;"JavaScript; React developer experience";"JavaScript; React";FR;"1/29/2025""";32;esprit
+170;170;"Java; Hibernate developer experience";"Java; Hibernate";EN;"5/4/2025""";45;issatsouse
+171;171;"Java; Hibernate developer experience";"Java; Hibernate";EN;"3/25/2025""";56;issatsouse
+172;172;"Python; React developer experience";"Python; React";EN;"4/10/2025""";40;insat
+173;173;"Python; React developer experience";"Python; React";FR;"3/27/2025""";43;iset
+174;174;"SQL; SQL server developer experience";"JavaScript; React";FR;"3/21/2025""";45;esprit
+175;175;"JavaScript; React developer experience";"JavaScript; React";EN;"5/17/2025""";27;supcom
+176;176;"Python; Data Science developer experience";"Python; Data Science";EN;"3/12/2025""";25;issatsouse
+177;177;"React; Node.js developer experience";"React; Node.js";EN;"3/11/2025""";51;esprit
+178;178;"SQL; SQL server developer experience";"Java; Spring Boot";EN;"3/28/2025""";23;iset
+179;179;"Python; React developer experience";"Python; React";EN;"1/13/2025""";25;esprit
+180;180;"Python; Django developer experience";"Python; Django";FR;"2/15/2025""";55;iset
+181;181;"React; Node.js developer experience";"React; Node.js";EN;"3/27/2025""";27;supcom
+182;182;"Python; Data Science developer experience";"Python; Data Science";FR;"4/30/2025""";43;issatsouse
+183;183;"Java; Hibernate developer experience";"Java; Hibernate";EN;"2/27/2025""";52;mse
+184;184;"Python; Django developer experience";"Python; Django";EN;"3/26/2025""";39;insat
+185;185;"Java; Spring Boot developer experience";"Java; Spring Boot";FR;"1/29/2025""";31;ensi
+186;186;"JavaScript; React developer experience";"JavaScript; React";EN;"2/2/2025""";24;esprit
+187;187;"React; Node.js developer experience";"React; Node.js";EN;"3/19/2025""";41;issatsouse
+188;188;"Python; Django developer experience";"Python; Django";EN;"3/4/2025""";59;faculty of science sfax 
+189;189;"Java; Spring Boot developer experience";"Java; Spring Boot";EN;"2/23/2025""";45;insat
+190;190;"React; Node.js developer experience";"React; Node.js";EN;"2/14/2025""";37;supcom
+191;191;"Java; Hibernate developer experience";"Java; Hibernate";EN;"1/25/2025""";31;issatsouse
+192;192;"Java; Spring Boot developer experience";"Java; Spring Boot";FR;"4/8/2025""";45;issatsouse
+193;193;"Python; ML; SQL developer experience";"Python; ML; SQL";EN;"1/1/2025""";39;insat
+194;194;"JavaScript; React developer experience";"JavaScript; React";EN;"4/25/2025""";50;esprit
+195;195;"JavaScript; React developer experience";"JavaScript; React";EN;"3/30/2025""";55;iset
+196;196;"Python; Django developer experience";"Python; Django";FR;"3/17/2025""";37;iset
+197;197;"React; Node.js developer experience";"React; Node.js";FR;"3/14/2025""";55;supcom
+198;198;"Python; Django developer experience";"Python; Django";FR;"4/8/2025""";51;faculty of science tunis 
+199;199;"Python; ML; SQL developer experience";"Python; ML; SQL";EN;"5/2/2025""";34;esprit
+200;200;"Python; Django developer experience";"Python; Django";EN;"3/15/2025""";39;iset
+201;201;"Python; React developer experience";"Python; React";EN;"5/5/2025""";52;esprit
+202;202;"C++; Software engineer experience ";"Python; Django";EN;"4/19/2025""";39;insat
+203;203;"C++; Software engineer experience ";"Python; Django";EN;"4/9/2025""";60;enis
+204;204;"Python; React developer experience";"Python; React";EN;"3/2/2025""";43;faculty of science tunis 
+205;205;"React; Node.js developer experience";"React; Node.js";EN;"1/10/2025""";57;insat
+206;206;"Java; Hibernate developer experience";"Java; Hibernate";FR;"2/6/2025""";35;faculty of science tunis 
+207;207;"Java; Spring Boot developer experience";"Java; Spring Boot";EN;"3/4/2025""";55;issatsouse
+208;208;"Python; React developer experience";"Python; React";EN;"5/17/2025""";41;mse
+209;209;"Java; Hibernate developer experience";"Java; Hibernate";EN;"4/18/2025""";32;iset
+210;210;"Python; React developer experience";"Python; React";EN;"3/8/2025""";51;faculty of science tunis 
+211;211;"Python; React developer experience";"Python; React";FR;"1/7/2025""";44;supcom
+212;212;"Java; Spring Boot developer experience";"Java; Spring Boot";FR;"3/6/2025""";40;faculty of science sfax 
+213;213;"JavaScript; React developer experience";"JavaScript; React";EN;"1/29/2025""";56;esprit
+214;214;"React; Node.js developer experience";"React; Node.js";FR;"3/8/2025""";53;faculty of science tunis 
+215;215;"Python; React developer experience";"Python; React";EN;"1/22/2025""";42;mse
+216;216;"Python; Django developer experience";"Python; Django";EN;"3/2/2025""";44;insat
+217;217;"React; Node.js developer experience";"React; Node.js";FR;"3/9/2025""";54;esprit
+218;218;"SQL; SQL server developer experience";"Python; Django";FR;"3/19/2025""";54;iset
+219;219;"Python; Django developer experience";"Python; Django";FR;"3/9/2025""";39;esprit
+220;220;"JavaScript; React developer experience";"JavaScript; React";EN;"4/8/2025""";38;insat
+221;221;"React; Node.js developer experience";"React; Node.js";EN;"3/11/2025""";28;enis
+222;222;"JavaScript; React developer experience";"JavaScript; React";FR;"4/29/2025""";45;issatsouse
+223;223;"React; Node.js developer experience";"React; Node.js";EN;"3/22/2025""";34;supcom
+224;224;"Python; React developer experience";"Python; React";FR;"1/26/2025""";29;enis
+225;225;"Python; ML; SQL developer experience";"Python; ML; SQL";EN;"3/6/2025""";26;enis
+226;226;"Java; Spring Boot developer experience";"Java; Spring Boot";FR;"2/25/2025""";25;enis
+227;227;"Python; Data Science developer experience";"Python; Data Science";EN;"2/17/2025""";50;faculty of science sfax 
+228;228;"Java; Hibernate developer experience";"Java; Hibernate";EN;"4/27/2025""";48;enis
+229;229;"Python; Data Science developer experience";"Python; Data Science";FR;"3/12/2025""";21;faculty of science sfax 
+230;230;"Python; React developer experience";"Python; React";FR;"3/9/2025""";25;iset
+231;231;"Python; ML; SQL developer experience";"Python; ML; SQL";FR;"2/15/2025""";42;faculty of science tunis 
+232;232;"Python; Django developer experience";"Python; Django";EN;"1/28/2025""";40;enis
+233;233;"Java; Spring Boot developer experience";"Java; Spring Boot";EN;"3/6/2025""";58;issatsouse
+234;234;"SQL; SQL server developer experience";"Python; React";FR;"4/10/2025""";56;iset
+235;235;"Python; React developer experience";"Python; React";FR;"5/3/2025""";29;supcom
+236;236;"Python; ML; SQL developer experience";"Python; ML; SQL";EN;"4/9/2025""";22;ensi
+237;237;"JavaScript; React developer experience";"JavaScript; React";FR;"1/15/2025""";43;faculty of science sfax 
+238;238;"Java; Hibernate developer experience";"Java; Hibernate";FR;"2/21/2025""";39;esprit
+239;239;"Python; ML; SQL developer experience";"Python; ML; SQL";FR;"4/10/2025""";44;insat
+240;240;"Java; Hibernate developer experience";"Java; Hibernate";FR;"2/5/2025""";37;supcom
+241;241;"Python; ML; SQL developer experience";"Python; ML; SQL";FR;"4/10/2025""";21;enis
+242;242;"Java; Hibernate developer experience";"Java; Hibernate";EN;"1/10/2025""";50;iset
+243;243;"Python; Django developer experience";"Python; Django";FR;"2/24/2025""";53;faculty of science sfax 
+244;244;"Python; ML; SQL developer experience";"Python; ML; SQL";FR;"1/10/2025""";43;mse
+245;245;"Python; React developer experience";"Python; React";FR;"2/3/2025""";27;enis
+246;246;"Java; Spring Boot developer experience";"Java; Spring Boot";EN;"2/13/2025""";50;faculty of science sfax 
+247;247;"Java; Hibernate developer experience";"Java; Hibernate";EN;"1/17/2025""";58;issatsouse
+248;248;"React; Node.js developer experience";"React; Node.js";FR;"5/20/2025""";31;iset
+249;249;"Python; Data Science developer experience";"Python; Data Science";FR;"1/17/2025""";47;faculty of science sfax 
+250;250;"Python; Data Science developer experience";"Python; Data Science";EN;"2/12/2025""";54;mse
+251;251;"Java; Spring Boot developer experience";"Java; Spring Boot";EN;"2/10/2025""";50;insat
+252;252;"Python; React developer experience";"Python; React";FR;"1/23/2025""";33;faculty of science tunis 
+253;253;"Python; Data Science developer experience";"Python; Data Science";EN;"2/6/2025""";47;insat
+254;254;"Python; ML; SQL developer experience";"Python; ML; SQL";FR;"1/10/2025""";54;ensi
+255;255;"Java; Spring Boot developer experience";"Java; Spring Boot";FR;"3/31/2025""";37;esprit
+256;256;"Java; Spring Boot developer experience";"Java; Spring Boot";EN;"4/3/2025""";52;enis
+257;257;"Python; ML; SQL developer experience";"Python; ML; SQL";EN;"1/14/2025""";26;mse
+258;258;"Java; Hibernate developer experience";"Java; Hibernate";EN;"2/10/2025""";23;mse
+259;259;"Python; ML; SQL developer experience";"Python; ML; SQL";FR;"3/6/2025""";45;supcom
+260;260;"Java; Spring Boot developer experience";"Java; Spring Boot";FR;"5/18/2025""";40;enis
+261;261;"Java; Spring Boot developer experience";"Java; Spring Boot";EN;"3/2/2025""";43;insat
+262;262;"Python; ML; SQL developer experience";"Python; ML; SQL";EN;"2/28/2025""";44;faculty of science sfax 
+263;263;"SQL; SQL server developer experience";"Python; ML; SQL";EN;"2/21/2025""";41;insat
+264;264;"Java; Hibernate developer experience";"Java; Hibernate";FR;"4/22/2025""";53;ensi
+265;265;"Python; Django developer experience";"Python; Django";EN;"2/4/2025""";48;mse
+266;266;"Python; ML; SQL developer experience";"Python; ML; SQL";FR;"2/2/2025""";50;iset
+267;267;"Python; Data Science developer experience";"Python; Data Science";EN;"4/30/2025""";56;ensi
+268;268;"Python; ML; SQL developer experience";"Python; ML; SQL";FR;"2/10/2025""";47;ensi
+269;269;"SQL; SQL server developer experience";"Python; Django";EN;"2/25/2025""";33;ensi
+270;270;"Python; React developer experience";"Python; React";EN;"3/5/2025""";21;enis
+271;271;"Python; ML; SQL developer experience";"Python; ML; SQL";FR;"1/2/2025""";50;iset
+272;272;"Python; React developer experience";"Python; React";FR;"5/16/2025""";49;enis
+273;273;"Java; Hibernate developer experience";"Java; Hibernate";FR;"1/22/2025""";31;ensi
+274;274;"Python; Data Science developer experience";"Python; Data Science";FR;"3/17/2025""";31;esprit
+275;275;"JavaScript; React developer experience";"JavaScript; React";FR;"4/28/2025""";49;esprit
+276;276;"Java; Hibernate developer experience";"Java; Hibernate";FR;"4/14/2025""";48;mse
+277;277;"Java; Spring Boot developer experience";"Java; Spring Boot";FR;"3/27/2025""";24;iset
+278;278;"JavaScript; React developer experience";"JavaScript; React";FR;"1/21/2025""";38;insat
+279;279;"React; Node.js developer experience";"React; Node.js";FR;"1/29/2025""";59;faculty of science tunis 
+280;280;"Python; React developer experience";"Python; React";FR;"4/4/2025""";39;ensi
+281;281;"Python; ML; SQL developer experience";"Python; ML; SQL";EN;"3/27/2025""";24;iset
+282;282;"Python; ML; SQL developer experience";"Python; ML; SQL";FR;"3/24/2025""";56;mse
+283;283;"Python; React developer experience";"Python; React";EN;"4/6/2025""";59;mse
+284;284;"Java; Spring Boot developer experience";"Java; Spring Boot";EN;"5/17/2025""";35;enis
+285;285;"React; Node.js developer experience";"React; Node.js";FR;"2/18/2025""";33;insat
+286;286;"Python; Data Science developer experience";"Python; Data Science";FR;"1/20/2025""";42;insat
+287;287;"Python; Data Science developer experience";"Python; Data Science";FR;"2/8/2025""";41;faculty of science tunis 
+288;288;"Python; Django developer experience";"Python; Django";EN;"5/2/2025""";33;ensi
+289;289;"JavaScript; React developer experience";"JavaScript; React";EN;"1/17/2025""";59;issatsouse
+290;290;"React; Node.js developer experience";"React; Node.js";EN;"5/5/2025""";31;insat
+291;291;"JavaScript; React developer experience";"JavaScript; React";EN;"3/20/2025""";25;faculty of science sfax 
+292;292;"React; Node.js developer experience";"React; Node.js";EN;"1/13/2025""";56;issatsouse
+293;293;"Python; Data Science developer experience";"Python; Data Science";EN;"5/18/2025""";24;faculty of science sfax 
+294;294;"Python; Data Science developer experience";"Python; Data Science";FR;1/30/2025;34;supcom
+295;295;"JavaScript; React developer experience";"JavaScript; React";EN;2/17/2025;49;faculty of science sfax 
+296;296;"React; Node.js developer experience";"React; Node.js";EN;04/06/2025;51;insat
+297;297;"JavaScript; React developer experience";"JavaScript; React";FR;01/07/2025;40;supcom
+298;298;"React; Node.js developer experience";"React; Node.js";FR;01/02/2025;56;ensi
+299;299;"Java; Hibernate developer experience";"Java; Hibernate";EN;02/07/2025;36;iset
+300;300;"SQL; SQL server developer experience";"Java; Hibernate";FR;02/05/2025;42;ensi
