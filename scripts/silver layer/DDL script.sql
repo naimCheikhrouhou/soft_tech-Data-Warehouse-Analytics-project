@@ -187,6 +187,22 @@ CREATE TABLE silver.candidate_cv_raw (
     source VARCHAR(225) DEFAULT 'dataset/employees&condidate/candidate_cv_raw./bronze.customers'
 );
 
+DROP TABLE IF EXISTS silver.candidate_cv_raw_linkedin;
+CREATE TABLE silver.candidate_cv_raw_linkedin (
+    cv_id INT ,
+    candidate_id INT,
+    cv_text TEXT,
+    parsed_keywords TEXT,
+    language_detected VARCHAR(20),
+    uploaded_date DATE,
+    age int ,
+    university Nvarchar(50),
+
+    -- META
+    record_created_at DATETIME DEFAULT GETDATE(),
+    record_created_by VARCHAR(50) DEFAULT SYSTEM_USER,
+    source VARCHAR(225) DEFAULT '/bronze.candidate_cv_raw'
+);
 
 DROP TABLE IF EXISTS silver.candidate_interviews;
 CREATE TABLE silver.candidate_interviews (
