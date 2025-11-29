@@ -132,7 +132,7 @@ CREATE TABLE bronze.candidate_interviews (
     recruiter_id INT,
     interview_score INT,
     notes TEXT,
-    stage VARCHAR(50),
+    team_id VARCHAR(50),
     result VARCHAR(20)
 );
 -- ========================================
