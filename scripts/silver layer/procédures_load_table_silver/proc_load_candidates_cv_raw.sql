@@ -30,9 +30,14 @@ BEGIN
         WHEN 'FR' THEN 'francais'
         ELSE TRIM(language_detected)
     END AS language_detected,
-    
-    -- Remove last char and convert to DATE
-    CAST(LEFT(CAST(uploaded_date AS VARCHAR(MAX)), LEN(CAST(uploaded_date AS VARCHAR(MAX))) - 1) AS DATE) AS uploaded_date --#######################################date 
+  
+     -- Remove last char and convert to DATE
+CASE WHEN RIGHT(CAST(uploaded_date AS nvarchar(MAX)),1) ='"' THEN 
+
+     CAST(LEFT(CAST(uploaded_date AS VARCHAR(MAX)), LEN(CAST(uploaded_date AS VARCHAR(MAX))) - 1) AS DATE)
+     
+     ELSE CAST(CAST(uploaded_date AS nvarchar(max)) AS DATE)
+     END                 AS uploaded_date                                                                     --#######################################date 
 
         FROM bronze.candidate_cv_raw;
         
