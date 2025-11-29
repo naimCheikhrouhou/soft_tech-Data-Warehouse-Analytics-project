@@ -125,6 +125,18 @@ CREATE TABLE bronze.candidate_cv_raw (
     uploaded_date TEXT
 );
 
+DROP TABLE IF EXISTS bronze.candidate_cv_raw_linkedin;
+CREATE TABLE bronze.candidate_cv_raw_linkedin ( 
+    cv_id TEXT,
+    candidate_id INT,
+    cv_text TEXT,
+    parsed_keywords TEXT,
+    language_detected VARCHAR(20),
+    uploaded_date TEXT ,
+    age int ,
+    university nvarchar(50)
+);
+
 DROP TABLE IF EXISTS bronze.candidate_interviews;
 CREATE TABLE bronze.candidate_interviews (
     interview_id INT,
