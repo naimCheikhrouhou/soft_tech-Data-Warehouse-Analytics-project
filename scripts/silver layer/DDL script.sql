@@ -195,7 +195,7 @@ CREATE TABLE silver.candidate_interviews (
     recruiter_id INT,
     interview_score INT,
     notes TEXT,
-    stage VARCHAR(50),
+    team_id int,
     result VARCHAR(20),
 
     -- META
