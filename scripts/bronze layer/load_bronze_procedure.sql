@@ -201,6 +201,23 @@ DECLARE @start_time DATETIME ,@end_time DATETIME,@start DATETIME ,@end DATETIME 
     print 'candidate_interviews :' ;
      set @start_time = GETDATE();
 
+  print 'candidate_cv_raw_linkedin :' ;
+     set @start_time = GETDATE();
+
+    TRUNCATE TABLE bronze.candidate_cv_raw_linkedin ;
+    BULK INSERT bronze.candidate_cv_raw_linkedin
+    FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\condidate&employees\candidate_cv_raw_linkedin.csv'
+    WITH(
+    FIRSTROW =2 ,
+    FIELDTERMINATOR =',' ,
+    tablock 
+    );
+    set @end_time = GETDATE();
+    print 'load duration ' + cast(DATEDIFF(second,@start_time,@end_time ) AS NVARCHAR) +'seconds' ; 
+    print '------------------------------------------------------------------------------------------'
+    print 'candidate_interviews :' ;
+     set @start_time = GETDATE();
+
     TRUNCATE TABLE bronze.candidate_interviews ;
     BULK INSERT bronze.candidate_interviews
     FROM 'C:\Users\cheik\Desktop\i1\entropot de donné\soft-tech project\datasets\condidate&employees\candidate_interviews.csv'
