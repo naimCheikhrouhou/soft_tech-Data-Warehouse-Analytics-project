@@ -99,7 +99,7 @@ BEGIN
             recruiter_id,
             interview_score,
             notes,
-            stage,
+            team_id,
             result
         )
         SELECT
@@ -108,7 +108,7 @@ BEGIN
             recruiter_id,
             ISNULL(interview_score,0),
             notes,
-            TRIM(stage),
+            TRIM(team_id),
             TRIM(result)
         FROM bronze.candidate_interviews;
         
