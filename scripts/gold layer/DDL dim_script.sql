@@ -1,5 +1,5 @@
-print('gold.dim_date');
-print('====================================================================');
+print'gold.dim_date';
+print'====================================================================';
 
 drop table if exists gold.dim_date;
 CREATE TABLE gold.dim_date (
