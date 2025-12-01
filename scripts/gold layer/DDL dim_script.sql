@@ -10,11 +10,9 @@ CREATE TABLE gold.dim_date (
     day          INT
 );
 
-
-
-
+go 
 delete from gold.dim_date
-
+go 
 -- Générateur sur 10 ans
 WITH cte AS (
     SELECT CAST('1996-01-01' AS DATE) AS d
