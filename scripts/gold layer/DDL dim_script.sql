@@ -1,4 +1,5 @@
-
+print('gold.dim_date');
+print('====================================================================');
 drop table if exists gold.dim_date;
 CREATE TABLE gold.dim_date (
     date_key     INT PRIMARY KEY,
@@ -7,6 +8,11 @@ CREATE TABLE gold.dim_date (
     month        INT,
     day          INT
 );
+
+
+
+
+
 
 -- Générateur sur 10 ans
 WITH cte AS (
@@ -33,6 +39,11 @@ CREATE TABLE gold.dim_customers (
     country VARCHAR(100),
     created_at DATE
 );
+
+
+
+print('gold.dim_product');
+print('====================================================================');
 drop table if exists gold.dim_product;
 CREATE TABLE gold.dim_product (
     product_key INT IDENTITY PRIMARY KEY,
@@ -43,6 +54,11 @@ CREATE TABLE gold.dim_product (
     development_hours INT,
     version VARCHAR(50)
 );
+
+
+
+print('gold.dim_project');
+print('====================================================================');
 drop table if exists gold.dim_project;
 CREATE TABLE gold.dim_project (
     project_key INT IDENTITY PRIMARY KEY,
@@ -50,6 +66,11 @@ CREATE TABLE gold.dim_project (
     project_name VARCHAR(200),
     status VARCHAR(50)
 );
+
+
+print('gold.dim_employee');
+print('====================================================================');
+
 drop table if exists gold.dim_employee;
 CREATE TABLE gold.dim_employee (
     employee_key INT IDENTITY PRIMARY KEY,
@@ -62,6 +83,11 @@ CREATE TABLE gold.dim_employee (
     email VARCHAR(200),
     team_id INT
 );
+
+
+print('gold.dim_team');
+print('====================================================================');
+
 drop table if exists gold.dim_team;
 CREATE TABLE gold.dim_team (
     team_key INT IDENTITY PRIMARY KEY,
@@ -70,6 +96,11 @@ CREATE TABLE gold.dim_team (
     department VARCHAR(100),
     manager_team_id INT
 );
+
+
+print('gold.dim_candidates');
+print('====================================================================');
+
 drop table if exists gold.dim_candidates;
 CREATE TABLE gold.dim_candidates (
     candidate_key INT IDENTITY PRIMARY KEY,
@@ -87,43 +118,7 @@ CREATE TABLE gold.dim_candidates (
     language_detected VARCHAR(50),
     uploaded_date_cv DATE,
     age int,
-    university nvarchar
+    university nvarchar(50)
 );
-drop table if exists gold.fact_products_sales;
-CREATE TABLE gold.fact_products_sales (
-    product_key INT,
-    customer_key INT,
-    sale_date_key INT,
-    quantity INT,
-    total_price DECIMAL(10,2)
-);
-drop table if exists gold.fact_project_suivis;
-CREATE TABLE gold.fact_project_suivis (
-    project_key INT,
-    customer_id INT,
-    manager_project_id INT,
-    start_date_key INT,
-    end_date_key INT,
-    delivered_date_key INT,
-    estimated_cost DECIMAL(10,2),
-    actual_cost DECIMAL(10,2)
-);
-drop table if exists gold.fact_employee_performance;
-CREATE TABLE gold.fact_employee_performance (
-    employee_key INT,
-    start_date_key INT,
-    end_date_key INT,
-    tasks_completed INT,
-    overtime_hours DECIMAL(10,2),
-    performance_score INT,
-    project_success_rate DECIMAL(5,2)
-);
-drop table if exists gold.fact_interview;
-CREATE TABLE gold.fact_interview (
-    candidate_key INT,
-    employee_key INT,
-    team_id INT,
-    interview_date_key INT,
-    interview_score INT,
-    result VARCHAR(50)
-);
+
+
