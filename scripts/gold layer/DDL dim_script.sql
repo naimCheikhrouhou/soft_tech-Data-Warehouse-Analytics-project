@@ -1,5 +1,6 @@
 print('gold.dim_date');
 print('====================================================================');
+
 drop table if exists gold.dim_date;
 CREATE TABLE gold.dim_date (
     date_key     INT PRIMARY KEY,
@@ -12,15 +13,15 @@ CREATE TABLE gold.dim_date (
 
 
 
-
+delete from gold.dim_date
 
 -- Générateur sur 10 ans
 WITH cte AS (
-    SELECT CAST('2010-01-01' AS DATE) AS d
+    SELECT CAST('1996-01-01' AS DATE) AS d
     UNION ALL
     SELECT DATEADD(day, 1, d)
     FROM cte
-    WHERE d < '2030-12-31'
+    WHERE d < '2027-12-31'
 )
 INSERT INTO gold.dim_date(date_key, full_date, year, month, day)
 SELECT 
@@ -31,6 +32,15 @@ SELECT
     DAY(d)
 FROM cte
 OPTION (MAXRECURSION 32767);
+drop table if exists gold.dim_customers;
+CREATE TABLE gold.dim_customers (
+    customer_key INT IDENTITY PRIMARY KEY,
+    customer_id INT,
+    company_name VARCHAR(200),
+    country VARCHAR(100),
+    created_at DATE
+);
+
 drop table if exists gold.dim_customers;
 CREATE TABLE gold.dim_customers (
     customer_key INT IDENTITY PRIMARY KEY,
