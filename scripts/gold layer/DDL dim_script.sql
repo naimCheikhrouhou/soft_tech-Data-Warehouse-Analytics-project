@@ -30,14 +30,6 @@ SELECT
     DAY(d)
 FROM cte
 OPTION (MAXRECURSION 32767);
-drop table if exists gold.dim_customers;
-CREATE TABLE gold.dim_customers (
-    customer_key INT IDENTITY PRIMARY KEY,
-    customer_id INT,
-    company_name VARCHAR(200),
-    country VARCHAR(100),
-    created_at DATE
-);
 
 drop table if exists gold.dim_customers;
 CREATE TABLE gold.dim_customers (
@@ -47,8 +39,6 @@ CREATE TABLE gold.dim_customers (
     country VARCHAR(100),
     created_at DATE
 );
-
-
 
 print('gold.dim_product');
 print('====================================================================');
