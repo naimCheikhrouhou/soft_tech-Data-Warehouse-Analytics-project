@@ -1,6 +1,6 @@
 CREATE OR ALTER PROCEDURE gold.load_dim_tabels AS 
 BEGIN 
-    delete from gold.dim_customers; print 'TRUNCATED';
+    delete from gold.dim_customers; print 'DELETED';
     INSERT INTO gold.dim_customers(customer_id, company_name, country, created_at)
     SELECT 
         customer_id,
@@ -10,7 +10,7 @@ BEGIN
     FROM silver.customers; print 'INSERTED IN DIM_CUSTOMERS';
     ------------------------------------------------------------------------------------------------------------------------------------
 
-    delete from gold.dim_product;print 'TRUNCATED';
+    delete from gold.dim_product;print 'DELETED';
 
     INSERT INTO gold.dim_product(product_id, product_name, category, base_price, development_hours, version)
     SELECT 
@@ -19,7 +19,7 @@ BEGIN
     FROM silver.products;print 'INSERTED IN DIM_PRODUCT';
     --------------------------------------------------------------------------------------------------------------------------
 
-    delete from gold.dim_project;print 'TRUNCATED';
+    delete from gold.dim_project;print 'DELETED';
 
     INSERT INTO gold.dim_project(project_id, project_name, status)
     SELECT project_id, project_name, status
@@ -27,7 +27,7 @@ BEGIN
     FROM silver.projects;print 'INSERTED IN DIM_PROJECT';
 
 
-    delete from gold.dim_employee;print 'TRUNCATED';
+    delete from gold.dim_employee;print 'DELETED';
 
     INSERT INTO gold.dim_employee(employee_id, full_name, role, hire_date, salary, seniority, email, team_id)
     SELECT 
@@ -36,7 +36,7 @@ BEGIN
     FROM silver.employees;print 'INSERTED IN DIM_EMPLOYEE';
 
 
-    delete from gold.dim_team;print 'TRUNCATED';
+    delete from gold.dim_team;print 'DELETED';
 
     INSERT INTO gold.dim_team(team_id, team_name, department, manager_team_id)
     SELECT 
@@ -45,7 +45,7 @@ BEGIN
     FROM silver.teams;print 'INSERTED IN DIM_TEAM';
 
 
-    delete from gold.dim_candidates;print 'TRUNCATED';
+    delete from gold.dim_candidates;print 'DELETED';
     INSERT INTO gold.dim_candidates
     (
         candidate_id, 
