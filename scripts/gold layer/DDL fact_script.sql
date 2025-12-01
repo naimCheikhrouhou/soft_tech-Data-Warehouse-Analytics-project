@@ -16,8 +16,8 @@ print('====================================================================');
 DROP TABLE IF EXISTS gold.fact_project_suivis;
 CREATE TABLE gold.fact_project_suivis (
     project_key INT REFERENCES gold.dim_project(project_key) ON DELETE CASCADE,
-    customer_id INT REFERENCES gold.dim_customers(customer_key) ON DELETE CASCADE,
-    manager_project_id INT REFERENCES gold.dim_employee(employee_key) ON DELETE CASCADE,
+    customer_key INT REFERENCES gold.dim_customers(customer_key) ON DELETE CASCADE,
+    manager_project_key INT REFERENCES gold.dim_employee(employee_key) ON DELETE CASCADE,
 
     start_date_key INT REFERENCES gold.dim_date(date_key) ON DELETE CASCADE,
     end_date_key INT REFERENCES gold.dim_date(date_key) ON DELETE NO ACTION,
@@ -53,7 +53,7 @@ drop table if exists gold.fact_interview;
 CREATE TABLE gold.fact_interview (
     candidate_key INT references gold.dim_candidates(candidate_key) on delete cascade,
     employee_key INT references gold.dim_employee(employee_key) on delete cascade,
-    team_id INT references gold.dim_team(team_key) on delete cascade,
+    team_key INT references gold.dim_team(team_key) on delete cascade,
     interview_date_key INT references gold.dim_date(date_key) on delete cascade,
     interview_score INT,
     result VARCHAR(50)
