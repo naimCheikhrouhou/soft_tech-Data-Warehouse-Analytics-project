@@ -6,32 +6,32 @@ SELECT
     country,
     created_at
 FROM silver.customers; print 'INSERTED IN DIM_CUSTOMERS';
+------------------------------------------------------------------------------------------------------------------------------------
 
+delete from gold.dim_product;print 'TRUNCATED';
 
-delete from gold.dim_products;print 'TRUNCATED';
-
-INSERT INTO gold.dim_products(product_id, product_name, category, base_price, development_hours, version)
+INSERT INTO gold.dim_product(product_id, product_name, category, base_price, development_hours, version)
 SELECT 
     product_id, product_name, category, base_price, development_hours, [version]
 
 FROM silver.products;print 'INSERTED IN DIM_PRODUCT';
+--------------------------------------------------------------------------------------------------------------------------
 
+delete from gold.dim_project;print 'TRUNCATED';
 
-delete from gold.dim_projects;print 'TRUNCATED';
-
-INSERT INTO gold.dim_projects(project_id, project_name, status)
+INSERT INTO gold.dim_project(project_id, project_name, status)
 SELECT project_id, project_name, status
 
-FROM silver.projects;print 'INSERTED IN DIM_PROJECTS';
+FROM silver.projects;print 'INSERTED IN DIM_PROJECT';
 
 
-delete from gold.dim_employees;print 'TRUNCATED';
+delete from gold.dim_employee;print 'TRUNCATED';
 
-INSERT INTO gold.dim_employees(employee_id, full_name, role, hire_date, salary, seniority, email, team_id)
+INSERT INTO gold.dim_employee(employee_id, full_name, role, hire_date, salary, seniority, email, team_id)
 SELECT 
     employee_id, full_name, role, hire_date, salary, seniority, email, team_id
 
-FROM silver.employees;print 'INSERTED IN DIM_EMPLOYEES';
+FROM silver.employees;print 'INSERTED IN DIM_EMPLOYEE';
 
 
 delete from gold.dim_teams;print 'TRUNCATED';
@@ -40,7 +40,7 @@ INSERT INTO gold.dim_teams(team_id, team_name, department, manager_team_id)
 SELECT 
     team_id, team_name, department, manager_id
 
-FROM silver.teams;print 'INSERTED IN DIM_TEAMS';
+FROM silver.team;print 'INSERTED IN DIM_TEAM';
 
 
 delete from gold.dim_candidates;print 'TRUNCATED';
