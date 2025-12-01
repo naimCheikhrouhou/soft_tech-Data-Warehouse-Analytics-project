@@ -13,17 +13,20 @@ CREATE TABLE gold.fact_products_sales (
 print('gold.fact_project_suivis');
 print('====================================================================');
 
-drop table if exists gold.fact_project_suivis;
+DROP TABLE IF EXISTS gold.fact_project_suivis;
 CREATE TABLE gold.fact_project_suivis (
-    project_key INT references gold.dim_project(project_key) on delete cascade,
-    customer_id INT references gold.dim_customers(customer_key) on delete cascade,
-    manager_project_id INT references gold.dim_employee(employee_key) on delete cascade,
-    start_date_key INT references gold.dim_date(date_key) on delete cascade,
-    end_date_key INT references gold.dim_date(date_key) on delete cascade,
-    delivered_date_key INT references gold.dim_date(date_key) on delete cascade,
+    project_key INT REFERENCES gold.dim_project(project_key) ON DELETE CASCADE,
+    customer_id INT REFERENCES gold.dim_customers(customer_key) ON DELETE CASCADE,
+    manager_project_id INT REFERENCES gold.dim_employee(employee_key) ON DELETE CASCADE,
+
+    start_date_key INT REFERENCES gold.dim_date(date_key) ON DELETE CASCADE,
+    end_date_key INT REFERENCES gold.dim_date(date_key) ON DELETE NO ACTION,
+    delivered_date_key INT REFERENCES gold.dim_date(date_key) ON DELETE NO ACTION,
+
     estimated_cost DECIMAL(10,2),
     actual_cost DECIMAL(10,2)
 );
+
 
 
 print('gold.fact_employee_performance');
@@ -33,7 +36,7 @@ drop table if exists gold.fact_employee_performance;
 CREATE TABLE gold.fact_employee_performance (
     employee_key INT references gold.dim_employee(employee_key) on delete cascade,
     start_date_key INT references gold.dim_date(date_key) on delete cascade,
-    end_date_key INT references gold.dim_date(date_key) on delete cascade,
+    end_date_key INT references gold.dim_date(date_key) on delete NO ACTION,
     tasks_completed INT,
     overtime_hours DECIMAL(10,2),
     performance_score INT,
