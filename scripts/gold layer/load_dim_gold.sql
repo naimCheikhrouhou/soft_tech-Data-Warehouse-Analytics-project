@@ -121,4 +121,3 @@ LEFT JOIN silver.candidate_cv_raw cv1
     ON c.candidate_id = cv1.candidate_id
 LEFT JOIN silver.candidate_cv_raw_linkedin cv2
     ON c.candidate_id = cv2.candidate_id;
-
