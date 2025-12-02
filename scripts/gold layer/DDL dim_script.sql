@@ -40,7 +40,7 @@ CREATE TABLE gold.dim_customers (
     created_at DATE
 );
 
-print('gold.dim_product');
+print'gold.dim_product';
 print('====================================================================');
 drop table if exists gold.dim_product;
 CREATE TABLE gold.dim_product (
@@ -55,14 +55,16 @@ CREATE TABLE gold.dim_product (
 
 
 
-print('gold.dim_project');
-print('====================================================================');
+                                                                                            print'gold.dim_project';
+                                                                    print'====================================================================';
 drop table if exists gold.dim_project;
 CREATE TABLE gold.dim_project (
     project_key INT IDENTITY PRIMARY KEY,
     project_id INT,
+    project_manager_id INT,
     project_name VARCHAR(200),
-    status VARCHAR(50)
+    status VARCHAR(50) ,
+    
 );
 
 
