@@ -36,7 +36,7 @@ drop table if exists gold.fact_employee_performance;
 
 CREATE TABLE gold.fact_employee_performance (
     employee_key INT references gold.dim_employee(employee_key) on delete cascade,
-    project_id  INT references gold.dim_project(project_key) on delete cascade,
+    project_key  INT references gold.dim_project(project_key) on delete cascade,
     start_date_key INT references gold.dim_date(date_key) on delete cascade,
     end_date_key INT references gold.dim_date(date_key) on delete NO ACTION,
     tasks_completed INT,
