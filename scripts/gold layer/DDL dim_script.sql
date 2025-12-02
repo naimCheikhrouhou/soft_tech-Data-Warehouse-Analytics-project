@@ -61,10 +61,9 @@ drop table if exists gold.dim_project;
 CREATE TABLE gold.dim_project (
     project_key INT IDENTITY PRIMARY KEY,
     project_id INT,
-    project_manager_id INT,
     project_name VARCHAR(200),
-    status VARCHAR(50) ,
-    
+    [status] VARCHAR(50) ,
+     project_manager_id INT
 );
 
 
