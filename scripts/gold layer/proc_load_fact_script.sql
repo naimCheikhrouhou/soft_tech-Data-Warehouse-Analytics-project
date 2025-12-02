@@ -45,15 +45,17 @@ BEGIN
 
 
     
-  delete from gold.fact_employee_performance; PRINT 'DELETED'
+   
+  delete from gold.fact_employee_performance; PRINT 'DELETED'---------------------------------------------------------------------------------------------
     INSERT INTO gold.fact_employee_performance
     (
-        employee_key,project_key, start_date_key, end_date_key,
+        employee_key,project_key,team_key, start_date_key, end_date_key,
         tasks_completed, overtime_hours, performance_score, project_success_rate
     )
     SELECT 
         de.employee_key,
-        p.project_key,
+        project_key,
+        team_key,
         CONVERT(INT, FORMAT(ep.start_date, 'yyyyMMdd')),
         CONVERT(INT, FORMAT(ep.end_date, 'yyyyMMdd')),
         ep.tasks_completed,
@@ -62,7 +64,8 @@ BEGIN
         ep.project_success_rate
     FROM silver.employee_performance ep
     LEFT JOIN gold.dim_employee de ON de.employee_id = ep.employee_id
-    LEFT JOIN gold.dim_project p ON p.project_manager_id =ep.employee_id ;                                                             
+    LEFT JOIN gold.dim_project p ON p.project_manager_id =de.employee_id 
+    LEFT JOIN gold.dim_team dt ON  de.team_id= dt.team_id;                                                        
                                                                     PRINT 'INSERTED IN employee_performance';
     
 
