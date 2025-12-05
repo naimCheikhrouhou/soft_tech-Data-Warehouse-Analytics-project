@@ -1,12 +1,13 @@
 CREATE OR ALTER PROCEDURE gold.load_dim_tabels AS 
 BEGIN 
     delete from gold.dim_customers; print 'DELETED';
-    INSERT INTO gold.dim_customers(customer_id, company_name, country, created_at)
+    INSERT INTO gold.dim_customers(customer_id,customer_name, company_name, country, creation_date)
     SELECT 
         customer_id,
+        contact_name,
         company_name,
         country,
-        created_at
+        created_at  as creation_date
     FROM silver.customers; print 'INSERTED IN DIM_CUSTOMERS';
     ------------------------------------------------------------------------------------------------------------------------------------
 
