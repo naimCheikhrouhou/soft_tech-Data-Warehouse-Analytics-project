@@ -3,6 +3,7 @@ print('gold.fact_products_sales');
 print('====================================================================');
 drop table if exists gold.fact_products_sales;
 CREATE TABLE gold.fact_products_sales (
+    order_key INT IDENTITY(1,1) ,
     product_key INT references gold.dim_product(product_key) on delete cascade,
     customer_key INT references gold.dim_customers(customer_key)on delete cascade,
     sale_date_key INT references gold.dim_date(date_key)on delete cascade,
