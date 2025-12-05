@@ -31,13 +31,14 @@ SELECT
 FROM cte
 OPTION (MAXRECURSION 32767);
 
-drop table if exists gold.dim_customers;
+drop table if exists gold.dim_customers;----------------------------------------------------------------------------customers
 CREATE TABLE gold.dim_customers (
     customer_key INT IDENTITY PRIMARY KEY,
     customer_id INT,
+    customer_name NVARCHAR(30)
     company_name VARCHAR(200),
     country VARCHAR(100),
-    created_at DATE
+    creation_date DATE
 );
 
 print'gold.dim_product';
